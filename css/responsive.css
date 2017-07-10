@@ -1,0 +1,334 @@
+/* Mid Screen ----------- */
+@media only screen 
+and (max-width: 48em) {
+
+
+nav {
+  top: -80px;
+}
+
+
+.is-desktop {
+  display: none !important;
+}
+
+.is-mobile {
+  display: block !important;
+  height: 20% !important;
+}
+
+.is-mobile .main-links {
+  position: relative;
+  top: 20px !important;
+  z-index: -1;
+}
+
+.logo {
+  position: relative;
+  top: 40px;
+  left: -10%;
+}
+
+.rich-content header {
+  position: relative;
+  top: 50px;
+}
+
+.owl-title {
+  position: relative;
+  top: 120px !important;
+}
+
+#owl-demo1 .owl-controls {
+  top: 400px;
+}
+
+.row {
+ 
+  left: 0%;
+  
+}
+
+.carousel {
+  height: 500px;
+}
+
+.services-section {
+  height: 2000px;
+}
+
+.services-section .grid figure {
+  left: 30%;
+}
+
+.service-popup p,
+.service-popup h1,
+.service-popup h2,
+.service-popup h3,
+.service-popup h4,
+.service-popup ul {
+  text-align: center !important;
+}
+
+.service-popup img {
+  width: 50%;
+  height: 50%;
+  position: relative;
+  left: 25% !important;
+}
+
+#challenge .ghost-btn {
+  position: relative;
+  left: 33% !important;
+}
+
+#shakes img {
+  position: relative;
+  left: 50% !important;
+}
+
+#shakes .ghost-btn {
+  position: relative;
+  left: 35% !important;
+}
+
+#events img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  left: 15% !important;
+}
+
+#events .ghost-btn {
+  position: relative;
+  left: 20% !important;
+}
+
+#trial-pack img {
+  position: relative;
+  left: 50% !important;
+}
+
+#trial-pack .ghost-btn {
+  position: relative;
+  left: 20% !important;
+}
+
+#coach-info {
+  position: relative;
+  top: 120px !important;
+}
+
+#coach .ghost-btn {
+  position: relative;
+  left: 40% !important;
+}
+
+
+
+.products-section {
+  height: 1000px !important;
+}
+
+
+#owl-demo2 img {
+  position: relative;
+  left: 10%;
+  height: 50% !important;
+  width: 50% !important;
+
+}
+
+#owl2-img1 {
+  height: 10% !important;
+  width: 10% !important;
+  top: -10px !important;
+  left: 0% !important;
+}
+
+#owl-demo2 {
+  text-align: center !important;
+}
+
+#owl-demo2 .owl-controls {
+  display: none !important;
+}
+
+.team-member {
+  position: relative;
+  left: 0%;
+}
+
+.testimonial-img img {
+  position: relative;
+  left: 50% !important;
+}
+
+.join-section {
+  height: 1700px;
+}
+
+.join-button {
+  position: relative;
+  left: 35%;
+}
+
+.contact-section {
+  position: relative;
+  top: 100px !important;
+}
+
+
+.contact-form {
+  position: relative;
+  left: 40%;
+}
+
+.input-wrap {
+  width: 100% !important;
+}
+
+
+.location {
+  display: none !important;
+}
+
+footer {
+  margin-bottom: -50% !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+
+body {
+  width: 160% !important;
+  overflow-x: hidden !important;
+}
+
+.rich-content header img{
+  height: 100vw !important;
+
+}
+
+
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+
+ 
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+/* iPhone 6 landscape */
+@media only screen and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2)
+{ }
+
+/* iPhone 6 portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2)
+{ }
+
+/* iPhone 6 Plus landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 3)
+{ }
+
+/* iPhone 6 Plus portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 3)
+{ }
+
+/* iPhone 6 and 6 Plus */
+@media only screen
+  and (max-device-width: 640px),
+  only screen and (max-device-width: 667px),
+  only screen and (max-width: 480px)
+{ }
+
+/* Apple Watch */
+@media
+  (max-device-width: 42mm)
+  and (min-device-width: 38mm)
+{ }
