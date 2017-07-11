@@ -220,15 +220,6 @@ and (min-device-width : 320px)
 and (max-device-width : 480px) {
 
 
-body {
-  width: 160% !important;
-  overflow-x: hidden !important;
-}
-
-.rich-content header img{
-  height: 100vw !important;
-
-}
 
 
 
@@ -237,12 +228,64 @@ body {
 /* Smartphones (landscape) ----------- */
 @media only screen 
 and (min-width : 321px) {
-/* Styles */
+
+body {
+  width: 115% !important;
+  overflow-x: hidden !important;
+}
+
+#owl-demo1 .owl-controls {
+  top: 345px !important;
+}
+
+footer {
+ width: 115vw !important;
+}
+
+ 
+
 }
 
 /* Smartphones (portrait) ----------- */
 @media only screen 
 and (max-width : 320px) {
+
+
+body {
+  width: 200% !important;
+  overflow-x: hidden !important;
+}
+
+.rich-content header img{
+  height: 100vw !important;
+
+}
+
+#owl-demo1 .owl-controls {
+  top: 350px !important;
+}
+
+
+.services-section figure {
+  left: 25% !important;
+
+}
+
+.testimonial-img img {
+  left: 45% !important;
+}
+
+div.mfp-bg.mfp-ready {
+  width: 200vw !important;
+}
+
+.contact-form {
+  left: 40% !important;
+}
+
+footer {
+ width: 200vw !important;
+}
 
  
 
@@ -294,7 +337,25 @@ only screen and (min-device-pixel-ratio : 1.5) {
   and (max-device-width: 667px)
   and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 2)
-{ }
+{ 
+
+  body {
+  width: 110% !important;
+  overflow-x: hidden !important;
+}
+
+.logo {
+  left: -5% !important;
+}
+
+
+.services-section figure {
+  left: 40% !important;
+
+}
+
+
+}
 
 /* iPhone 6 portrait */
 @media only screen
@@ -302,7 +363,49 @@ only screen and (min-device-pixel-ratio : 1.5) {
   and (max-device-width: 667px)
   and (orientation: portrait)
   and (-webkit-min-device-pixel-ratio: 2)
-{ }
+{ 
+
+
+body {
+  width: 180% !important;
+  overflow-x: hidden !important;
+}
+
+.rich-content header img{
+  height: 100vw !important;
+
+}
+
+#owl-demo1 .owl-controls {
+  top: 350px !important;
+}
+
+
+.services-section figure {
+  left: 30% !important;
+
+}
+
+.testimonial-img img {
+  left: 45% !important;
+}
+
+div.mfp-bg.mfp-ready {
+  width: 200vw !important;
+}
+
+.contact-form {
+  left: 40% !important;
+}
+
+footer {
+ width: 175vw !important;
+}
+
+
+
+
+ }
 
 /* iPhone 6 Plus landscape */
 @media only screen
