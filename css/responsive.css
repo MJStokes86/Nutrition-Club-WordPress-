@@ -295,7 +295,8 @@ footer {
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
-/* Styles */
+
+
 }
 
 /* iPads (landscape) ----------- */
@@ -303,21 +304,64 @@ and (max-device-width : 1024px) {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : landscape) {
-/* Styles */
+
 }
+
 
 /* iPads (portrait) ----------- */
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) {
-/* Styles */
+
+
+  body {
+  width: 120% !important;
+  overflow-x: hidden !important;
 }
+
+.logo {
+  left: 0% !important;
+}
+
+.services-section  {
+  height: 800px;
+}
+
+.services-section figure {
+  left: -5% !important;
+
+}
+
+
+#owl2-img2,
+#owl2-img3,
+#owl2-img5 {
+  left: 25% !important;
+}
+
+
+.benefits {
+  left: 0;
+}
+
+
+
+}
+
 
 /* Desktops and laptops ----------- */
 @media only screen 
 and (min-width : 1224px) {
-/* Styles */
+  body {
+  width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+footer {
+ width: 100vw !important;
+}
+
 }
 
 /* Large screens ----------- */
@@ -340,7 +384,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 { 
 
   body {
-  width: 110% !important;
+  width: 117% !important;
   overflow-x: hidden !important;
 }
 
@@ -353,6 +397,30 @@ only screen and (min-device-pixel-ratio : 1.5) {
   left: 40% !important;
 
 }
+
+#owl2-img2,
+#owl2-img3,
+#owl2-img5 {
+  left: 20% !important;
+}
+
+.product-info p {
+  text-align: center !important;
+}
+
+.benefits {
+  left: 0% !important;
+  text-align: center !important;
+}
+
+.testimonial-img img {
+  left: 70% !important;
+}
+
+.contact-form {
+  left: 50% !important;
+}
+
 
 
 }
@@ -394,6 +462,7 @@ div.mfp-bg.mfp-ready {
   width: 200vw !important;
 }
 
+
 .contact-form {
   left: 40% !important;
 }
@@ -413,7 +482,49 @@ footer {
   and (max-device-width: 736px)
   and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 3)
-{ }
+{
+
+  .logo {
+    left: -5%;
+  }
+
+.services-section {
+  height: 750px !important;
+}
+
+
+.services-section figure {
+  left: 0% !important;
+
+}
+
+
+div.mfp-bg.mfp-ready {
+  width: 200vw !important;
+}
+
+#owl2-img2,
+#owl2-img3,
+#owl2-img5 {
+  left: 30% !important;
+}
+
+.benefits {
+  left: 0 !important;
+}
+
+.contact-form {
+  left: 65%;
+}
+
+.testimonial-img img {
+  left: 80% !important;
+}
+
+
+
+
+ }
 
 /* iPhone 6 Plus portrait */
 @media only screen 
@@ -421,7 +532,24 @@ footer {
   and (max-device-width: 736px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 3)
-{ }
+{ 
+
+  body {
+  width: 165% !important;
+  overflow-x: hidden !important;
+}
+
+.benefits {
+  left: 0 !important;
+}
+
+footer {
+ width: 165vw !important;
+}
+
+
+
+}
 
 /* iPhone 6 and 6 Plus */
 @media only screen
