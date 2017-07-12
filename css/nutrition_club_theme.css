@@ -126,6 +126,11 @@ p.owl-caption  {
 	color: yellow;
 }
 
+#owl-demo1 .owl-pagination {
+  position: relative;
+  top: 200px !important;
+}
+
 
 
 

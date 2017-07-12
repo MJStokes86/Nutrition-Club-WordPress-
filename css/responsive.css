@@ -305,6 +305,48 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) 
 and (orientation : landscape) {
 
+.logo {
+  left: -5%;
+}
+
+.is-desktop  .main-links  {
+    position: relative;
+    top: -20px !important;
+    left: 28%;
+ }
+
+ .services-section figure img {
+  padding: 30px !important;
+ }
+
+ .services-section figure {
+  left: 0%;
+ }
+
+ .team-member {
+  padding: 60px !important;
+ }
+
+ .team-info {
+  position: relative;
+  left: 70% !important;
+ }
+
+ 
+
+ .team-img img {
+  position: relative;
+  left: -50% !important;
+  padding: 10px !important;
+
+
+
+ }
+
+
+
+
+
 }
 
 
@@ -343,6 +385,10 @@ and (orientation : portrait) {
 
 .benefits {
   left: 0;
+}
+
+.contact-form {
+  left: 50%;
 }
 
 
