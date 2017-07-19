@@ -14,6 +14,8 @@ function nutrition_club_theme_script_enqueue() {
 
 	wp_enqueue_style('large-css', get_template_directory_uri() . '/css/large.css');
 
+	wp_enqueue_style('mobile-menu-css', get_template_directory_uri() . '/css/mobile-menu.css');
+
 	wp_enqueue_style('xlarge-css', get_template_directory_uri() . '/css/responsive.css');
 
 	wp_enqueue_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.css', array(), '3.3.7', 'all');

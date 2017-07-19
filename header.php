@@ -39,29 +39,7 @@ else{
     <a href="#" class="icon-close is-hidden"></a>
 </nav>
 <nav class="main" data-component="navigation">
-    <!-- Mobile Menu -->
-    <div class="links-wrapper is-mobile">
-
-    <label for="toggle-mobile-menu" ></label>
-
-
-        <ul class="main-links">
-                         <li class=""><a class="menu-clubs" href="#" target="_self">Home</a></li>
-                            <li class=""><a class="menu-classes" href="#" target="_self">Our Club</a></li>
-                            <li class=""><a class="menu-training" href="#" target="_self">Services</a></li>
-                            <li class=""><a class="menu-pilates" href="#" target="_self">Products</a></li>
-                            <li class=""><a class="menu-spa" href="#" target="_self">Our Team</a></li>
-                            <li class=""><a class="menu-spotlight" href="#" target="_self">Testimonials</a></li>
-                            <li class=""><a class="menu-magazine" href="#" target="_blank">Join</a></li>
-                            <li class=""><a class="menu-hotel" href="#" target="_self">Contact</a></li>
-        </ul>
-
-        <ul class="secondary-links">
-                    <li id="header-facebook"><a class="fa fa-facebook fa-3x" href="#"></a></li>
-        </ul>
-
-     
-    </div>
+    
 
    
     <!-- Full Navigation -->
@@ -74,7 +52,39 @@ else{
             </a>
              </div>
 
+              <!-- Mobile Menu -->
+    <div class=" is-mobile">
+
+
+    <input type="checkbox" id="toggle">
+    <label for="toggle">
+        <i id="bars" class="fa fa-bars fa-3x"></i>
+        <i id="cross" class="fa fa-times fa-3x"></i>
+    </label>
+
+
+<div id="mobile-menu">
+        <ul class="main-links">
+                         <li class=""><a href="#" target="_self">Home</a></li>
+                            <li class=""><a href="#" target="_self">Our Club</a></li>
+                            <li class=""><a  href="#" target="_self">Services</a></li>
+                            <li class=""><a  href="#" target="_self">Products</a></li>
+                            <li class=""><a  href="#" target="_self">Our Team</a></li>
+                            <li class=""><a  href="#" target="_self">Testimonials</a></li>
+                            <li class=""><a href="#" target="_blank">Join</a></li>
+                            <li class=""><a  href="#" target="_self">Contact</a></li>
+        </ul>
+</div>
+
+      <!--   <ul class="secondary-links">
+                    <li id="header-facebook"><a class="fa fa-facebook fa-3x" href="#"></a></li>
+        </ul> -->
+
+     
+    </div>
         <div class="links-wrapper is-tablet is-desktop">
+
+
             <ul class="main-links">
                             <li class=""><a class="menu-clubs" href="#" target="_self">Home</a></li>
                             <li class=""><a class="menu-classes" href="#" target="_self">Our Club</a></li>
