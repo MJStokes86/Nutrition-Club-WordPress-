@@ -17,62 +17,80 @@ nav {
   position: relative;
 }
 
-#cross {
-  display: none !important;
+#mobile-menu .main-links li{
+  list-style: none;
+  padding: 10px;
+
+}
+
+#mobile-menu .main-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#mobile-menu .main-links a:hover{
+  color: #fff;
+  text-decoration: none;
+  
+}
+
+#mobile-menu .main-links li a:visited {
+  color: #fff;
+  text-decoration: none;
 }
 
 
-#toggle {
-    display: none;
-    cursor: pointer !important;         o  
+.nav-toggle {
+  position: fixed;
+  color: #fff;
+  right: 10%;
+  top: 4.5%;
+
+
+
 }
 
-
-
-#toggle + label {
-    display: inline-block;
-    position: absolute;
-    left: 90% !important;
-    top: 30px !important;
-    
-}
 
 #mobile-menu {
-   height: 0px;
-   display: block !important;
-   background-color: red;
-   color: #fcfcfa;
-   position: absolute;
-   top: 0;
-   left: 40px !important;
-   width: 250px;
-    
+  position: fixed;
+  top: -4%;
+  right: 3%;
+  width: 150px;
+  height: 90px;
+  text-align: center;
+  transform: translateY(-450%);
+  transition: transform 0.6s ease;
+  z-index: -1;
+  
 }
 
-#mobile-menu .main-links {
-    list-style-type: none;
-    padding: 5px;
-    margin: 0;
-    position: absolute;
-    left: 150%;
-    top: 50%;
+#mobile-menu.open {
+  transform: translateY(100%);
 }
 
-#mobile-menu .main-links li {
-  display: block !important;
+
+
+.main-links {
+  background-color: #0a0a0a;
+
+
+  
 }
 
-#toggle:checked + label i#bars {
-    display: none !important;
+.main-links a {
+  -webkit-transition: color 0.5s linear;
+  -moz-transition: color 0.5s linear;
+  -ms-transition: color 0.5s linear;
+  -o-transition: color 0.5s linear;
+  transition: color 0.5s linear;
+  font-weight: bold;
+  text-decoration: none;
 }
 
-#toggle:checked + label i#cross {
-    display: block !important;
+.main-links a:hover{
+  color: #0498CF;
 }
 
-#toggle:checked ~ #mobile-menu {
-    height: 85px;
-}
 
 
 
@@ -287,6 +305,30 @@ body {
   overflow-x: hidden !important;
 }
 
+.nav-toggle {
+  
+  top: 7% !important;
+}
+
+
+#mobile-menu {
+  position: fixed;
+  top: -7.5%;
+  right: 3%;
+  width: 170px;
+  height: 90px;
+  text-align: center;
+  transform: translateY(-450%);
+  transition: transform 0.6s ease;
+  z-index: -1;
+  
+}
+
+#mobile-menu .main-links li a {
+  position: relative;
+  left: -8% !important;
+}
+
 #owl-demo1 .owl-controls {
   top: 345px !important;
 }
@@ -307,6 +349,31 @@ and (max-width : 320px) {
 body {
   width: 200% !important;
   overflow-x: hidden !important;
+}
+
+
+.nav-toggle {
+  
+  top: 2.7% !important;
+}
+
+
+#mobile-menu {
+  position: fixed;
+  top: -3%;
+  right: 3%;
+  width: 170px;
+  height: 90px;
+  text-align: center;
+  transform: translateY(-450%);
+  transition: transform 0.6s ease;
+  z-index: -1;
+  
+}
+
+#mobile-menu .main-links li a {
+  position: relative;
+  left: -7% !important;
 }
 
 .rich-content header img{
@@ -415,6 +482,19 @@ and (orientation : portrait) {
   overflow-x: hidden !important;
 }
 
+.nav-toggle {
+    
+  top: 2% !important;
+}
+
+
+#mobile-menu {
+ 
+  top: -2.5%;
+  
+  
+}
+
 .logo {
   left: 0% !important;
 }
@@ -448,20 +528,97 @@ and (orientation : portrait) {
 
 }
 
+/
+
 
 /* Desktops and laptops ----------- */
 @media only screen 
 and (min-width : 1224px) {
-  body {
-  width: 105% !important;
+ /*  body {
+  width: 110% !important;
   overflow-x: hidden !important;
-}
+} */
 
 footer {
  width: 100vw !important;
 }
 
 }
+
+/* iPad Pro (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1366px)
+{
+
+
+}
+
+
+/* iPad Pro (landscape) ----------- */
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1366px)
+and (orientation: landscape) {
+
+footer{
+width: 120% !important;
+}
+
+}
+
+/* iPad Pro (portrait) ----------- */
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1366px)
+and (orientation: portrait) {
+
+ .row {
+  left: 0% !important;
+ }
+
+  nav {
+    height: 80px !important;
+  }
+
+  .is-desktop .main-links  {
+    position: relative;
+    top: -20px !important;
+    left: 28%;
+ }
+
+ .services-section .grid figure {
+  padding: 30px !important;
+}
+
+
+ .owl-controls {
+  top: 100% !important;
+ }
+
+ .team-member {
+  padding: 20px;
+ }
+
+ .team-img img {
+    height: 200px !important;
+    width: 200px !important;
+ }
+
+ .team-info p {
+  line-height: 100%;
+ }
+
+ footer {
+  width: 120vw !important;
+ }
+
+
+
+
+}
+
+
 
 /* Large screens ----------- */
 @media only screen 
@@ -486,6 +643,8 @@ only screen and (min-device-pixel-ratio : 1.5) {
   width: 117% !important;
   overflow-x: hidden !important;
 }
+
+
 
 .logo {
   left: -5% !important;
@@ -538,6 +697,20 @@ body {
   overflow-x: hidden !important;
 }
 
+.nav-toggle {
+    
+  top: 2.7% !important;
+}
+
+
+#mobile-menu {
+ 
+  top: -2.7%;
+  
+  
+}
+
+
 .rich-content header img{
   height: 100vw !important;
 
@@ -586,6 +759,12 @@ footer {
   .logo {
     left: -5%;
   }
+
+.nav-toggle {
+  top: -6% !important;
+}
+
+
 
 .services-section {
   height: 750px !important;
@@ -637,6 +816,12 @@ div.mfp-bg.mfp-ready {
   width: 165% !important;
   overflow-x: hidden !important;
 }
+
+#mobile-menu {
+top: -2.6% !important;
+  
+}
+
 
 .benefits {
   left: 0 !important;

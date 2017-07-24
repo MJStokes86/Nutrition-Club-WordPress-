@@ -2,7 +2,11 @@
     'use strict';
     jQuery(document).ready(function () {
 
-
+/*
+         * ----------------------------------------------------------------------------------------
+         *  OWL CAROUSEL
+         * ----------------------------------------------------------------------------------------
+         */
 			
 			jQuery(".owl-carousel").owlCarousel({ 
 
@@ -225,6 +229,57 @@
          */
         new WOW().init();
 
+
+   /*
+         * ----------------------------------------------------------------------------------------
+         *  MOBILE NAV BAR TOGGLE
+         * ----------------------------------------------------------------------------------------
+         */
+
+    jQuery('.nav-toggle').on('click', function(){
+    jQuery('#mobile-menu').toggleClass('open');
+
+    });
+
+
+   /*
+         * ----------------------------------------------------------------------------------------
+         *  PRODUCT LINKS
+         * ----------------------------------------------------------------------------------------
+         */
+
+
+    jQuery('#formula1').click(function(){
+    window.open('', '_blank');
+
+
+  });
+
+    jQuery('#protein').click(function(){
+    window.open('', '_blank');
+
+
+  });
+
+    jQuery('#tea').click(function(){
+    window.open('', '_blank');
+
+
+  });
+
+    jQuery('#aloe').click(function(){
+    window.open('', '_blank');
+
+
+  });
+
+    jQuery('#21day').click(function(){
+    window.open('', '_blank');
+
+
+  });
+
+    
 
 
 

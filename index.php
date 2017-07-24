@@ -15,13 +15,7 @@
 <div class="page-snap dtm-biglove" data-template="BigLove">
 <section class="carousel image-carousel fixed-carousel pagination "  data-hash="">
 	<div class="hide-on-swipe rich-content fixed " data-component="forwardevent">
-		<!-- <header>
-			<h2 class="rich-content-title">
-				<span>
-					BIG LOVE FOR THE LITTLE THINGS
-				</span>
-			</h2>
-		</header> -->
+	
 	</div>
 	<div class="owl-carousel" id="owl-demo1" data-component="owl-slider" data-component-options='{"arrows": true}'>
 
@@ -290,7 +284,7 @@
 							<li>Herbalife Nutrition</li>
 							</ul>
 							<br>
-							<p class="product-link">Learn More</p>
+							<p class="product-link" id="formula1">Learn More</p>
 						</div>
 					</div>
 				</div>
@@ -314,7 +308,7 @@
 						<li>5 g of carbs per serving.</li>
 						</ul>
 						<br>
-						<p class="product-link">Learn More</p>
+						<p class="product-link" id="protein">Learn More</p>
 						</div>
 					</div>
 				</div>
@@ -340,7 +334,7 @@
 							<li>Instant and low-calorie.</li>
 							</ul>
 							<br>
-							<p class="product-link">Learn More</p>
+							<p class="product-link" id="tea">Learn More</p>
 
 						</div>
 					</div>
@@ -367,7 +361,7 @@
 							<li>Supports nutrient absorption and intestinal health.</li>
 							</ul>
 							<br>
-							<p class="product-link">Learn More</p>
+							<p class="product-link" id="aloe">Learn More</p>
 						</div>
 					</div>
 				</div>
@@ -391,7 +385,7 @@
 							<li>PM Reset Formula – An evening tablet formulated with Dandelion, traditionally used for healthy fluid balance.</li>
 							</ul>
 							<br>
-							<p class="product-link">Learn More</p>
+							<p class="product-link" id="21day">Learn More</p>
 						</div>
 					</div>
 				</div>

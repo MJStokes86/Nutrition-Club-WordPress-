@@ -12,7 +12,7 @@
 
 .row {
 	position: relative;
-	left: -5%;
+	left: -15%;
 	border: none !important;
 }
 
@@ -88,7 +88,6 @@ nav {
 }
 
 
-
 /* .owl-text-overlay   {
   position: absolute;
   text-align: center;
@@ -113,6 +112,8 @@ h2.owl-title  {
   font-weight:bold;
   margin-bottom:20px;
   color: #fff;
+  position: relative;
+  left: 45% !important;
 
 }
 
@@ -135,6 +136,7 @@ p.owl-caption  {
 #owl-demo1 .owl-pagination {
   position: relative;
   top: 200px !important;
+  left: -6% !important;
 }
 
 
@@ -158,6 +160,8 @@ p.owl-caption  {
 .services-inner {
 	display: table;
 	width: 100%;
+	position: relative;
+	left: 15%;
 }
 
 .services-section .item {
@@ -244,11 +248,17 @@ figcaption {
 
 .mfp-close {
 	color: #fff !important;
+	position: relative;
+	left: -20% !important;
+	top: 100px !important;
+	display: block !important;
 }
 
 .service-popup {
 	color: #fff;
 	font-size: 15px;
+	position: relative;
+	left: 10%;
 }
 
 .service-popup h3 {
@@ -325,12 +335,23 @@ a.ghost-btn:hover {
 
 
 .product-link {
-	border: solid limegreen;
-	background-color: limegreen;
+	border: 1px solid #0a0a0a !important;
+	background-color: #fff;
 	padding: 10px;
-	color: #fff;
+	color: #0a0a0a0a;
 	text-align: center;
 }
+
+.product-link:hover {
+	background-color: #0a0a0a;
+	color: #fff;
+	cursor: pointer;
+	-webkit-transition: .3s;
+    transition: .3s;
+
+}
+
+
 
 .text-left {
 	text-align: left !important;
@@ -371,16 +392,24 @@ a.ghost-btn:hover {
 .team-member {
 	position: relative;
 	left: 50%;
+	padding: 30px;
 }
 
 .team-img img {
 	border-radius: 50% !important;
-	height: 300px !important;
-	width: 300px !important;
+	height: 250px !important;
+	width: 250px !important;
+	position: relative;
+	left: -10% !important;
 }
 
 .team-info h4 {
 	text-align: center;
+}
+
+.team-info p {
+	line-height: 1.2 !important;
+	width: 250px !important;
 }
 
 /* Testimonials */
@@ -469,9 +498,14 @@ form {
 /* Footer */
 
 footer {
-	height: 320px !important;
+	height: 280px !important;
 	margin-bottom: 0% !important;
 
+}
+
+.footer {
+	position: relative;
+	left: -7% !important;
 }
 
 .footer-logo img {

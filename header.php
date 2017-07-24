@@ -56,11 +56,7 @@ else{
     <div class=" is-mobile">
 
 
-    <input type="checkbox" id="toggle">
-    <label for="toggle">
-        <i id="bars" class="fa fa-bars fa-3x"></i>
-        <i id="cross" class="fa fa-times fa-3x"></i>
-    </label>
+  <i class="fa fa-bars fa-2x nav-toggle"></i>
 
 
 <div id="mobile-menu">
