@@ -330,21 +330,22 @@ and (max-device-width : 480px) {
 and (min-width : 321px) {
 
 body {
-  width: 115% !important;
+  width: 135% !important;
   overflow-x: hidden !important;
 }
 
 .nav-toggle {
   
-  top: 7% !important;
+  top: -7px !important;
+  left: 80% !important;
 
 }
 
 
 #mobile-menu {
   position: fixed;
-  top: -7.5%;
-  right: 3%;
+  top: -13%;
+  right: 15%;
   width: 170px;
   height: 90px;
   text-align: center;
@@ -359,14 +360,38 @@ body {
   left: -8% !important;
 }
 
+.services-section .grid figure {
+  left: 10% !important;
+}
+
 #owl-demo1 .owl-controls {
   top: 345px !important;
+}
+
+#owl2-img2, 
+#owl2-img3,
+#owl2-img5 {
+  position: relative;
+  margin-left: 15% !important;
+}
+
+.team-member {
+  left: 25% !important;
+}
+
+.testimonial-img img {
+  margin-left: -20% !important;
+}
+
+
+.contact-form {
+  margin-left: -20% !important;
 }
 
 
 
 footer {
- width: 115vw !important;
+ width: 130vw !important;
 }
 
  
