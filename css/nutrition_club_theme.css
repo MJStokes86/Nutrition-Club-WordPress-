@@ -1,7 +1,6 @@
 @import url('../css/style1.css');
 @import url('../css/style2.css');
 
-
 @font-face {
   font-family: 'icomoon';
   src: url("../font/icomoon.eot");
@@ -10,10 +9,16 @@
   font-style: normal;
 }
 
+body { 
+	margin: 0 !important;
+	padding: 0 !important; 
+	overflow-x: hidden;
+}
+
 .row {
-	position: relative;
-	left: -15%;
 	border: none !important;
+	position: relative;
+	left: -6%;
 }
 
 /* Header */
@@ -68,6 +73,7 @@ nav {
 /* Main Section */
 
 
+
 .carousel {
 	height: 700px;
 	display: block !important;
@@ -86,7 +92,12 @@ nav {
 	height: 50vw;
 
 }
-
+/* 
+.owl-item img {
+	position: relative;
+	left: -10% !important;
+}
+ */
 
 /* .owl-text-overlay   {
   position: absolute;
@@ -113,7 +124,8 @@ h2.owl-title  {
   margin-bottom:20px;
   color: #fff;
   position: relative;
-  left: 45% !important;
+  left: 50% !important;
+  z-index: 1;
 
 }
 
@@ -133,11 +145,12 @@ p.owl-caption  {
 	color: yellow;
 }
 
-#owl-demo1 .owl-pagination {
+/* #owl-demo1 .owl-pagination {
   position: relative;
   top: 200px !important;
-  left: -6% !important;
-}
+  left: -12% !important;
+
+} */
 
 
 
@@ -169,6 +182,11 @@ p.owl-caption  {
     margin: 0;
 }
 
+.services-posts {
+	position: relative;
+	left: -17% !important;
+}
+
 
 .services-section figure.effect-bubba img {
     height: auto;
@@ -188,11 +206,14 @@ p.owl-caption  {
     text-align: center;
     cursor: pointer;
     padding: 0;
+   
+
 }
 
 .services-section .grid figure:hover {
     background: #000;
 }
+
 
 .services-section figure.effect-bubba h2 {
     margin-top: 30%;
@@ -310,11 +331,15 @@ a.ghost-btn:hover {
 	width: 100%;
 	display: block;
 	border-radius: 0 !important;
+	position: relative;
+	left: -5% !important;
 
 }
 
 #owl2-img5 {
 	border-radius: 0;
+	position: relative;
+	left: -100% !important;
 }
 
 #owl-demo2 {
@@ -383,7 +408,12 @@ a.ghost-btn:hover {
 
 
 
-/* Team Section */ 
+/* Team Section */
+
+div.col-md-6.col-md-3.col-centered {
+	position: relative;
+	left: 5%;
+}
 
 .team-section{
 	height: 1000px;
@@ -391,7 +421,7 @@ a.ghost-btn:hover {
 
 .team-member {
 	position: relative;
-	left: 50%;
+	left: 35% !important;
 	padding: 30px;
 }
 
@@ -422,6 +452,8 @@ a.ghost-btn:hover {
 	border-radius: 0 !important;
 	height: 300px !important;
 	width: 300px !important;
+	position: relative;
+	left: 20% !important;
 }
 
 #owl-demo3 .owl-page span {

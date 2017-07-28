@@ -12,7 +12,7 @@
 
 <!--Carousel Image Slider Begins-->
 
-<div class="page-snap dtm-biglove" data-template="BigLove">
+<div class="page-snap">
 <section class="carousel image-carousel fixed-carousel pagination "  data-hash="">
 	<div class="hide-on-swipe rich-content fixed " data-component="forwardevent">
 	
@@ -323,7 +323,7 @@
 							<br>
 							<h4>Overview</h4>
 							<hr>
-							<p  class='text-left'>Herbal Tea Concentrate contains caffeine which jump-starts your metabolism and provides a boost to help you feel revitalized. For optimum experience, mix a a little more than ½ teaspoon with 8 ounces of water. This refreshing, low-calorie tea is available in a variety of flavors.</p>
+							<p  class='text-left'>Herbal Tea Concentrate contains caffeine which jump-starts your metabolism and provides a boost to help you feel revitalized. For optimum experience, mix a  little more than ½ teaspoon with 8 ounces of water. This refreshing, low-calorie tea is available in a variety of flavors.</p>
 							<br>
 							<h4>Key Benefits</h4>
 							<hr>
@@ -399,6 +399,28 @@
 				</div> -->
 
 				</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
 					
 				</div>
 			</div>

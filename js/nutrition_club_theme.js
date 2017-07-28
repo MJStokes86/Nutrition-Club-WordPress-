@@ -36,7 +36,7 @@
   });
 
 
-        jQuery("#owl-demo3").owlCarousel({
+        jQuery("#mobile #owl-demo2").owlCarousel({
  
       autoPlay: 5000, 
  
