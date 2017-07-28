@@ -353,30 +353,30 @@ and (max-width : 320px) {
 
 .nav-toggle {
     position: relative;
-    left: 56% !important;
-    top: -30px;
+    left: 0% !important;
+    top: -25px;
   }
 
 #mobile-menu {
-  left: 60%;
-  top: -150px;
+  left: 85% !important;
+  top: 30px;
 
 }
-/* 
+
 div.page-snap {
   width: 300vw !important;
 }
- */
+
 .rich-content header img {
   height: 500px !important;
 }
 
 .row {
-  left: 80% !important;
+  left: 100% !important;
 }
 
 .services-posts {
-  left: -120% !important;
+  left: -50% !important;
 }
 
 div#owl-demo2.owl-carousel.text-left.owl-theme {
@@ -384,6 +384,14 @@ div#owl-demo2.owl-carousel.text-left.owl-theme {
   position:  relative;
   left: -35%;
 }
+
+
+#owl2-img2,
+#owl2-img3,
+#owl2-img5 {
+  margin-left: 25% !important;
+}
+
 
 .team-member {
   left: -17% !important;
@@ -402,7 +410,7 @@ div#owl-demo2.owl-carousel.text-left.owl-theme {
 }
 
 .testimonial-img {
-  left: -27% !important;
+  left: -15% !important;
 }
 
 .info-video iframe {
@@ -410,10 +418,27 @@ div#owl-demo2.owl-carousel.text-left.owl-theme {
   left: -50% !important;
 }
 
-.join-button {
-  left: 17%;
+.contact-form {
+  left: -10% !important;
 }
 
+.contact-section {
+  height: 1700px !important;
+}
+
+.join-button {
+  left: 12%;
+}
+
+footer {
+  height: 300px !important;
+  width: 300vw !important;
+  
+}
+
+.footer {
+  left: 0% !important;
+}
 
 
 
