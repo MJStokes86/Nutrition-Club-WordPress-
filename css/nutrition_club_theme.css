@@ -147,8 +147,9 @@ p.owl-caption  {
 
 #owl-demo1 .owl-pagination {
   position: relative;
-  top: 200px !important;
-  left: -12% !important;
+  top: -50px !important;
+  left: 0% !important;
+  z-index: 1 !important;
 
 }
 

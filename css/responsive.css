@@ -321,7 +321,7 @@ footer {
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 320px) 
-and (max-device-width : 480px) {
+and (max-device-width : 568px) {
 
   body {
     overflow-x: hidden;
@@ -335,9 +335,50 @@ and (max-device-width : 480px) {
 
 /* Smartphones (landscape) ----------- */
 @media only screen 
-and (min-width : 321px) {
+and (max-width : 568px) {
+
+.nav-toggle {
+  top: -14px;
+  margin-left: 95% !important;
+}
+
+#mobile-menu {
+  top: 17px;
+  left: 85% !important;
+}
 
 
+
+.row {
+  left: 20% !important;
+}
+
+div.page-snap {
+  width: 150vw !important;
+}
+
+.services-posts {
+  left: -20% !important;
+}
+
+div.mfp-bg.mfp-ready {
+  width: 200vw !important;
+}
+
+
+.testimonial-img {
+  left: -10% !important;
+}
+
+footer {
+  width: 150vw !important;
+}
+
+
+
+.footer {
+  margin-left: 25% !important;
+}
 
  
 
