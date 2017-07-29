@@ -438,11 +438,6 @@ div#owl-demo2.owl-carousel.text-left.owl-theme {
   left: -17% !important;
 }
 
-/* 
-#owl-demo2 .owl-item {
-  width: 100% !important;
-  padding: 30px !important;
-} */
 
 #owl-demo3 {
   width: 500px !important;
@@ -713,44 +708,52 @@ only screen and (min-device-pixel-ratio : 1.5) {
   and (-webkit-min-device-pixel-ratio: 2)
 { 
 
-  body {
-  width: 117% !important;
-  overflow-x: hidden !important;
-}
-
-
-
 .logo {
-  left: -5% !important;
+  left: -5%;
 }
 
 
-.services-section figure {
-  left: 40% !important;
-
+.nav-toggle {
+  top: -25px;
+  margin-left: 96% !important;
 }
 
-#owl2-img2,
-#owl2-img3,
-#owl2-img5 {
-  left: 20% !important;
+#mobile-menu {
+  top: 30px;
+  left: 87% !important;
 }
 
-.product-info p {
-  text-align: center !important;
+
+
+.row {
+  left: 30% !important;
 }
 
-.benefits {
+div.page-snap {
+  width: 150vw !important;
+}
+
+.services-posts {
+  left: -10% !important;
+}
+
+div.mfp-bg.mfp-ready {
+  width: 200vw !important;
+}
+
+
+.testimonial-img {
   left: 0% !important;
-  text-align: center !important;
 }
 
-.testimonial-img img {
-  left: 70% !important;
+footer {
+  width: 150vw !important;
 }
 
-.contact-form {
-  left: 50% !important;
+
+
+.footer {
+  margin-left: 17% !important;
 }
 
 
@@ -765,56 +768,112 @@ only screen and (min-device-pixel-ratio : 1.5) {
   and (-webkit-min-device-pixel-ratio: 2)
 { 
 
+  body {
+    overflow-x: hidden !important;
+  }
 
-body {
-  width: 180% !important;
-  overflow-x: hidden !important;
+
+.logo {
+  left: -5%;
 }
 
 .nav-toggle {
-    
-  top: 2.7% !important;
-}
-
+    position: relative;
+    left: 0% !important;
+    top: -30px;
+  }
 
 #mobile-menu {
- 
-  top: -2.7%;
-  
-  
-}
-
-
-.rich-content header img{
-  height: 100vw !important;
+  left: 87% !important;
+  top: 40px;
 
 }
 
-#owl-demo1 .owl-controls {
-  top: 350px !important;
+div.page-snap {
+  width: 300vw !important;
+}
+
+.rich-content header img {
+  height: 500px !important;
+}
+
+.row {
+  left: 110% !important;
+}
+
+.services-posts {
+  left: -45% !important;
+}
+
+div#owl-demo2.owl-carousel.text-left.owl-theme {
+  width: 500px !important;
+  position:  relative;
+  left: -35%;
 }
 
 
-.services-section figure {
+#owl2-img2,
+#owl2-img3,
+#owl2-img5 {
+  margin-left: 30% !important;
+}
+
+
+.team-member {
+  left: -17% !important;
+}
+
+/* 
+#owl-demo2 .owl-item {
+  width: 100% !important;
+  padding: 30px !important;
+} */
+
+#owl-demo3 {
+  width: 500px !important;
+  position: relative;
+  left: -35% !important;
+}
+
+.testimonial-img {
+  left: -15% !important;
+}
+
+.join-section {
+  position: relative;
+  left: -10% !important;
+}
+
+.info-video iframe {
+  position: relative;
+  left: -30% !important;
+}
+
+.join-button {
+  position: relative;
   left: 30% !important;
-
 }
-
-.testimonial-img img {
-  left: 45% !important;
-}
-
-div.mfp-bg.mfp-ready {
-  width: 200vw !important;
-}
-
 
 .contact-form {
-  left: 40% !important;
+  left: -10% !important;
+}
+
+.contact-section {
+  height: 1700px !important;
+}
+
+.join-button {
+  left: 12%;
 }
 
 footer {
- width: 175vw !important;
+  height: 300px !important;
+  width: 300vw !important;
+  
+}
+
+.footer {
+  left: -15% !important;
 }
 
 
