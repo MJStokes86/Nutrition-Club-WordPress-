@@ -507,6 +507,14 @@ and (orientation : landscape) {
     left: 28%;
  }
 
+ div.page-snap {
+  width: 165vw !important;
+ }
+
+ .row {
+    left: 30% !important;
+ }
+
  .services-section figure img {
   padding: 30px !important;
  }
@@ -594,6 +602,9 @@ and (orientation : portrait) {
   left: 30% !important;
 }
 
+.testimonial-img {
+  left: 5% !important;
+}
 
 .benefits {
   left: 0;
@@ -601,6 +612,10 @@ and (orientation : portrait) {
 
 .contact-form {
   left: 50%;
+}
+
+.footer {
+  left: 0% !important;
 }
 
 
