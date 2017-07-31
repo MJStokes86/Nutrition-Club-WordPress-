@@ -489,6 +489,16 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) {
 
 
+div.mfp-bg.mfp-ready {
+  width: 200vw !important;
+}
+
+.service-popup {
+  top: 200px !important;
+}
+
+
+
 }
 
 /* iPads (landscape) ----------- */
@@ -498,7 +508,7 @@ and (max-device-width : 1024px)
 and (orientation : landscape) {
 
 .logo {
-  left: -5%;
+  left: 0%;
 }
 
 .is-desktop  .main-links  {
@@ -508,30 +518,40 @@ and (orientation : landscape) {
  }
 
  div.page-snap {
-  width: 165vw !important;
+  width: 170vw !important;
  }
 
  .row {
-    left: 30% !important;
+    left: 37% !important;
  }
 
  .services-section figure img {
   padding: 30px !important;
  }
 
- .services-section figure {
-  left: 0%;
+ .services-posts {
+    left: -20% !important;
+
+ }
+
+ #owl-demo2 .owl-controls {
+    top: 50px !important;
  }
 
  .team-member {
-  padding: 60px !important;
+  padding: 30px !important;
  }
 
  .team-info {
   position: relative;
-  left: 70% !important;
+  left: -3% !important;
+
  }
 
+  .team-info p {
+    line-height: 12px !important;
+  width: 150px !important;
+  }
  
 
  .team-img img {
@@ -539,9 +559,17 @@ and (orientation : landscape) {
   left: -50% !important;
   padding: 10px !important;
 
-
-
  }
+
+ footer {
+  width: 170vw !important;
+ }
+
+ .footer {
+  left: 0% !important;
+ }
+
+
 
 
 
@@ -561,15 +589,16 @@ and (orientation : portrait) {
 
 .nav-toggle {
     
-  top: -15px !important;
-  left: -10% !important;
+  top: -17px !important;
+  right: -1% !important;
+
 }
 
 
 #mobile-menu {
  
   top: 25px !important;
-  left: 73% !important;
+  left: 85% !important;
   
   
 }
@@ -578,13 +607,20 @@ and (orientation : portrait) {
   left: 0% !important;
 }
 
+div.page-snap {
+  width: 120vw !important;
+}
+
+.row {
+  left: 10% !important;
+}
+
 .services-section  {
   height: 800px;
 }
 
-.services-section figure {
-  left: -5% !important;
-
+.services-posts {
+  left: -25% !important;
 }
 
 #owl-demo2 {
@@ -646,6 +682,20 @@ and (max-device-width : 1366px)
 {
 
 
+div.mfp-bg.mfp-ready {
+  width: 200vw !important;
+}
+
+.service-popup {
+  top: 200px !important;
+}
+
+footer {
+  width: 170vw !important;
+ }
+
+
+
 }
 
 
@@ -655,9 +705,81 @@ and (min-device-width : 1024px)
 and (max-device-width : 1366px)
 and (orientation: landscape) {
 
-footer{
-width: 120% !important;
+  nav {
+    height: 100px !important;
+  }
+
+  .logo {
+  left: 0%;
 }
+
+.is-desktop  .main-links  {
+    position: relative;
+    top: 0px !important;
+    left: 28%;
+ }
+
+ div.page-snap {
+  width: 170vw !important;
+ }
+
+ .row {
+    left: 37% !important;
+ }
+
+ .services-section figure img {
+  padding: 30px !important;
+ }
+
+ .services-posts {
+    left: -20% !important;
+
+ }
+
+ #owl-demo2 .owl-controls {
+    top: 50px !important;
+ }
+
+ .team-member {
+  padding: 30px !important;
+ }
+
+ .team-img img {
+  position: relative;
+  left: 70% !important;
+ }
+
+ .team-info {
+  position: relative;
+  left: -3% !important;
+
+ }
+
+  .team-info p {
+    line-height: 12px !important;
+  width: 150px !important;
+  }
+ 
+
+ .team-img img {
+  position: relative;
+  left: -50% !important;
+  padding: 10px !important;
+
+ }
+
+ footer {
+  width: 170vw !important;
+ }
+
+ .footer {
+  left: 0% !important;
+ }
+
+
+
+
+
 
 }
 
@@ -667,45 +789,86 @@ and (min-device-width : 1024px)
 and (max-device-width : 1366px)
 and (orientation: portrait) {
 
- .row {
+.is-desktop .main-links {
+  top: -20px !important;
+  left: 30% !important;
+
+}
+
+.logo {
   left: 0% !important;
- }
-
-  nav {
-    height: 80px !important;
-  }
-
-  .is-desktop .main-links  {
-    position: relative;
-    top: -20px !important;
-    left: 28%;
- }
-
- .services-section .grid figure {
-  padding: 30px !important;
 }
 
 
- .owl-controls {
-  top: 100% !important;
+div.page-snap {
+  width: 170vw !important;
+}
+
+
+.row {
+  left: 40% !important;
+}
+
+.services-section  {
+  height: 800px;
+}
+
+.services-section figure img {
+  padding: 30px !important;
  }
 
- .team-member {
-  padding: 20px;
- }
 
- .team-img img {
-    height: 200px !important;
-    width: 200px !important;
- }
+.services-posts {
+  left: -25% !important;
+}
+
+#owl-demo2 {
+  left: 5% !important;
+}
+
+
+#owl2-img2,
+#owl2-img3,
+#owl2-img5 {
+  left: 25% !important;
+}
+
+#owl-demo2 .owl-controls {
+  top: 50px !important;
+}
+
+.team-member {
+  left: 20% !important;
+  padding: 50px !important;
+}
+
+.team-info   {
+  position: relative;
+  left: 40% !important;
+
+}
 
  .team-info p {
-  line-height: 100%;
- }
+    line-height: 0.8 !important;
+    width: 150px !important;
+  }
 
- footer {
-  width: 120vw !important;
- }
+
+.testimonial-img img{
+  left: 5% !important;
+}
+
+.benefits {
+  left: 0;
+}
+
+.contact-form {
+  left: 50%;
+}
+
+.footer {
+  left: 0% !important;
+}
 
 
 
