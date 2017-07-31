@@ -689,10 +689,10 @@ div.mfp-bg.mfp-ready {
 .service-popup {
   top: 200px !important;
 }
-
+/* 
 footer {
   width: 170vw !important;
- }
+ } */
 
 
 
@@ -700,12 +700,12 @@ footer {
 
 
 /* iPad Pro (landscape) ----------- */
-@media only screen 
+@media screen 
 and (min-device-width : 1024px) 
 and (max-device-width : 1366px)
 and (orientation: landscape) {
 
-  nav {
+ /*  nav {
     height: 100px !important;
   }
 
@@ -779,7 +779,7 @@ and (orientation: landscape) {
 
 
 
-
+ */
 
 }
 
