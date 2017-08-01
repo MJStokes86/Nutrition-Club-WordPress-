@@ -17,14 +17,14 @@ nav {
   position: relative;
 }
 
-#mobile-menu .main-links li{
+#mobile-menu .main-links li,
+#profile-mobile-menu .main-links li {
   list-style: none;
   padding: 10px;
 
 }
 
 #mobile-menu .main-links a {
-  color: #fff;
   text-decoration: none;
 }
 
@@ -40,7 +40,8 @@ nav {
 }
 
 
-.nav-toggle {
+.nav-toggle,
+.nav-toggle2 {
   position: relative;
   color: #fff;
   margin-left: 94% !important;
@@ -64,7 +65,22 @@ nav {
   
 }
 
-#mobile-menu.open {
+#profile-mobile-menu {
+
+  position: relative;
+  margin-top: -13%;
+  left: 80% !important;
+  width: 150px;
+  height: 90px;
+  text-align: center;
+  transform: translateY(-450%);
+  transition: transform 0.6s ease;
+  z-index: -1;
+
+}
+
+#mobile-menu.open,
+#profile-mobile-menu.open {
   transform: translateY(100%);
 }
 
@@ -303,6 +319,20 @@ nav {
   height: 700px !important;
 }
 
+#profile {
+  top: 80px !important;
+}
+
+#mobile-profile {
+  display: block !important;
+}
+
+#desktop-profile {
+  display: none !important;
+}
+
+
+
 
 footer {
   margin-bottom: -50% !important;
@@ -345,13 +375,26 @@ and (max-device-width : 568px) {
 and (max-width : 568px) {
 
 .nav-toggle {
-  top: -14px !important;
+  top: -15px !important;
   margin-left: 95% !important;
 }
+
+
+.nav-toggle2 {
+  top: -17px !important;
+  margin-left: 95% !important;
+}
+
+
 
 #mobile-menu {
   top: 17px !important;
   left: 85% !important;
+}
+
+#profile-mobile-menu {
+  top: 10px !important;
+  
 }
 
 
@@ -415,13 +458,15 @@ and (max-width : 320px) {
   left: -5%;
 }
 
-.nav-toggle {
+.nav-toggle,
+.nav-toggle2 {
     position: relative;
     left: 0% !important;
     top: -25px;
   }
 
-#mobile-menu {
+#mobile-menu,
+#profile-mobile-menu {
   left: 85% !important;
   top: 30px;
 
@@ -691,7 +736,8 @@ and (orientation : portrait) {
 
  
 
-.nav-toggle {
+.nav-toggle,
+.nav-toggle2 {
     
   top: -17px !important;
   right: -1% !important;
@@ -699,7 +745,8 @@ and (orientation : portrait) {
 }
 
 
-#mobile-menu {
+#mobile-menu,
+#profile-mobile-menu {
  
   top: 25px !important;
   left: 85% !important;
@@ -1009,12 +1056,14 @@ only screen and (min-device-pixel-ratio : 1.5) {
 }
 
 
-.nav-toggle {
+.nav-toggle,
+.nav-toggle2 {
   top: -25px;
   margin-left: 96% !important;
 }
 
-#mobile-menu {
+#mobile-menu,
+#profile-mobile-menu {
   top: 30px;
   left: 87% !important;
 }
@@ -1073,13 +1122,15 @@ footer {
   left: -5%;
 }
 
-.nav-toggle {
+.nav-toggle,
+.nav-toggle2 {
     position: relative;
     left: 0% !important;
     top: -30px !important;
   }
 
-#mobile-menu {
+#mobile-menu,
+#profile-mobile-menu {
   left: 87% !important;
   top: 40px !important;
 
@@ -1255,12 +1306,14 @@ footer {
 }
 
 
-.nav-toggle {
+.nav-toggle,
+.nav-toggle2 {
   top: -25px;
   margin-left: 96% !important;
 }
 
-#mobile-menu {
+#mobile-menu,
+#profile-mobile-menu {
   top: 40px;
   left: 87% !important;
 }
@@ -1335,13 +1388,15 @@ footer {
   left: -5%;
 }
 
-.nav-toggle {
+.nav-toggle,
+.nav-toggle2 {
     position: relative;
     left: 2% !important;
     top: -30px;
   }
 
-#mobile-menu {
+#mobile-menu,
+#profile-mobile-menu {
   left: 90% !important;
   top: 50px;
 

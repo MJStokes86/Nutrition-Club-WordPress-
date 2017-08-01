@@ -545,6 +545,43 @@ form {
 	width: 100% !important;
 }
 
+/* Wellness Profile
+ */
+
+
+ .profile-section {
+ 	position: relative;
+ 	top: 50px;
+ 	height: 1800px;
+ }
+
+ .wellness-form {
+ 	position: relative;
+ 	top: 30px;
+ }
+
+form {
+ 	height: 1200px !important;
+ }
+
+ #goals,
+ #tried,
+ #meals,
+ #snack,
+ #eat-out,
+ #water,
+ #tired {
+ 	font-size: 15px;
+ }
+
+ #submit-survey {
+ 	width: 100% !important;
+ }
+
+#profile-success {
+	position: relative;
+	top: 100px;
+}
 
 /* Footer */
 
@@ -559,6 +596,10 @@ footer {
 	left: 0% !important;
 }
 
+.profile-footer {
+	margin-bottom: 10%;
+}
+
 .footer-logo img {
 
 	width: 300px;
@@ -567,6 +608,7 @@ footer {
 .copyright {
 	color: #fff;
 }
+
 
 
 
