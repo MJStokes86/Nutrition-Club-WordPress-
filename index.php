@@ -652,7 +652,7 @@
                    <div class="input-wrap">
                    	<textarea name="message" id="message" cols="30" rows="10" placeholder="What Can We Help You With?"></textarea>
                    </div>
-                   <input type="text" class="btn" id="submit-button" value="Send a Message">
+                   <input type="button" class="btn" id="submit-button" value="Send a Message">
                    </div>
                    </form>
                    </div>
@@ -689,6 +689,8 @@
 
 
 </section>
+
+<!-- Mobile Contact  -->
 
 <section class="mobile-contact-section paragraph rich-content">
 	<div class="container">
@@ -728,7 +730,7 @@
                    <div class="input-wrap">
                    	<textarea name="message" id="message" cols="30" rows="10" placeholder="What Can We Help You With?"></textarea>
                    </div>
-                   <input type="text" class="btn" id="submit-button" value="Send a Message">
+                   <input type="button" class="btn" id="submit-button" value="Send a Message">
                    </div>
                    </form>
                    </div>
@@ -768,6 +770,8 @@
 
 </section>
 
+<!-- Mobile Contact Ends
+ -->
 
 
 

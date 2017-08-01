@@ -541,6 +541,10 @@ form {
 	border: 1px solid #000;
 }
 
+#submit-button {
+	width: 100% !important;
+}
+
 
 /* Footer */
 
