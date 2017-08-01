@@ -511,6 +511,10 @@ div.col-md-6.col-md-3.col-centered {
 	height: 1000px;
 }
 
+.mobile-contact-section {
+	display: none !important;
+}
+
 .location-img img {
 	border-radius: 0 !important;
 	height: 300px !important;

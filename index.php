@@ -620,7 +620,7 @@
 		<div class="row">
 			<div class="col-xs-12">
 			<div class="col-md-6" id="contact" >
-				
+				<h1 class='title text-center'>Contact Us!</h1>
                     <!-- START CONTACT FORM DESIGN AREA -->
                    <div class="contact-form">
                    <form action="/" class="form-control" method='post' novalidate="novalidate">
@@ -661,7 +661,7 @@
 			</div>
 
 			<div class="col-md-6 location">
-			<h1 class='text-center'>Come and see us</h1>
+			<h1 class='title text-center'>Come and see us</h1>
 			<p></p>
 			<div class="location-info">
 			<p>We are located at</p>
@@ -689,6 +689,105 @@
 
 
 </section>
+
+<section class="mobile-contact-section paragraph rich-content">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12" id=" mobile-contact" >
+
+				<h1 class='title text-center'>Contact Us!</h1>
+				
+                    <!-- START CONTACT FORM DESIGN AREA -->
+                   <div class="contact-form">
+                   <form action="/" class="form-control" method='post' novalidate="novalidate">
+
+                   <div class="form-group">
+
+                   <div class="input-wrap">
+                   	
+                   	<input type="text" class="form-control" name='name' id='name' placeholder="Name">
+                   </div> 
+
+                   <div class="input-wrap">
+                   	
+                   	<input type="email" class="form-control" name='email' id='email' placeholder="Email">
+                   </div>
+
+                    <div class="input-wrap">
+                   	
+                   	<select name="service-select" id="select1">
+                   		<option value="What are you most interested in?">What are you most interested in?</option>
+                   		<option value="Weight Loss">Weight Loss</option>
+                   		<option value="Events">Events</option>
+                   		<option value="Nutrition Shakes">Nutrition Shakes</option>
+                   		<option value="3 Day Trial">3 Day Trial</option>
+                   		<option value="Becoming a Coach">Becoming a Coach</option>
+                   	</select>
+                   </div>
+
+                   <div class="input-wrap">
+                   	<textarea name="message" id="message" cols="30" rows="10" placeholder="What Can We Help You With?"></textarea>
+                   </div>
+                   <input type="text" class="btn" id="submit-button" value="Send a Message">
+                   </div>
+                   </form>
+                   </div>
+                    <!-- / END CONTACT FORM DESIGN AREA -->
+
+            <div class="location">
+			<h1 class=' title text-center'>Come and see us</h1>
+			<p></p>
+			<div class="location-info">
+			<p>We are located at</p>
+			<p>1200 North Main St.</p>
+			<p>Graham, NC 27253</p>
+			<p>336-555-4025</p>
+			<br>
+
+			<div class="location-img">
+
+			<img src="<?php bloginfo('template_directory') ?>/img/club-location.jpg" alt="">
+				
+
+			</div>
+
+			</div>
+				
+
+			</div>
+
+			</div>
+
+			
+				
+
+			</div>
+		</div>
+	</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <?php get_footer(); ?>

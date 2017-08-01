@@ -277,24 +277,32 @@ nav {
   left: 35%;
 }
 
-#contact {
-  width: 100% !important;
-}
 
 .contact-section {
+  display: none !important;
+}
+
+#mobile-contact {
+  width: 100% !important;
+ 
+}
+
+.mobile-contact-section {
+  display: block !important;
   position: relative;
   top: 100px !important;
+  
 }
 
 
-.input-wrap {
+#mobile-contact .input-wrap {
   width: 100% !important;
 }
 
-
 .location {
-  display: none !important;
+  height: 700px !important;
 }
+
 
 footer {
   margin-bottom: -50% !important;
@@ -561,6 +569,15 @@ footer {
 
 input {
   width: 100% !important;
+}
+
+.location {
+  height: 800px !important;
+}
+
+.location-img img {
+  position: relative;
+  left: -40% !important;
 }
 
 
