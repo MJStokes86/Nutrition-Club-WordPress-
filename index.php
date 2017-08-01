@@ -615,11 +615,11 @@
 </section>
 
 
-<section id="contact" class="contact-section paragraph rich-content">
+<section class="contact-section paragraph rich-content">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">
-			<div class="col-md-6">
+			<div class="col-md-6" id="contact" >
 				
                     <!-- START CONTACT FORM DESIGN AREA -->
                    <div class="contact-form">

@@ -271,21 +271,31 @@ figcaption {
 .mfp-close {
 	color: #fff !important;
 	position: relative;
-	left: -20% !important;
-	top: 100px !important;
+	/* left: -20% !important;
+	top: 100px !important; */
 	display: block !important;
 }
 
 .service-popup {
 	color: #fff;
 	font-size: 15px;
-	position: relative;
+	position: absolute;
 	left: 10%;
+	
 }
 
 .service-popup h3 {
 	position: relative;
 	left: -6% !important;
+}
+
+#evaluation,
+#challenge,
+#shakes,
+#trial-pack,
+#events,
+#coach {
+	top: -200px !important;
 }
 
 
