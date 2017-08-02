@@ -31,6 +31,10 @@ nav {
 	top: 0;
 }
 
+a {
+	text-decoration: none !important;
+}
+
 .fa-bars {
 	color: #fff;
 
@@ -51,11 +55,13 @@ nav {
 .main-links {
 	position: relative;
 	left: 15%;
+
 }
 
-.main-links li a:hover {
-	text-decoration: none;
-}
+/* .main-links li a:hover,
+.main-links li a:visited {
+	text-decoration: none !important;
+} */
 
 #header-facebook a {
 	position: relative;
@@ -335,6 +341,7 @@ a.ghost-btn:hover {
 
 .products-section {
 	height: 1000px;
+	width: 100%;
 }
 
 #owl-demo2 .item img {
@@ -462,9 +469,9 @@ div.col-md-6.col-md-3.col-centered {
 .testimonial-img img {
 	border-radius: 0 !important;
 	height: 300px !important;
-	width: 300px !important;
+	width: 500px !important;
 	position: relative;
-	left: 20% !important;
+	left: 0% !important;
 }
 
 #owl-demo3 .owl-page span {
@@ -545,6 +552,16 @@ form {
 	width: 100% !important;
 }
 
+#submit-button:hover {
+	background-color: #0a0a0a;
+	color: #fff;
+	cursor: pointer;
+	-webkit-transition: .3s;
+    transition: .3s;
+
+}
+
+
 /* Wellness Profile
  */
 
@@ -577,6 +594,16 @@ form {
  #submit-survey {
  	width: 100% !important;
  }
+
+ #submit-survey:hover {
+	background-color: #0a0a0a;
+	color: #fff;
+	cursor: pointer;
+	-webkit-transition: .3s;
+    transition: .3s;
+
+}
+
 
 #profile-success {
 	position: relative;

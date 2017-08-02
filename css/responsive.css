@@ -26,10 +26,16 @@ nav {
 
 #mobile-menu .main-links a {
   text-decoration: none;
+  color: #7A7A7B !important;
+}
+
+#profile-mobile-menu .main-links a {
+  text-decoration: none;
+  color: #7A7A7B !important;
 }
 
 #mobile-menu .main-links a:hover{
-  color: #fff;
+  color: #fff !important;
   text-decoration: none;
   
 }
@@ -46,9 +52,6 @@ nav {
   color: #fff;
   margin-left: 94% !important;
   margin-top: 7% !important;
-
-
-
 }
 
 
@@ -273,7 +276,7 @@ nav {
 
 .testimonial-img img {
   position: relative;
-  left: 50% !important;
+  left: 10% !important;
 }
 
 .testimonial-info p {
@@ -433,8 +436,12 @@ div.mfp-bg.mfp-ready {
   left: 30% !important;
 }
 
-.testimonial-img {
-  left: -10% !important;
+.testimonial-img img {
+  left: -3% !important;
+}
+
+#form-2 {
+  height: 700px !important;
 }
 
 footer {
@@ -595,8 +602,8 @@ div#owl-demo2.owl-carousel.text-left.owl-theme {
   left: -35% !important;
 }
 
-.testimonial-img {
-  left: -15% !important;
+.testimonial-img img {
+  left: -3% !important;
 }
 
 .info-video iframe {
@@ -608,8 +615,13 @@ div#owl-demo2.owl-carousel.text-left.owl-theme {
   left: -10% !important;
 }
 
+#form-2 {
+  height: 700px !important;
+}
+
+
 .contact-section {
-  height: 1700px !important;
+  height: 500px !important;
 }
 
 .join-button {
@@ -724,6 +736,10 @@ and (orientation : landscape) {
 
  }
 
+ .testimonial-info {
+  left: 5% !important;
+ }
+
  footer {
   width: 170vw !important;
  }
@@ -752,7 +768,7 @@ and (orientation : portrait) {
 
 .nav-toggle {
     
-  top: -17px !important;
+  top: -20px !important;
   right: -1% !important;
 
 }
@@ -769,8 +785,8 @@ and (orientation : portrait) {
 
 #mobile-menu {
  
-  top: 25px !important;
-  left: 85% !important;
+  top: 30px !important;
+  left: 87% !important;
   
   
 }
@@ -789,11 +805,11 @@ and (orientation : portrait) {
 }
 
 div.page-snap {
-  width: 120vw !important;
+  width: 130vw !important;
 }
 
 .row {
-  left: 10% !important;
+  left: 15% !important;
 }
 
 .services-section  {
@@ -804,6 +820,25 @@ div.page-snap {
   left: -25% !important;
 }
 
+#evaluation .ghost-btn {
+  left: 30% !important;
+}
+
+#shakes img {
+  left: 60% !important;
+}
+
+#coach .ghost-btn {
+  top: 50px !important;
+  left: -40% !important ;
+}
+
+#coach iframe {
+  position: relative;
+  left: 10% !important;
+ }
+
+
 #owl-demo2 {
   left: 5% !important;
 }
@@ -812,7 +847,12 @@ div.page-snap {
 #owl2-img2,
 #owl2-img3,
 #owl2-img5 {
-  left: 25% !important;
+  left: 17% !important;
+}
+
+#team {
+  position: relative;
+  left: 5% !important;
 }
 
 .team-member {
@@ -827,8 +867,16 @@ div.page-snap {
   left: 0;
 }
 
+.join-button {
+  left: 37% !important;
+}
+
 .contact-form {
   left: 50%;
+}
+
+#form-2 {
+  height: 700px !important;
 }
 
 footer {
@@ -1126,6 +1174,11 @@ div.mfp-bg.mfp-ready {
   left: 0% !important;
 }
 
+#form-2 {
+  height: 700px !important;
+}
+
+
 footer {
   width: 150vw !important;
 }
@@ -1297,7 +1350,7 @@ div#owl-demo2.owl-carousel.text-left.owl-theme {
 }
 
 .testimonial-img {
-  left: -15% !important;
+  left: 0 !important;
 }
 
 .join-section {
@@ -1317,6 +1370,10 @@ div#owl-demo2.owl-carousel.text-left.owl-theme {
 
 .contact-form {
   left: -10% !important;
+}
+
+#form-2 {
+  height: 700px !important;
 }
 
 .contact-section {
@@ -1534,7 +1591,7 @@ div#owl-demo2.owl-carousel.text-left.owl-theme {
 
 
 .testimonial-img {
-  left: -15% !important;
+  left: 0 !important;
 }
 
 .join-section {

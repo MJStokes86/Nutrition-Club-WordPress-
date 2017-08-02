@@ -61,14 +61,14 @@ else{
 
 <div id="mobile-menu">
         <ul class="main-links">
-                         <li class=""><a href="#" target="_self">Home</a></li>
-                            <li class=""><a href="#" target="_self">Our Club</a></li>
-                            <li class=""><a  href="#" target="_self">Services</a></li>
-                            <li class=""><a  href="#" target="_self">Products</a></li>
-                            <li class=""><a  href="#" target="_self">Our Team</a></li>
-                            <li class=""><a  href="#" target="_self">Testimonials</a></li>
-                            <li class=""><a href="#" target="_blank">Join</a></li>
-                            <li class=""><a  href="#" target="_self">Contact</a></li>
+                        <li class=""><a class="" href="#home">Home</a></li>
+                            <li class=""><a class="" href="#about">Our Club</a></li>
+                            <li class=""><a class="" href="#services">Services</a></li>
+                            <li class=""><a class="" href="#products">Products</a></li>
+                            <li class=""><a class="" href="#team">Our Team</a></li>
+                            <li class=""><a class="" href="#testimonials-area">Testimonials</a></li>
+                            <li class=""><a class="" href="#join-area">Join</a></li>
+                            <li class=""><a class="" href="#mobile-contact">Contact</a></li>
         </ul>
 </div>
 
@@ -82,14 +82,14 @@ else{
 
 
             <ul class="main-links">
-                            <li class=""><a class="menu-clubs" href="#" target="_self">Home</a></li>
-                            <li class=""><a class="menu-classes" href="#" target="_self">Our Club</a></li>
-                            <li class=""><a class="menu-training" href="#" target="_self">Services</a></li>
-                            <li class=""><a class="menu-pilates" href="#" target="_self">Products</a></li>
-                            <li class=""><a class="menu-spa" href="#" target="_self">Our Team</a></li>
-                            <li class=""><a class="menu-spotlight" href="#" target="_self">Testimonials</a></li>
-                            <li class=""><a class="menu-magazine" href="#" target="_blank">Join</a></li>
-                            <li class=""><a class="menu-hotel" href="#" target="_self">Contact</a></li>
+                            <li class=""><a class="" href="#home" target="_self">Home</a></li>
+                            <li class=""><a class="" href="#about" target="_self">Our Club</a></li>
+                            <li class=""><a class="" href="#services" target="_self">Services</a></li>
+                            <li class=""><a class="" href="#products" target="_self">Products</a></li>
+                            <li class=""><a class="" href="#team" target="_self">Our Team</a></li>
+                            <li class=""><a class="" href="#testimonials" target="_self">Testimonials</a></li>
+                            <li class=""><a class="" href="#join">Join</a></li>
+                            <li class=""><a class="" href="#contact" target="_self">Contact</a></li>
 <!--                             <li class=""><a class="menu-join" href="#" target="_self">JOIN</a></li>
  -->            </ul>
 

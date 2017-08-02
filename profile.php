@@ -119,7 +119,7 @@
  -->
             <div class="wellness-form">
 
-            <form action="/" class="form-control" method="post" novalidate="novalidate">
+            <form action="contact.php" class="form-control" method="post" novalidate="novalidate">
 
             <div class="form-group">
 
@@ -152,7 +152,7 @@
             </div>
 
              <div class="input-wrap">
-                <input type="text" class="form-control" name='feild5' id='tried' placeholder="What Have You Tried Before? Why it didn't work?">
+                <input type="text" class="form-control" name='field5' id='tried' placeholder="What Have You Tried Before? Why it didn't work?">
             </div>
 
              <div class="input-wrap">
@@ -172,10 +172,10 @@
             </div>
 
               <div class="input-wrap">
-                <input type="text" class="form-control" name='feild10' id='tired' placeholder="What Time of Day You Are Most Tired?">
+                <input type="text" class="form-control" name='field10' id='tired' placeholder="What Time of Day You Are Most Tired?">
             </div>
 
-            <input type="button" class="btn" id="submit-survey" value="Submit Survey">
+            <input type="submit" class="btn" id="submit-survey" value="Submit Survey">
 
             </div>
                 
@@ -237,7 +237,7 @@
             $(function() {
 
                 $('.nav-toggle2').on('click', function(){
-    $('#profile-mobile-menu').toggleClass('open');
+                $('#profile-mobile-menu').toggleClass('open');
 
     });
             });

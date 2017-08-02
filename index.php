@@ -39,7 +39,7 @@
 	<div class="rich-content">
 	    <header>
 	    <div class="owl-text-overlay">
-	    	<h2 class="owl-title" style="color: #000;"> Nuritional Facts Goes Here</h2>
+	    	<h2 class="owl-title" style="color: #0A4C70;"> Nuritional Facts Goes Here</h2>
 	    		<!-- <p class="owl-caption">
 	    			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent iaculis purus vel enim suscipit, vitae volutpat ante scelerisque. Pellentesque blandit malesuada dui, sed aliquet risus molestie non.
 	    		</p> -->
@@ -54,7 +54,7 @@
 	<div class="rich-content">
 	    <header>
 	    <div class="owl-text-overlay">
-	    	<h2 class="owl-title" style=""> Motivational Quotes Goes Here</h2>
+	    	<h2 class="owl-title" style="color: #F21176;"> Motivational Quotes Goes Here</h2>
 	    		<!-- <p class="owl-caption">
 	    			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent iaculis purus vel enim suscipit, vitae volutpat ante scelerisque. Pellentesque blandit malesuada dui, sed aliquet risus molestie non.
 	    		</p> -->
@@ -381,8 +381,8 @@
 							<h4>Key Benefits</h4>
 							<hr>
 							<ul class="benefits">
-							<li>AM Renew Formula – A morning tablet formulated with Milk Thistle, traditionally used for liver support.</li>
-							<li>PM Reset Formula – An evening tablet formulated with Dandelion, traditionally used for healthy fluid balance.</li>
+							<li><strong>AM Renew Formula</strong> <br> A morning tablet formulated with Milk Thistle, traditionally used for liver support.</li>
+							<li><strong style="font-weight: strong;">PM Reset Formula </strong><br> An evening tablet formulated with Dandelion, traditionally used for healthy fluid balance.</li>
 							</ul>
 							<br>
 							<p class="product-link" id="21day">Learn More</p>
@@ -513,7 +513,7 @@
 <section id="testimonials" class="testimonial-section paragraph rich-content">
 <div class="container">
 	<div class="row">
-		<div class="col-xs-12">
+		<div class="col-xs-12" id="testimonials-area">
 
 		<h1 class="title">Testimonials</h1>
 
@@ -522,7 +522,11 @@
 
 		<div class="item">
 		<div class="col-md-6 testimonial-img">
-		<img src="<?php bloginfo('template_directory') ?>/img/results/results1.jpg" alt="">
+
+		
+		<img src="<?php bloginfo('template_directory') ?>/img/results/Before&After.jpg" alt=""> 
+	
+		
 		</div>
 
 		<div class="col-md-6 testimonial-info">
@@ -573,7 +577,7 @@
 <section id="join" class="join-section paragraph rich-content">
 <div class="container">
 	<div class="row">
-		<div class="col-xs-12">
+		<div class="col-xs-12" id="join-area">
 
 		<h1 class="title">Become a Coach Today</h1>
 
@@ -615,15 +619,15 @@
 </section>
 
 
-<section class="contact-section paragraph rich-content">
+<section id="contact" class="contact-section paragraph rich-content">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">
-			<div class="col-md-6" id="contact" >
+			<div class="col-md-6" id="contact-area" >
 				<h1 class='title text-center'>Contact Us!</h1>
                     <!-- START CONTACT FORM DESIGN AREA -->
                    <div class="contact-form">
-                   <form action="/" class="form-control" method='post' novalidate="novalidate">
+                   <form action="/" class="form-control" id="form-1" method='post' novalidate="novalidate">
 
                    <div class="form-group">
 
@@ -652,7 +656,7 @@
                    <div class="input-wrap">
                    	<textarea name="message" id="message" cols="30" rows="10" placeholder="What Can We Help You With?"></textarea>
                    </div>
-                   <input type="button" class="btn" id="submit-button" value="Send a Message">
+                   <input type="button" class="btn" id="submit-button" value="SUBMIT">
                    </div>
                    </form>
                    </div>
@@ -664,17 +668,19 @@
 			<h1 class='title text-center'>Come and see us</h1>
 			<p></p>
 			<div class="location-info">
-			<p>We are located at</p>
-			<p>1200 North Main St.</p>
-			<p>Graham, NC 27253</p>
-			<p>336-555-4025</p>
+			<p>The Club Address</p>
+			<p>The Club Phone Number</p>
+			<p>The Club Hours</p>
 			<br>
 
 			<div class="location-img">
 
-			<img src="<?php bloginfo('template_directory') ?>/img/club-location.jpg" alt="">
-				
+			<h1 class='title text-center'>A picture of your nutrition club goes here!</h1>
 
+
+			<!-- <img src="<?php bloginfo('template_directory') ?>/img/club-location.jpg" alt="">
+				
+ -->
 			</div>
 
 			</div>
@@ -692,16 +698,16 @@
 
 <!-- Mobile Contact  -->
 
-<section class="mobile-contact-section paragraph rich-content">
+<section id="contact" class="mobile-contact-section paragraph rich-content">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12" id=" mobile-contact" >
+			<div class="col-xs-12" id="mobile-contact" >
 
 				<h1 class='title text-center'>Contact Us!</h1>
 				
                     <!-- START CONTACT FORM DESIGN AREA -->
                    <div class="contact-form">
-                   <form action="/" class="form-control" method='post' novalidate="novalidate">
+                   <form action="/" class="form-control" id="form-2" method='post' novalidate="novalidate">
 
                    <div class="form-group">
 
@@ -740,16 +746,17 @@
 			<h1 class=' title text-center'>Come and see us</h1>
 			<p></p>
 			<div class="location-info">
-			<p>We are located at</p>
-			<p>1200 North Main St.</p>
-			<p>Graham, NC 27253</p>
-			<p>336-555-4025</p>
+			<p>The Club Address</p>
+			<p>The Club Phone Number</p>
+			<p>The Club Hours</p>
 			<br>
 
 			<div class="location-img">
 
-			<img src="<?php bloginfo('template_directory') ?>/img/club-location.jpg" alt="">
-				
+			<h1 class='title text-center'>A picture of your nutrition club goes here!</h1>
+
+			<!-- <img src="<?php bloginfo('template_directory') ?>/img/club-location.jpg" alt="">
+				 -->
 
 			</div>
 
