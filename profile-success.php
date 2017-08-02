@@ -56,14 +56,14 @@
 
 <div id="mobile-menu">
         <ul class="main-links">
-                         <li class=""><a href="#" target="_self">Home</a></li>
-                            <li class=""><a href="#" target="_self">Our Club</a></li>
-                            <li class=""><a  href="#" target="_self">Services</a></li>
-                            <li class=""><a  href="#" target="_self">Products</a></li>
-                            <li class=""><a  href="#" target="_self">Our Team</a></li>
-                            <li class=""><a  href="#" target="_self">Testimonials</a></li>
-                            <li class=""><a href="#" target="_blank">Join</a></li>
-                            <li class=""><a  href="#" target="_self">Contact</a></li>
+                          <li class=""><a class="" href="http://localhost/wordpress/nutrition-club/#home">Home</a></li>
+                            <li class=""><a class="" href="http://localhost/wordpress/nutrition-club/#about">Our Club</a></li>
+                            <li class=""><a class="" href="http://localhost/wordpress/nutrition-club/#services">Services</a></li>
+                            <li class=""><a class="" href="http://localhost/wordpress/nutrition-club/#products">Products</a></li>
+                            <li class=""><a class="" href="http://localhost/wordpress/nutrition-club/#team">Our Team</a></li>
+                            <li class=""><a class="" href="#testimonials-area">Testimonials</a></li>
+                            <li class=""><a class="" href="http://localhost/wordpress/nutrition-club/#join-area">Join</a></li>
+                            <li class=""><a class="" href="http://localhost/wordpress/nutrition-club/#mobile-contact">Contact</a></li>
         </ul>
 </div>
 
@@ -77,14 +77,14 @@
 
 
             <ul class="main-links">
-                            <li class=""><a class="menu-clubs" href="#" target="_self">Home</a></li>
-                            <li class=""><a class="menu-classes" href="#" target="_self">Our Club</a></li>
-                            <li class=""><a class="menu-training" href="#" target="_self">Services</a></li>
-                            <li class=""><a class="menu-pilates" href="#" target="_self">Products</a></li>
-                            <li class=""><a class="menu-spa" href="#" target="_self">Our Team</a></li>
-                            <li class=""><a class="menu-spotlight" href="#" target="_self">Testimonials</a></li>
-                            <li class=""><a class="menu-magazine" href="#" target="_blank">Join</a></li>
-                            <li class=""><a class="menu-hotel" href="#" target="_self">Contact</a></li>
+                            <li class=""><a class="" href="http://localhost/wordpress/nutrition-club/#home">Home</a></li>
+                            <li class=""><a class="" href="http://localhost/wordpress/nutrition-club/#about" target="_self">Our Club</a></li>
+                            <li class=""><a class="" href="http://localhost/wordpress/nutrition-club/#services" target="_self">Services</a></li>
+                            <li class=""><a class="" href="http://localhost/wordpress/nutrition-club/#products" target="_self">Products</a></li>
+                            <li class=""><a class="" href="http://localhost/wordpress/nutrition-club/#team" target="_self">Our Team</a></li>
+                            <li class=""><a class="" href="http://localhost/wordpress/nutrition-club/#testimonials" target="_self">Testimonials</a></li>
+                            <li class=""><a class="" href="http://localhost/wordpress/nutrition-club/#join">Join</a></li>
+                            <li class=""><a class="" href="http://localhost/wordpress/nutrition-club/#contact" target="_self">Contact</a></li>
 <!--                             <li class=""><a class="menu-join" href="#" target="_self">JOIN</a></li>
  -->            </ul>
 
