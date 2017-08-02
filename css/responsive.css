@@ -68,7 +68,7 @@ nav {
 #profile-mobile-menu {
 
   position: relative;
-  margin-top: -13%;
+  margin-top: -15%;
   left: 80% !important;
   width: 150px;
   height: 90px;
@@ -394,6 +394,7 @@ and (max-width : 568px) {
 
 #profile-mobile-menu {
   top: 10px !important;
+  margin-left: -2%;
   
 }
 
@@ -458,19 +459,32 @@ and (max-width : 320px) {
   left: -5%;
 }
 
-.nav-toggle,
+.nav-toggle {
+    position: relative;
+    left: 0% !important;
+    top: -25px;
+  }
+
 .nav-toggle2 {
     position: relative;
     left: 0% !important;
     top: -25px;
   }
 
-#mobile-menu,
-#profile-mobile-menu {
+
+#mobile-menu {
   left: 85% !important;
   top: 30px;
 
 }
+
+
+#profile-mobile-menu {
+  left: 87% !important;
+  top: 30px;
+
+}
+
 
 div.page-snap {
   width: 300vw !important;
@@ -736,8 +750,7 @@ and (orientation : portrait) {
 
  
 
-.nav-toggle,
-.nav-toggle2 {
+.nav-toggle {
     
   top: -17px !important;
   right: -1% !important;
@@ -745,11 +758,28 @@ and (orientation : portrait) {
 }
 
 
-#mobile-menu,
-#profile-mobile-menu {
+.nav-toggle2 {
+    
+  top: -25px !important;
+  right: -5% !important;
+
+}
+
+
+
+#mobile-menu {
  
   top: 25px !important;
   left: 85% !important;
+  
+  
+}
+
+
+#profile-mobile-menu {
+ 
+  top: 15px !important;
+  left: 87% !important;
   
   
 }
@@ -1056,15 +1086,20 @@ only screen and (min-device-pixel-ratio : 1.5) {
 }
 
 
-.nav-toggle,
+.nav-toggle, 
 .nav-toggle2 {
   top: -25px;
   margin-left: 96% !important;
 }
 
-#mobile-menu,
-#profile-mobile-menu {
+#mobile-menu {
   top: 30px;
+  left: 87% !important;
+}
+
+
+#profile-mobile-menu {
+  top: 20px;
   left: 87% !important;
 }
 
@@ -1122,19 +1157,32 @@ footer {
   left: -5%;
 }
 
-.nav-toggle,
-.nav-toggle2 {
+.nav-toggle {
     position: relative;
     left: 0% !important;
     top: -30px !important;
   }
 
-#mobile-menu,
-#profile-mobile-menu {
+
+.nav-toggle2 {
+    position: relative;
+    left: 1% !important;
+    top: -35px !important;
+  }
+
+
+#mobile-menu {
   left: 87% !important;
   top: 40px !important;
 
 }
+
+#profile-mobile-menu {
+  left: 90% !important;
+  top: 25px !important;
+
+}
+
 
 div.page-snap {
   width: 300vw !important;
@@ -1306,16 +1354,26 @@ footer {
 }
 
 
-.nav-toggle,
-.nav-toggle2 {
+.nav-toggle {
   top: -25px;
   margin-left: 96% !important;
 }
 
-#mobile-menu,
-#profile-mobile-menu {
+
+.nav-toggle2 {
+  top: -35px;
+  margin-left: 96% !important;
+}
+
+#mobile-menu {
   top: 40px;
   left: 87% !important;
+}
+
+
+#profile-mobile-menu {
+  top: 25px;
+  left: 89% !important;
 }
 
 
@@ -1388,19 +1446,32 @@ footer {
   left: -5%;
 }
 
-.nav-toggle,
-.nav-toggle2 {
+.nav-toggle {
     position: relative;
     left: 2% !important;
     top: -30px;
   }
 
-#mobile-menu,
-#profile-mobile-menu {
+
+.nav-toggle2 {
+    position: relative;
+    left: 2% !important;
+    top: -35px;
+  }
+
+
+#mobile-menu {
   left: 90% !important;
   top: 50px;
 
 }
+
+#profile-mobile-menu {
+  left: 91% !important;
+  top: 50px;
+
+}
+
 
 div.page-snap {
   width: 300vw !important;
