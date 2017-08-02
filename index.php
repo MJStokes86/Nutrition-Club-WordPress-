@@ -114,10 +114,10 @@
    	<div class="row">
    		<div class="col-md-8 col-md-offset-2 text-center">
 
-   		<h1 class=" title text-center">Our Club</h1>
+   		<h1 class="title text-center">Our Club</h1>
 		
 
-			<p>We promote healthy active lifestyle through good nutrition, supplements, weight loss challenges, shake parties and many other healthy and fun activities.</p>
+			<p class="wow fadeInDown">We promote healthy active lifestyle through good nutrition, supplements, weight loss challenges, shake parties and many other healthy and fun activities.</p>
 
    		</div>
    	</div>
@@ -128,7 +128,7 @@
 </section>
 
 
-
+<div class="services-wrapper">
 <section id="services" class="services-section paragraph rich-content">
 <div class="container grid">
 	<div class="row">
@@ -136,7 +136,7 @@
               <h1 class="title">Our Services</h1>
 
             <div class="services-inner">
-                <div class="row services-posts grid">
+                <div class="wow fadeInUp row services-posts grid">
                     <!-- START SINGLE SERVICE DESIGN AREA -->
                     <div class="col-md-4 col-sm-6">
                         <div class="item">
@@ -234,6 +234,7 @@
 
     </section>
     <!-- / END START SERVICE DESIGN AREA -->
+    </div>
 
 
 			
@@ -263,10 +264,10 @@
 
 		<div id="owl-demo2" class="owl-carousel text-left">
 				<div class="item">
-				<div class="col-md-6">
+				<div class="wow fadeInLeft col-md-6">
 					<img src="<?php bloginfo('template_directory');?>/img/formula1.png" class='img-responsive' id="owl2-img1">
 					</div>
-					<div class="col-md-6">
+					<div class=" wow fadeInRight col-md-6">
 						<div class="product-info">
 							<h1>Formula 1 Nutritional Shake Mix</h1>
 							<br>
@@ -289,10 +290,10 @@
 					</div>
 				</div>
 				<div class="item">
-				<div class="col-md-6">
+				<div class="wow fadeInLeft col-md-6">
 					<img src="<?php bloginfo('template_directory');?>/img/protein.jpg" class='img-responsive' id="owl2-img2">
 					</div>
-					<div class="col-md-6">
+					<div class="wow fadeInRight col-md-6">
 						<div class="product-info">
 						<h1>Protein Drink Mix</h1>
 						<br>
@@ -314,10 +315,10 @@
 				</div>
 
 				<div class="item">
-				<div class="col-md-6">
+				<div class="wow fadeInLeft col-md-6">
 					<img src="<?php bloginfo('template_directory');?>/img/tea.jpg" class='img-responsive' id="owl2-img3">
 					</div>
-					<div class="col-md-6">
+					<div class="wow fadeInRight col-md-6">
 						<div class="product-info">
 							<h1>Herbal Tea Concentrate</h1>
 							<br>
@@ -341,10 +342,10 @@
 				</div>
 
 				<div class="item">
-				<div class="col-md-6 product-img">
+				<div class="wow fadeInLeft col-md-6 product-img">
 					<img src="<?php bloginfo('template_directory');?>/img/aloe.png" class='img-responsive' id="owl2-img4">
 					</div>
-					<div class="col-md-6">
+					<div class="wow fadeInRight col-md-6">
 						<div class="product-info">
 							<h1>Herbal Aloe Concentrate</h1>
 							<br>.
@@ -367,10 +368,10 @@
 				</div>
 
 				<div class="item">
-				<div class="col-md-6">
+				<div class="wow fadeInLeft col-md-6">
 					<img src="<?php bloginfo('template_directory');?>/img/21day.jpg" class='img-responsive' id="owl2-img5">
 					</div>
-					<div class="col-md-6">
+					<div class="wow fadeInRight col-md-6">
 						<div class="product-info">
 							<h1>21-Day Herbal Cleansing Program</h1>
 							<br>
@@ -441,7 +442,7 @@
 </section>
 
 
-
+<div class="team-wrapper">
 <section id="team" class="team-section paragraph rich-content">
 <div class="container">
 	<div class="row">
@@ -451,7 +452,7 @@
 
 		<div class="col-md-6 col-md-3 col-centered">
 			<div class="team-member">
-				<div class="team-img">
+				<div class="team-img wow bounceIn">
 					<img src="<?php bloginfo('template_directory')?>/img/coaches/team-member1.jpg" alt="">
 				</div>
 				<div class="team-info">
@@ -465,7 +466,7 @@
 
 		<div class="col-md-6 col-md-3 col-centered">
 			<div class="team-member">
-				<div class="team-img">
+				<div class="team-img wow bounceIn" data-wow-delay=".25s">
 					<img src="<?php bloginfo('template_directory')?>/img/coaches/team-member2.jpg"  alt="">
 				</div>
 				<div class="team-info">
@@ -480,7 +481,7 @@
 
 		<div class="col-md-6 col-md-3 col-centered">
 			<div class="team-member">
-				<div class="team-img">
+				<div class="team-img wow bounceIn" data-wow-delay=".50s">
 					<img src="<?php bloginfo('template_directory')?>/img/coaches/team-member3.jpg" " alt="">
 				</div>
 				<div class="team-info">
@@ -506,10 +507,11 @@
 
 
 </section>
+</div>
 
 
 
-
+<div class="testimonials-wrapper">
 <section id="testimonials" class="testimonial-section paragraph rich-content">
 <div class="container">
 	<div class="row">
@@ -521,7 +523,7 @@
 
 
 		<div class="item">
-		<div class="col-md-6 testimonial-img">
+		<div class="col-md-6 testimonial-img wow fadeInLeft">
 
 		
 		<img src="<?php bloginfo('template_directory') ?>/img/results/Before&After.jpg" alt=""> 
@@ -529,7 +531,7 @@
 		
 		</div>
 
-		<div class="col-md-6 testimonial-info">
+		<div class="col-md-6 testimonial-info wow fadeInRight">
 
 		<h3>Person's Name Goes Here</h3>
 		<hr>
@@ -538,11 +540,11 @@
 		</div>
 
 		<div class="item">
-		<div class="col-md-6 testimonial-img">
+		<div class="col-md-6 testimonial-img wow fadeInLeft">
 		<img src="<?php bloginfo('template_directory') ?>/img/results/results2.jpg" alt="">
 		</div>
 
-		<div class="col-md-6 testimonial-info">
+		<div class="col-md-6 testimonial-info wow fadeInRight">
 
 		<h3>Person's Name Goes Here</h3>
 		<hr>
@@ -569,11 +571,12 @@
 
 
 </section>
+</div>
 
 
 
 
-
+<div class="join-wrapper">
 <section id="join" class="join-section paragraph rich-content">
 <div class="container">
 	<div class="row">
@@ -587,11 +590,11 @@
 
 		<div class="info-video text-center">
 		<br>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/pTuQV26Bt0M" frameborder="0" allowfullscreen></iframe>
+		<iframe class="wow fadeInUp" width="560" height="315" src="https://www.youtube.com/embed/pTuQV26Bt0M" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<br>
 		
-			<a href="#" class='join-button'>Join Now</a>
+			<a href="#" class='join-button wow fadeInUp'>Join Now</a>
 		
 			
 
@@ -617,13 +620,14 @@
 
 
 </section>
+</div>
 
-
+<div class="contact-wrapper">
 <section id="contact" class="contact-section paragraph rich-content">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">
-			<div class="col-md-6" id="contact-area" >
+			<div class="col-md-6 wow fadeInLeft" id="contact-area" >
 				<h1 class='title text-center'>Contact Us!</h1>
                     <!-- START CONTACT FORM DESIGN AREA -->
                    <div class="contact-form">
@@ -664,7 +668,7 @@
 
 			</div>
 
-			<div class="col-md-6 location">
+			<div class="col-md-6 location wow fadeInRight">
 			<h1 class='title text-center'>Come and see us</h1>
 			<p></p>
 			<div class="location-info">
@@ -695,9 +699,11 @@
 
 
 </section>
+</div>
 
 <!-- Mobile Contact  -->
 
+<div class="contact-wrapper">
 <section id="contact" class="mobile-contact-section paragraph rich-content">
 	<div class="container">
 		<div class="row">
@@ -776,6 +782,7 @@
 
 
 </section>
+</div>
 
 <!-- Mobile Contact Ends
  -->

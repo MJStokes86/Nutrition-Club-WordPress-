@@ -417,6 +417,7 @@ div.page-snap {
   width: 150vw !important;
 }
 
+
 .services-posts {
   left: -20% !important;
 }
@@ -456,7 +457,7 @@ footer {
 
 
 
-.footer {
+.footer-info {
   margin-left: 25% !important;
 }
 
@@ -520,6 +521,24 @@ div.mfp-bg.mfp-ready {
   width: 300vw !important;
 }
 
+.services-wrapper {
+  width: 300% !important;
+  position: relative;
+  top: 70px !important;
+  height: 1100px;
+}
+
+#services {
+  position: relative;
+  left: -80% !important;
+}
+
+#services .title {
+  position: relative;
+  left: -35% !important;
+}
+
+
 .service-popup {
 
   margin-top: 100% !important;
@@ -582,11 +601,17 @@ div.mfp-bg.mfp-ready {
 
 }
 
+#products {
+  position: relative;
+  top: 70px !important;
+}
+
 
 div#owl-demo2.owl-carousel.text-left.owl-theme {
   width: 500px !important;
   position:  relative;
   left: -35%;
+
 }
 
 
@@ -640,7 +665,7 @@ footer {
   
 }
 
-.footer {
+.footer-info {
   left: -12% !important;
 }
 
@@ -750,7 +775,7 @@ and (orientation : landscape) {
   width: 170vw !important;
  }
 
- .footer {
+ .footer-info {
   left: 0% !important;
  }
 
@@ -889,7 +914,7 @@ footer {
   width: 130vw !important;
 }
 
-.footer {
+.footer-info {
   left: -5% !important;
 }
 
@@ -1011,7 +1036,7 @@ and (orientation: landscape) {
   width: 170vw !important;
  }
 
- .footer {
+ .footer-info {
   left: 0% !important;
  }
 
@@ -1105,7 +1130,7 @@ div.page-snap {
   left: 50%;
 }
 
-.footer {
+.footer-info {
   left: 0% !important;
 }
 
@@ -1191,7 +1216,7 @@ footer {
 
 
 
-.footer {
+.footer-info {
   margin-left: 0 !important;
 }
 
@@ -1396,7 +1421,7 @@ footer {
   
 }
 
-.footer {
+.footer-info {
   left: -15% !important;
 }
 
@@ -1483,7 +1508,7 @@ footer {
 
 
 
-.footer {
+.footer-info {
   margin-left: 17% !important;
 }
 
@@ -1633,7 +1658,7 @@ footer {
   
 }
 
-.footer {
+.footer-info {
   left: -15% !important;
 }
 

@@ -2,7 +2,7 @@
 
 			<footer>
 
-			<div class="footer">
+			<div class="wow fadeInUp footer-info">
 
             <div class="footer-logo text-center"><img src="<?php bloginfo('template_directory')?>/img/StokesNutrition-Logo.png" alt="Stokes Nutrition"></div>
            
@@ -23,7 +23,14 @@
         <li 
                     class=""><a href="<?php bloginfo('template_directory') ?>/earnings.php" target="_blank">Earnings Disclaimer</a></li>
 	</ul>
+	
+	<div class="developer-wrapper text-center">
+	  <br><p>Site By</p><a target="_blank" rel="nofollow" href="http://www.mjstokes.com/"><br><img class='developer-logo' src="<?php bloginfo('template_directory') ?>/img/Logo.png" alt="http://mjstokes.com" id="footer-logo"><br> Michael J. Stokes</a>
+	  </div>
+
 	</div>
+
+
 
 </footer>
 
