@@ -301,6 +301,7 @@ nav {
   display: none !important;
 }
 
+
 #mobile-contact {
   width: 100% !important;
  
@@ -317,6 +318,11 @@ nav {
 #mobile-contact .input-wrap {
   width: 100% !important;
 }
+
+#form-2 {
+  height: 700px !important;
+}
+
 
 .location {
   height: 700px !important;
