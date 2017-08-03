@@ -372,6 +372,7 @@ and (max-device-width : 568px) {
   body {
     overflow-x: hidden;
   }
+  
 
 
 
@@ -383,9 +384,13 @@ and (max-device-width : 568px) {
 @media only screen 
 and (max-width : 568px) {
 
+.logo {
+  left: 0 !important;
+}
+
 .nav-toggle {
-  top: -15px !important;
-  margin-left: 95% !important;
+  top: -110px !important;
+  left: 2% !important;
 }
 
 
@@ -397,8 +402,8 @@ and (max-width : 568px) {
 
 
 #mobile-menu {
-  top: 17px !important;
-  left: 85% !important;
+  top: 137px !important;
+  margin-left: 7% !important;
 }
 
 #profile-mobile-menu {
@@ -409,21 +414,32 @@ and (max-width : 568px) {
 
 
 
-.row {
-  left: 20% !important;
-}
-
 div.page-snap {
-  width: 150vw !important;
+  width: 400vw !important;
+
+}
+
+.rich-content header img {
+  height: 1200px !important;
 }
 
 
-.services-posts {
-  left: -20% !important;
-}
 
 div.mfp-bg.mfp-ready {
-  width: 200vw !important;
+  width: 500vw !important;
+}
+
+
+
+
+.service-popup img {
+  height: 300px;
+  width: 300px;
+}
+
+#evaluation {
+  position: relative;
+  left: 140% !important;
 }
 
 #evaluation .ghost-btn {
@@ -431,12 +447,55 @@ div.mfp-bg.mfp-ready {
   left: 20% !important;
 }
 
+#challenge {
+  left: 140% !important;
+  top: 100px !important;
+}
+
+#challenge .ghost-btn {
+  left: 27% !important;
+}
+
+#shakes {
+  left: 160% !important;
+}
+
 #shakes img {
-  left: 35% !important;
+  left: 10% !important;
+}
+
+#shakes .ghost-btn {
+  left: 20% !important;
+}
+
+#events {
+  left: 140% !important;
+}
+
+#events img {
+  height: 300px;
+  width: 500px;
+  left: 0 !important;
+}
+
+#trial-pack {
+  left: 140% !important;
 }
 
 #trial-pack img {
   left: 35% !important;
+}
+
+#trial-pack-info {
+  left: 35% !important;
+}
+
+#trial-pack .ghost-btn {
+  left: 5% !important;
+}
+
+#coach {
+  left: 140% !important;
 }
 
 #coach img {
@@ -461,7 +520,108 @@ footer {
   margin-left: 25% !important;
 }
 
- 
+
+.services-wrapper {
+  width: 400% !important;
+  position: relative;
+  top: 70px !important;
+  height: 1100px;
+}
+
+#about {
+  left: 125% !important;
+}
+
+#services {
+  position: relative;
+  left: -12% !important;
+}
+
+#services .title {
+  position: relative;
+  left: 0 !important;
+}
+
+#products {
+  position: relative;
+  top: 80px !important;
+  left: 120% !important;
+}
+
+ .team-wrapper {
+  width: 400% !important;
+  position: relative;
+  top: 70px !important;
+  height: 1100px;
+}
+
+
+.team-member {
+  left: -17% !important;
+}
+
+#team {
+  position: relative;
+  left: -17% !important; 
+}
+
+#team .title {
+  position: relative;
+  left: 10% !important;
+}
+
+#team-member3 {
+  position: relative;
+  left: 200% !important;
+  top: -710px !important;
+
+}
+
+
+.join-wrapper {
+  width: 400% !important;
+  position: relative;
+  top: 700px !important;
+  height: 700px;
+}
+
+#testimonials {
+  position: relative;
+  left: 120% !important;
+  top: -200px !important;
+}
+
+#join {
+   position: relative;
+   left: -13% !important;
+   top: 60px !important;
+}
+
+.info-video iframe {
+  position: relative;
+  left: 0% !important;
+}
+
+.join-button {
+  left: 40% !important;
+}
+
+#contact {
+  position: relative;
+  top: 700px !important;
+  left: 120% !important;
+}
+
+
+.mobile-contact-section {
+  height: 1000px !important;
+}
+
+footer {
+ top: 8000px !important;
+ width: 400% !important;
+}
+
 
 }
 
@@ -509,7 +669,11 @@ div.page-snap {
 }
 
 .row {
-  left: 180% !important;
+  left: 30% !important;
+}
+
+#about {
+left: 1000px !important;
 }
 
 .services-posts {
@@ -530,7 +694,7 @@ div.mfp-bg.mfp-ready {
 
 #services {
   position: relative;
-  left: -110% !important;
+  left: 3% !important;
 }
 
 #services .title {
@@ -553,6 +717,12 @@ div.mfp-bg.mfp-ready {
 #evaluation img {
   left: -7% !important;
 }
+
+
+#evaluation .ghost-btn {
+  left: 0 !important;
+}
+
 
 #challenge {
   margin-left: -150% !important;
@@ -593,17 +763,21 @@ div.mfp-bg.mfp-ready {
 }
 
 #coach {
-  left: -25% !important;
+  left: -100% !important;
 }
 
 #coach img {
-  left: 40% !important;
+  left: -100% !important;
+}
 
+#coach-info {
+  left: -70% !important;
 }
 
 #products {
   position: relative;
   top: 70px !important;
+  left: 110% !important;
 }
 
 
@@ -635,7 +809,7 @@ div#owl-demo2.owl-carousel.text-left.owl-theme {
 
 #team {
   position: relative;
-  left: -145% !important; 
+  left: -30% !important; 
 }
 
 #team .title {
@@ -675,7 +849,7 @@ div#owl-demo2.owl-carousel.text-left.owl-theme {
 
 #join {
    position: relative;
-   left: -135% !important;
+   left: -22% !important;
    top: -800px !important;
 }
 
@@ -733,6 +907,20 @@ input {
   position: relative;
   left: -40% !important;
 }
+
+
+#about {
+  left: 125% !important;
+}
+
+
+
+#testimonials {
+  position: relative;
+  left: 120% !important;
+  
+}
+
 
 
 
@@ -1213,54 +1401,130 @@ only screen and (min-device-pixel-ratio : 1.5) {
 { 
 
 .logo {
-  left: -5%;
+  left: 0 !important;
+}
+
+.nav-toggle {
+  top: -110px !important;
+  left: 2% !important;
 }
 
 
-.nav-toggle, 
 .nav-toggle2 {
-  top: -25px;
-  margin-left: 96% !important;
+  top: -17px !important;
+  margin-left: 95% !important;
 }
+
+
 
 #mobile-menu {
-  top: 30px;
-  left: 87% !important;
+  top: 137px !important;
+  margin-left: 7% !important;
 }
-
 
 #profile-mobile-menu {
-  top: 20px;
-  left: 87% !important;
+  top: 10px !important;
+  margin-left: -2%;
+  
 }
 
 
 
-.row {
+div.page-snap {
+  width: 400vw !important;
+
+}
+
+.rich-content header img {
+  height: 1200px !important;
+}
+
+
+
+div.mfp-bg.mfp-ready {
+  width: 500vw !important;
+}
+
+
+
+
+.service-popup img {
+  height: 300px;
+  width: 300px;
+}
+
+#evaluation {
+  position: relative;
+  left: 140% !important;
+}
+
+#evaluation .ghost-btn {
+  position: relative;
+  left: 20% !important;
+}
+
+#challenge {
+  left: 140% !important;
+  top: 100px !important;
+}
+
+#challenge .ghost-btn {
+  left: 27% !important;
+}
+
+#shakes {
+  left: 160% !important;
+}
+
+#shakes img {
+  left: 10% !important;
+}
+
+#shakes .ghost-btn {
+  left: 20% !important;
+}
+
+#events {
+  left: 140% !important;
+}
+
+#events img {
+  height: 300px;
+  width: 500px;
+  left: 0 !important;
+}
+
+#trial-pack {
+  left: 140% !important;
+}
+
+#trial-pack img {
+  left: 35% !important;
+}
+
+#trial-pack-info {
+  left: 35% !important;
+}
+
+#trial-pack .ghost-btn {
+  left: 5% !important;
+}
+
+#coach {
+  left: 140% !important;
+}
+
+#coach img {
   left: 30% !important;
 }
 
-div.page-snap {
-  width: 150vw !important;
-}
-
-.services-posts {
-  left: -10% !important;
-}
-
-div.mfp-bg.mfp-ready {
-  width: 200vw !important;
-}
-
-
-.testimonial-img {
-  left: 0% !important;
+.testimonial-img img {
+  left: -3% !important;
 }
 
 #form-2 {
   height: 700px !important;
 }
-
 
 footer {
   width: 150vw !important;
@@ -1269,7 +1533,109 @@ footer {
 
 
 .footer-info {
-  margin-left: 0 !important;
+  margin-left: 25% !important;
+}
+
+
+.services-wrapper {
+  width: 400% !important;
+  position: relative;
+  top: 70px !important;
+  height: 1100px;
+}
+
+#about {
+  left: 125% !important;
+}
+
+#services {
+  position: relative;
+  left: -12% !important;
+}
+
+#services .title {
+  position: relative;
+  left: 0 !important;
+}
+
+#products {
+  position: relative;
+  top: 80px !important;
+  left: 120% !important;
+}
+
+ .team-wrapper {
+  width: 400% !important;
+  position: relative;
+  top: 70px !important;
+  height: 1100px;
+}
+
+
+.team-member {
+  left: -17% !important;
+}
+
+#team {
+  position: relative;
+  left: -17% !important; 
+}
+
+#team .title {
+  position: relative;
+  left: 10% !important;
+}
+
+#team-member3 {
+  position: relative;
+  left: 200% !important;
+  top: -710px !important;
+
+}
+
+
+.join-wrapper {
+  width: 400% !important;
+  position: relative;
+  top: 700px !important;
+  height: 700px;
+}
+
+#testimonials {
+  position: relative;
+  left: 120% !important;
+  top: -200px !important;
+}
+
+#join {
+   position: relative;
+   left: -13% !important;
+   top: 60px !important;
+}
+
+.info-video iframe {
+  position: relative;
+  left: 0% !important;
+}
+
+.join-button {
+  left: 40% !important;
+}
+
+#contact {
+  position: relative;
+  top: 700px !important;
+  left: 120% !important;
+}
+
+
+.mobile-contact-section {
+  height: 1000px !important;
+}
+
+footer {
+ top: 8000px !important;
+ width: 400% !important;
 }
 
 
@@ -1288,7 +1654,6 @@ footer {
     overflow-x: hidden !important;
   }
 
-
 .logo {
   left: -5%;
 }
@@ -1296,32 +1661,32 @@ footer {
 .nav-toggle {
     position: relative;
     left: 0% !important;
-    top: -30px !important;
+    top: -45px !important;
   }
-
 
 .nav-toggle2 {
     position: relative;
-    left: 1% !important;
-    top: -35px !important;
+    left: 0% !important;
+    top: -25px;
   }
 
 
 #mobile-menu {
-  left: 87% !important;
-  top: 40px !important;
+  left: 85% !important;
+  top: 30px;
 
 }
 
+
 #profile-mobile-menu {
-  left: 90% !important;
-  top: 25px !important;
+  left: 87% !important;
+  top: 30px;
 
 }
 
 
 div.page-snap {
-  width: 300vw !important;
+  width: 400vw !important;
 }
 
 .rich-content header img {
@@ -1329,19 +1694,44 @@ div.page-snap {
 }
 
 .row {
-  left: 110% !important;
+  left: 30% !important;
+}
+
+#about {
+left: 1000px !important;
 }
 
 .services-posts {
-  left: -45% !important;
+  left: -50% !important;
 }
+
 
 div.mfp-bg.mfp-ready {
-  width: 300vw !important;
+  width: 500vw !important;
 }
 
+.services-wrapper {
+  width: 400% !important;
+  position: relative;
+  top: 70px !important;
+  height: 1100px;
+}
+
+#services {
+  position: relative;
+  left: 3% !important;
+}
+
+#services .title {
+  position: relative;
+  left: -35% !important;
+}
+
+
 .service-popup {
-  top: 400px !important;
+
+  margin-top: 100% !important;
+  left: -10% !important;
 }
 
 .service-popup img {
@@ -1353,16 +1743,22 @@ div.mfp-bg.mfp-ready {
   left: -7% !important;
 }
 
-#challenge {
+
+#evaluation .ghost-btn {
   left: 0 !important;
 }
 
+
+#challenge {
+  margin-left: -150% !important;
+}
+
 #challenge img {
-  left: 10% !important;
+  left: -110% !important;
 }
 
 #challenge-info {
-  left: -20% !important;
+  left: -70% !important;
 }
 
 #shakes img {
@@ -1376,43 +1772,59 @@ div.mfp-bg.mfp-ready {
 #events img {
   height: 300px;
   width: 300px;
-  left: -5% !important;
+  left: -10% !important;
 }
 
 #events .ghost-btn {
   left: 0 !important;
-  text-align: center !important;
 }
 
 #trial-pack img {
-  left: 0% !important;
+  left: -5% !important;
 }
 
 #trial-pack .ghost-btn {
   left: 0 !important;
-  text-align: center !important;
 }
 
 #coach {
-  left: -25% !important;
+  left: -100% !important;
 }
 
 #coach img {
-  left: 40% !important;
-
+  left: -100% !important;
 }
+
+#coach-info {
+  left: -70% !important;
+}
+
+#products {
+  position: relative;
+  top: 70px !important;
+  left: 110% !important;
+}
+
 
 div#owl-demo2.owl-carousel.text-left.owl-theme {
   width: 500px !important;
   position:  relative;
   left: -35%;
+
 }
 
 
 #owl2-img2,
 #owl2-img3,
 #owl2-img5 {
-  margin-left: 30% !important;
+  margin-left: 25% !important;
+}
+
+.team-wrapper {
+  width: 400% !important;
+  position: relative;
+  top: 70px !important;
+  height: 1100px;
 }
 
 
@@ -1420,11 +1832,23 @@ div#owl-demo2.owl-carousel.text-left.owl-theme {
   left: -17% !important;
 }
 
-/* 
-#owl-demo2 .owl-item {
-  width: 100% !important;
-  padding: 30px !important;
-} */
+#team {
+  position: relative;
+  left: -30% !important; 
+}
+
+#team .title {
+  position: relative;
+  left: 10% !important;
+}
+
+#team-member3 {
+  position: relative;
+  left: 200% !important;
+  top: -710px !important;
+
+}
+
 
 #owl-demo3 {
   width: 500px !important;
@@ -1432,23 +1856,35 @@ div#owl-demo2.owl-carousel.text-left.owl-theme {
   left: -35% !important;
 }
 
-.testimonial-img {
-  left: 0 !important;
+.testimonial-img img {
+  left: -3% !important;
 }
 
-.join-section {
+#testimonials {
   position: relative;
-  left: -10% !important;
+  top: -200px !important;
+}
+
+.join-wrapper {
+  width: 400% !important;
+  position: relative;
+  top: 700px !important;
+  height: 700px;
+}
+
+#join {
+   position: relative;
+   left: -22% !important;
+   top: -800px !important;
 }
 
 .info-video iframe {
   position: relative;
-  left: -30% !important;
+  left: 0% !important;
 }
 
 .join-button {
-  position: relative;
-  left: 30% !important;
+  left: 40% !important;
 }
 
 .contact-form {
@@ -1459,22 +1895,55 @@ div#owl-demo2.owl-carousel.text-left.owl-theme {
   height: 700px !important;
 }
 
-.contact-section {
-  height: 1700px !important;
+#contact {
+  position: relative;
+  top: 700px !important;
 }
 
-.join-button {
-  left: 12%;
+
+.mobile-contact-section {
+  height: 1000px !important;
 }
+
+
 
 footer {
-  height: 300px !important;
-  width: 300vw !important;
+  position: relative;
+  top: 1000px !important;
+  height: 500px !important;
+  width: 500vw !important;
   
 }
 
 .footer-info {
-  left: -15% !important;
+  left: -21% !important;
+  
+}
+
+input {
+  width: 100% !important;
+}
+
+.location {
+  height: 800px !important;
+}
+
+.location-img img {
+  position: relative;
+  left: -40% !important;
+}
+
+
+#about {
+  left: 125% !important;
+}
+
+
+
+#testimonials {
+  position: relative;
+  left: 120% !important;
+  
 }
 
 
@@ -1554,10 +2023,10 @@ div.mfp-bg.mfp-ready {
 }
 
 
-footer {
+/* footer {
   width: 150vw !important;
 }
-
+ */
 
 
 .footer-info {
