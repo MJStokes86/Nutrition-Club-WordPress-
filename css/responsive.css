@@ -1126,6 +1126,10 @@ and (orientation : portrait) {
 
 }
 
+#about {
+  left: 135% !important;
+}
+
 
 
 #mobile-menu {
@@ -1163,6 +1167,7 @@ div.page-snap {
 
 .services-section  {
   height: 800px;
+  left: -4% !important;
 }
 
 .services-posts {
@@ -1187,6 +1192,10 @@ div.page-snap {
   left: 10% !important;
  }
 
+ #products {
+  left: 135% !important;
+ }
+
 
 #owl-demo2 {
   left: 5% !important;
@@ -1201,11 +1210,15 @@ div.page-snap {
 
 #team {
   position: relative;
-  left: 5% !important;
+  left: -5% !important;
 }
 
 .team-member {
-  left: 30% !important;
+  left: 10% !important;
+}
+
+#testimonials {
+  left: 140% !important;
 }
 
 .testimonial-img {
