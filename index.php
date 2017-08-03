@@ -451,7 +451,7 @@
 		<h1 class="title">Meet Your Coaches</h1>
 
 		<div class="col-md-6 col-md-3 col-centered">
-			<div class="team-member">
+			<div class="team-member" id="team-member1">
 				<div class="team-img wow bounceIn">
 					<img src="<?php bloginfo('template_directory')?>/img/coaches/team-member1.jpg" alt="">
 				</div>
@@ -465,7 +465,7 @@
 		</div>
 
 		<div class="col-md-6 col-md-3 col-centered">
-			<div class="team-member">
+			<div class="team-member" id="team-member2">
 				<div class="team-img wow bounceIn" data-wow-delay=".25s">
 					<img src="<?php bloginfo('template_directory')?>/img/coaches/team-member2.jpg"  alt="">
 				</div>

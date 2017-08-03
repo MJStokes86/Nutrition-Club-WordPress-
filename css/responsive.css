@@ -148,8 +148,12 @@ nav {
   width: 50%;
 }
 
+
 .services-section {
+  position: relative;
   height: 2000px;
+  left: -25% !important;
+
 }
 
 .services-section .grid figure {
@@ -227,6 +231,8 @@ nav {
 
 .products-section {
   height: 1200px !important;
+  position: relative;
+  top: 80px !important;
 }
 
 
@@ -257,20 +263,47 @@ nav {
 }
 
 
+#team {
+  position: relative;
+  left: -30% !important;
+}
+
+#team .title {
+  position: relative;
+  left: 10% !important;
+}
+
 
 /* #owl-demo2 .owl-controls {
   display: none !important;
 } */
 
-.team-member {
+/* .team-member {
   position: relative;
   left: 20% !important;
-}
+} */
 
 .team-img img {
-  height: 300px !important;
-  width: 300px !important;
+  height: 200px !important;
+  width: 200px !important;
   left: 0 !important;
+}
+
+#team-member2 {
+  position: relative;
+  left: 0 !important;
+}
+
+#team-member3 {
+  position: relative;
+  left: 180% !important;
+  top: -678px !important;
+
+}
+
+#testimonials {
+  position: relative;
+  top: -150px !important;
 }
 
 
@@ -284,6 +317,9 @@ nav {
 }
 
 .join-section {
+  position: relative;
+  top: -650px !important;
+  left: -25% !important;
   height: 1700px;
 }
 
@@ -293,7 +329,7 @@ nav {
 
 .join-button {
   position: relative;
-  left: 35%;
+  left: 41%;
 }
 
 
@@ -310,7 +346,8 @@ nav {
 .mobile-contact-section {
   display: block !important;
   position: relative;
-  top: 100px !important;
+  top: 700px !important;
+  margin-bottom: 20% !important;
   
 }
 
@@ -344,10 +381,28 @@ nav {
 
 
 footer {
-  margin-bottom: -50% !important;
+  top: 8000px !important; }
+
+
+.services-wrapper {
+  width: 200% !important;
+  position: relative;
+  top: 70px !important;
+  height: 1100px;
 }
 
-
+.team-wrapper {
+  width: 200% !important;
+  position: relative;
+  top: 70px !important;
+  height: 1100px;
+}
+.join-wrapper {
+  width: 200% !important;
+  position: relative;
+  top: 700px !important;
+  height: 700px;
+}
 
 
 
@@ -1021,6 +1076,25 @@ and (orientation : landscape) {
 
 
 
+.services-wrapper {
+  width: 400% !important;
+  position: relative;
+  top: 70px !important;
+  height: 1100px;
+}
+
+.team-wrapper {
+  width: 400% !important;
+  position: relative;
+  top: 70px !important;
+  height: 1100px;
+}
+.join-wrapper {
+  width: 400% !important;
+  position: relative;
+  top: 700px !important;
+  height: 700px;
+}
 
 
 
@@ -1076,7 +1150,11 @@ and (orientation : portrait) {
 }
 
 div.page-snap {
-  width: 130vw !important;
+  width: 400vw !important;
+}
+
+.rich-content header img {
+  height: 200vw !important;
 }
 
 .row {
@@ -1157,6 +1235,27 @@ footer {
 .footer-info {
   left: -5% !important;
 }
+
+.services-wrapper {
+  width: 400% !important;
+  position: relative;
+  top: 70px !important;
+  height: 1100px;
+}
+
+.team-wrapper {
+  width: 400% !important;
+  position: relative;
+  top: 70px !important;
+  height: 1100px;
+}
+.join-wrapper {
+  width: 400% !important;
+  position: relative;
+  top: 700px !important;
+  height: 700px;
+}
+
 
 
 
@@ -1405,8 +1504,8 @@ only screen and (min-device-pixel-ratio : 1.5) {
 }
 
 .nav-toggle {
-  top: -110px !important;
-  left: 2% !important;
+  top: -140px !important;
+  left: 4% !important;
 }
 
 
@@ -1418,8 +1517,8 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
 
 #mobile-menu {
-  top: 137px !important;
-  margin-left: 7% !important;
+  top: 167px !important;
+  margin-left: 15% !important;
 }
 
 #profile-mobile-menu {
@@ -1533,7 +1632,7 @@ footer {
 
 
 .footer-info {
-  margin-left: 25% !important;
+  margin-left: 0 !important;
 }
 
 
@@ -1545,12 +1644,12 @@ footer {
 }
 
 #about {
-  left: 125% !important;
+  left: 150% !important;
 }
 
 #services {
   position: relative;
-  left: -12% !important;
+  left: 0 !important;
 }
 
 #services .title {
@@ -1561,7 +1660,7 @@ footer {
 #products {
   position: relative;
   top: 80px !important;
-  left: 120% !important;
+  left: 150% !important;
 }
 
  .team-wrapper {
@@ -1578,7 +1677,7 @@ footer {
 
 #team {
   position: relative;
-  left: -17% !important; 
+  left: -3% !important; 
 }
 
 #team .title {
@@ -1603,13 +1702,13 @@ footer {
 
 #testimonials {
   position: relative;
-  left: 120% !important;
+  left: 150% !important;
   top: -200px !important;
 }
 
 #join {
    position: relative;
-   left: -13% !important;
+   left: 0 !important;
    top: 60px !important;
 }
 
@@ -1625,7 +1724,7 @@ footer {
 #contact {
   position: relative;
   top: 700px !important;
-  left: 120% !important;
+  left: 150% !important;
 }
 
 
@@ -1637,6 +1736,8 @@ footer {
  top: 8000px !important;
  width: 400% !important;
 }
+
+
 
 
 
@@ -1660,8 +1761,8 @@ footer {
 
 .nav-toggle {
     position: relative;
-    left: 0% !important;
-    top: -45px !important;
+    left: 3% !important;
+    top: -60px !important;
   }
 
 .nav-toggle2 {
@@ -1673,7 +1774,7 @@ footer {
 
 #mobile-menu {
   left: 85% !important;
-  top: 30px;
+  top: 77px !important;
 
 }
 
@@ -1916,7 +2017,7 @@ footer {
 }
 
 .footer-info {
-  left: -21% !important;
+  left: -23% !important;
   
 }
 
@@ -1959,79 +2060,243 @@ input {
   and (-webkit-min-device-pixel-ratio: 3)
 {
 .logo {
-  left: -5%;
+  left: 0 !important;
 }
 
-
 .nav-toggle {
-  top: -25px;
-  margin-left: 96% !important;
+  top: -140px !important;
+  left: 4% !important;
 }
 
 
 .nav-toggle2 {
-  top: -35px;
-  margin-left: 96% !important;
+  top: -17px !important;
+  margin-left: 95% !important;
 }
+
+
 
 #mobile-menu {
-  top: 40px;
-  left: 87% !important;
+  top: 167px !important;
+  margin-left: 15% !important;
 }
-
 
 #profile-mobile-menu {
-  top: 25px;
-  left: 89% !important;
+  top: 10px !important;
+  margin-left: -2%;
+  
 }
 
 
-
-.row {
-  left: 30% !important;
-}
 
 div.page-snap {
-  width: 150vw !important;
+  width: 400vw !important;
+
 }
 
-.services-posts {
-  left: -5% !important;
+.rich-content header img {
+  height: 1200px !important;
 }
+
+
 
 div.mfp-bg.mfp-ready {
-  width: 200vw !important;
+  width: 500vw !important;
 }
 
-.team-member {
+
+
+
+.service-popup img {
+  height: 300px;
+  width: 300px;
+}
+
+#evaluation {
+  position: relative;
+  left: 140% !important;
+}
+
+#evaluation .ghost-btn {
+  position: relative;
+  left: 20% !important;
+}
+
+#challenge {
+  left: 140% !important;
+  top: 100px !important;
+}
+
+#challenge .ghost-btn {
+  left: 27% !important;
+}
+
+#shakes {
+  left: 160% !important;
+}
+
+#shakes img {
+  left: 10% !important;
+}
+
+#shakes .ghost-btn {
+  left: 20% !important;
+}
+
+#events {
+  left: 140% !important;
+}
+
+#events img {
+  height: 300px;
+  width: 500px;
+  left: 0 !important;
+}
+
+#trial-pack {
+  left: 140% !important;
+}
+
+#trial-pack img {
+  left: 35% !important;
+}
+
+#trial-pack-info {
+  left: 35% !important;
+}
+
+#trial-pack .ghost-btn {
+  left: 5% !important;
+}
+
+#coach {
+  left: 140% !important;
+}
+
+#coach img {
   left: 30% !important;
 }
 
- #testimonials {
-  position: relative;
-  left: 2% !important;
- }
-
-
-.testimonial-img {
-  left: 0% !important;
+.testimonial-img img {
+  left: -3% !important;
 }
 
-#testimonials .title {
-  position: relative;
-  left: -5% !important;
+#form-2 {
+  height: 700px !important;
 }
 
-
-/* footer {
+footer {
   width: 150vw !important;
 }
- */
+
 
 
 .footer-info {
-  margin-left: 17% !important;
+  margin-left: 0 !important;
 }
+
+
+.services-wrapper {
+  width: 400% !important;
+  position: relative;
+  top: 70px !important;
+  height: 1100px;
+}
+
+#about {
+  left: 150% !important;
+}
+
+#services {
+  position: relative;
+  left: 0 !important;
+}
+
+#services .title {
+  position: relative;
+  left: 0 !important;
+}
+
+#products {
+  position: relative;
+  top: 80px !important;
+  left: 150% !important;
+}
+
+ .team-wrapper {
+  width: 400% !important;
+  position: relative;
+  top: 70px !important;
+  height: 1100px;
+}
+
+
+.team-member {
+  left: -17% !important;
+}
+
+#team {
+  position: relative;
+  left: -3% !important; 
+}
+
+#team .title {
+  position: relative;
+  left: 10% !important;
+}
+
+#team-member3 {
+  position: relative;
+  left: 200% !important;
+  top: -710px !important;
+
+}
+
+
+.join-wrapper {
+  width: 400% !important;
+  position: relative;
+  top: 700px !important;
+  height: 700px;
+}
+
+#testimonials {
+  position: relative;
+  left: 150% !important;
+  top: -200px !important;
+}
+
+#join {
+   position: relative;
+   left: 0 !important;
+   top: 60px !important;
+}
+
+.info-video iframe {
+  position: relative;
+  left: 0% !important;
+}
+
+.join-button {
+  left: 40% !important;
+}
+
+#contact {
+  position: relative;
+  top: 700px !important;
+  left: 150% !important;
+}
+
+
+.mobile-contact-section {
+  height: 1000px !important;
+}
+
+footer {
+ top: 8000px !important;
+ width: 400% !important;
+}
+
 
 
 
@@ -2050,40 +2315,39 @@ div.mfp-bg.mfp-ready {
     overflow-x: hidden !important;
   }
 
-
 .logo {
   left: -5%;
 }
 
 .nav-toggle {
     position: relative;
-    left: 2% !important;
-    top: -30px;
+    left: 3% !important;
+    top: -60px !important;
   }
-
 
 .nav-toggle2 {
     position: relative;
-    left: 2% !important;
-    top: -35px;
+    left: 0% !important;
+    top: -25px;
   }
 
 
 #mobile-menu {
-  left: 90% !important;
-  top: 50px;
+  left: 85% !important;
+  top: 77px !important;
 
 }
 
+
 #profile-mobile-menu {
-  left: 91% !important;
-  top: 50px;
+  left: 87% !important;
+  top: 30px;
 
 }
 
 
 div.page-snap {
-  width: 300vw !important;
+  width: 400vw !important;
 }
 
 .rich-content header img {
@@ -2091,15 +2355,115 @@ div.page-snap {
 }
 
 .row {
-  left: 110% !important;
+  left: 30% !important;
+}
+
+#about {
+left: 1000px !important;
 }
 
 .services-posts {
-  left: -40% !important;
+  left: -50% !important;
 }
 
+
 div.mfp-bg.mfp-ready {
-  width: 300vw !important;
+  width: 500vw !important;
+}
+
+.services-wrapper {
+  width: 400% !important;
+  position: relative;
+  top: 70px !important;
+  height: 1100px;
+}
+
+#services {
+  position: relative;
+  left: 3% !important;
+}
+
+#services .title {
+  position: relative;
+  left: -35% !important;
+}
+
+
+.service-popup {
+
+  margin-top: 100% !important;
+  left: -10% !important;
+}
+
+.service-popup img {
+  height: 300px;
+  width: 300px;
+}
+
+#evaluation img {
+  left: -7% !important;
+}
+
+
+#evaluation .ghost-btn {
+  left: 0 !important;
+}
+
+
+#challenge {
+  margin-left: -150% !important;
+}
+
+#challenge img {
+  left: -110% !important;
+}
+
+#challenge-info {
+  left: -70% !important;
+}
+
+#shakes img {
+  left: -5% !important;
+}
+
+#shakes .ghost-btn {
+  left: 15% !important;
+}
+
+#events img {
+  height: 300px;
+  width: 300px;
+  left: -10% !important;
+}
+
+#events .ghost-btn {
+  left: 0 !important;
+}
+
+#trial-pack img {
+  left: -5% !important;
+}
+
+#trial-pack .ghost-btn {
+  left: 0 !important;
+}
+
+#coach {
+  left: -100% !important;
+}
+
+#coach img {
+  left: -100% !important;
+}
+
+#coach-info {
+  left: -70% !important;
+}
+
+#products {
+  position: relative;
+  top: 70px !important;
+  left: 110% !important;
 }
 
 
@@ -2107,17 +2471,21 @@ div#owl-demo2.owl-carousel.text-left.owl-theme {
   width: 500px !important;
   position:  relative;
   left: -35%;
-}
 
-#owl-demo2 {
-  left: -15% !important;
 }
 
 
 #owl2-img2,
 #owl2-img3,
 #owl2-img5 {
-  margin-left: 30% !important;
+  margin-left: 25% !important;
+}
+
+.team-wrapper {
+  width: 400% !important;
+  position: relative;
+  top: 70px !important;
+  height: 1100px;
 }
 
 
@@ -2125,63 +2493,121 @@ div#owl-demo2.owl-carousel.text-left.owl-theme {
   left: -17% !important;
 }
 
-/* 
-#owl-demo2 .owl-item {
-  width: 100% !important;
-  padding: 30px !important;
-} */
+#team {
+  position: relative;
+  left: -30% !important; 
+}
+
+#team .title {
+  position: relative;
+  left: 10% !important;
+}
+
+#team-member3 {
+  position: relative;
+  left: 200% !important;
+  top: -710px !important;
+
+}
+
 
 #owl-demo3 {
   width: 500px !important;
   position: relative;
-  left: -25% !important;
+  left: -35% !important;
 }
 
-.team-member {
-  left: -15% !important;
+.testimonial-img img {
+  left: -3% !important;
 }
 
-
-.testimonial-img {
-  left: 0 !important;
-}
-
-.join-section {
+#testimonials {
   position: relative;
-  left: -5% !important;
+  top: -200px !important;
+}
+
+.join-wrapper {
+  width: 400% !important;
+  position: relative;
+  top: 700px !important;
+  height: 700px;
+}
+
+#join {
+   position: relative;
+   left: -22% !important;
+   top: -800px !important;
 }
 
 .info-video iframe {
   position: relative;
-  left: -30% !important;
+  left: 0% !important;
 }
 
 .join-button {
-  position: relative;
-  left: 25% !important;
+  left: 40% !important;
 }
 
 .contact-form {
   left: -10% !important;
 }
 
-.contact-section {
-  height: 1700px !important;
+#form-2 {
+  height: 700px !important;
 }
 
-.join-button {
-  left: 12%;
+#contact {
+  position: relative;
+  top: 700px !important;
 }
+
+
+.mobile-contact-section {
+  height: 1000px !important;
+}
+
+
 
 footer {
-  height: 300px !important;
-  width: 300vw !important;
+  position: relative;
+  top: 1000px !important;
+  height: 500px !important;
+  width: 500vw !important;
   
 }
 
 .footer-info {
-  left: -15% !important;
+  left: -23% !important;
+  
 }
+
+input {
+  width: 100% !important;
+}
+
+.location {
+  height: 800px !important;
+}
+
+.location-img img {
+  position: relative;
+  left: -40% !important;
+}
+
+
+#about {
+  left: 125% !important;
+}
+
+
+
+#testimonials {
+  position: relative;
+  left: 120% !important;
+  
+}
+
+
 
 
 
