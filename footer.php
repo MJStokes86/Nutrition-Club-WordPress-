@@ -2,7 +2,7 @@
 
 			<footer>
 
-			<div class="wow fadeInUp footer-info">
+			<div class=" footer-info">
 
             <div class="footer-logo text-center"><img src="<?php bloginfo('template_directory')?>/img/StokesNutrition-Logo.png" alt="Stokes Nutrition"></div>
            

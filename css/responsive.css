@@ -476,7 +476,7 @@ and (max-width : 320px) {
 .nav-toggle {
     position: relative;
     left: 0% !important;
-    top: -25px;
+    top: -45px !important;
   }
 
 .nav-toggle2 {
@@ -501,7 +501,7 @@ and (max-width : 320px) {
 
 
 div.page-snap {
-  width: 300vw !important;
+  width: 400vw !important;
 }
 
 .rich-content header img {
@@ -509,7 +509,7 @@ div.page-snap {
 }
 
 .row {
-  left: 120% !important;
+  left: 180% !important;
 }
 
 .services-posts {
@@ -518,11 +518,11 @@ div.page-snap {
 
 
 div.mfp-bg.mfp-ready {
-  width: 300vw !important;
+  width: 500vw !important;
 }
 
 .services-wrapper {
-  width: 300% !important;
+  width: 400% !important;
   position: relative;
   top: 70px !important;
   height: 1100px;
@@ -530,7 +530,7 @@ div.mfp-bg.mfp-ready {
 
 #services {
   position: relative;
-  left: -80% !important;
+  left: -110% !important;
 }
 
 #services .title {
@@ -555,15 +555,15 @@ div.mfp-bg.mfp-ready {
 }
 
 #challenge {
-  left: 0 !important;
+  margin-left: -150% !important;
 }
 
 #challenge img {
-  left: 10% !important;
+  left: -110% !important;
 }
 
 #challenge-info {
-  left: -20% !important;
+  left: -70% !important;
 }
 
 #shakes img {
@@ -621,9 +621,33 @@ div#owl-demo2.owl-carousel.text-left.owl-theme {
   margin-left: 25% !important;
 }
 
+.team-wrapper {
+  width: 400% !important;
+  position: relative;
+  top: 70px !important;
+  height: 1100px;
+}
+
 
 .team-member {
   left: -17% !important;
+}
+
+#team {
+  position: relative;
+  left: -145% !important; 
+}
+
+#team .title {
+  position: relative;
+  left: 10% !important;
+}
+
+#team-member3 {
+  position: relative;
+  left: 200% !important;
+  top: -710px !important;
+
 }
 
 
@@ -637,9 +661,31 @@ div#owl-demo2.owl-carousel.text-left.owl-theme {
   left: -3% !important;
 }
 
+#testimonials {
+  position: relative;
+  top: -200px !important;
+}
+
+.join-wrapper {
+  width: 400% !important;
+  position: relative;
+  top: 700px !important;
+  height: 700px;
+}
+
+#join {
+   position: relative;
+   left: -135% !important;
+   top: -800px !important;
+}
+
 .info-video iframe {
   position: relative;
-  left: -50% !important;
+  left: 0% !important;
+}
+
+.join-button {
+  left: 40% !important;
 }
 
 .contact-form {
@@ -650,23 +696,29 @@ div#owl-demo2.owl-carousel.text-left.owl-theme {
   height: 700px !important;
 }
 
-
-.contact-section {
-  height: 500px !important;
+#contact {
+  position: relative;
+  top: 700px !important;
 }
 
-.join-button {
-  left: 12%;
+
+.mobile-contact-section {
+  height: 1000px !important;
 }
+
+
 
 footer {
-  height: 300px !important;
-  width: 300vw !important;
+  position: relative;
+  top: 1000px !important;
+  height: 500px !important;
+  width: 500vw !important;
   
 }
 
 .footer-info {
-  left: -12% !important;
+  left: -21% !important;
+  
 }
 
 input {

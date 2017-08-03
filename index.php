@@ -480,7 +480,7 @@
 
 
 		<div class="col-md-6 col-md-3 col-centered">
-			<div class="team-member">
+			<div class="team-member" id="team-member3">
 				<div class="team-img wow bounceIn" data-wow-delay=".50s">
 					<img src="<?php bloginfo('template_directory')?>/img/coaches/team-member3.jpg" " alt="">
 				</div>
