@@ -627,7 +627,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">
-			<div class="col-md-6 wow fadeInLeft" id="contact-area" >
+			<div class="col-md-6" id="contact-area" >
 				<h1 class='title text-center'>Contact Us!</h1>
                     <!-- START CONTACT FORM DESIGN AREA -->
                    <div class="contact-form">
@@ -668,7 +668,7 @@
 
 			</div>
 
-			<div class="col-md-6 location wow fadeInRight">
+			<div class="col-md-6 location">
 			<h1 class='title text-center'>Come and see us</h1>
 			<p></p>
 			<div class="location-info">
