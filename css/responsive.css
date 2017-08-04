@@ -1821,16 +1821,25 @@ only screen and (min-device-pixel-ratio : 1.5) {
   
 }
 
+main#home.main-content {
+  height: 1000px !important;
+}
+
 
 
 div.page-snap {
   width: 400vw !important;
+  height: 1000px !important;
 
 }
 
 .rich-content header img {
   height: 1200px !important;
+  z-index: 1 !important;
 }
+
+
+
 
 
 
@@ -1846,23 +1855,52 @@ div.mfp-bg.mfp-ready {
   width: 300px;
 }
 
-#evaluation {
+
+#services {
+  position: relative;
+  left: 0 !important;
+}
+
+#services .title {
+  position: relative;
+  left: 0 !important;
+}
+
+.service-popup {
+  position: relative;
+  margin-top: 100% !important;
+  left: 180% !important;
+}
+
+
+/* #evaluation {
   position: relative;
   left: 140% !important;
-}
+} */
 
 #evaluation .ghost-btn {
   position: relative;
-  left: 20% !important;
+  left: 30% !important;
 }
 
-#challenge {
+#evaluation img {
+  left: 50% !important;
+}
+
+/* #challenge {
   left: 140% !important;
   top: 100px !important;
 }
+ */
+
+ #challenge img {
+    left: 50% !important;
+
+ }
+
 
 #challenge .ghost-btn {
-  left: 27% !important;
+  left: 29% !important;
 }
 
 #shakes {
@@ -1870,45 +1908,45 @@ div.mfp-bg.mfp-ready {
 }
 
 #shakes img {
-  left: 10% !important;
+  left: 50% !important;
 }
 
 #shakes .ghost-btn {
-  left: 20% !important;
+  left: 30% !important;
 }
 
-#events {
+/* #events {
   left: 140% !important;
-}
+} */
 
 #events img {
   height: 300px;
   width: 500px;
   left: 0 !important;
 }
-
+/* 
 #trial-pack {
   left: 140% !important;
-}
+} */
 
 #trial-pack img {
-  left: 35% !important;
+  left: 50% !important;
 }
 
-#trial-pack-info {
-  left: 35% !important;
-}
+/* #trial-pack-info {
+  left: 0 !important;
+} */
 
 #trial-pack .ghost-btn {
-  left: 5% !important;
+  left: 20% !important;
 }
 
 #coach {
-  left: 140% !important;
+  top: -550px !important;
 }
 
 #coach img {
-  left: 30% !important;
+  left: 50% !important;
 }
 
 .testimonial-img img {
@@ -1941,15 +1979,6 @@ footer {
   left: 150% !important;
 }
 
-#services {
-  position: relative;
-  left: 0 !important;
-}
-
-#services .title {
-  position: relative;
-  left: 0 !important;
-}
 
 #products {
   position: relative;
@@ -1981,8 +2010,8 @@ footer {
 
 #team-member3 {
   position: relative;
-  left: 200% !important;
-  top: -710px !important;
+  left: 240% !important;
+  top: -678px !important;
 
 }
 
@@ -2122,11 +2151,10 @@ div.mfp-bg.mfp-ready {
   left: -35% !important;
 }
 
-
 .service-popup {
-
-  margin-top: 100% !important;
-  left: -10% !important;
+  position: relative;
+  margin-top: 200% !important;
+  left: 150% !important;
 }
 
 .service-popup img {
@@ -2135,7 +2163,7 @@ div.mfp-bg.mfp-ready {
 }
 
 #evaluation img {
-  left: -7% !important;
+  left: -50% !important;
 }
 
 
@@ -2143,13 +2171,19 @@ div.mfp-bg.mfp-ready {
   left: 0 !important;
 }
 
+#evaluation-info {
+  position: relative;
+  left: -48% !important;
+}
+
+
 
 #challenge {
-  margin-left: -150% !important;
+  left: 180% !important;
 }
 
 #challenge img {
-  left: -110% !important;
+  left: -50% !important;
 }
 
 #challenge-info {
@@ -2164,10 +2198,18 @@ div.mfp-bg.mfp-ready {
   left: 15% !important;
 }
 
+#events {
+  left: 180% !important;
+}
+
 #events img {
   height: 300px;
   width: 300px;
-  left: -10% !important;
+  left: -50% !important;
+}
+
+#events-info {
+  left: -50% !important;
 }
 
 #events .ghost-btn {
@@ -2175,29 +2217,37 @@ div.mfp-bg.mfp-ready {
 }
 
 #trial-pack img {
-  left: -5% !important;
+  left: -50% !important;
+}
+
+#trial-pack-info {
+  left: -50% !important;
 }
 
 #trial-pack .ghost-btn {
   left: 0 !important;
 }
 
+#trial-pack {
+  left: 180% !important;
+}
+
 #coach {
-  left: -100% !important;
+  left: 180% !important;
 }
 
 #coach img {
-  left: -100% !important;
+  left: -50% !important;
 }
 
 #coach-info {
-  left: -70% !important;
+  left: -80% !important;
 }
 
 #products {
   position: relative;
   top: 70px !important;
-  left: 110% !important;
+  left: 120% !important;
 }
 
 
@@ -2212,6 +2262,7 @@ div#owl-demo2.owl-carousel.text-left.owl-theme {
 #owl2-img2,
 #owl2-img3,
 #owl2-img5 {
+  position: relative;
   margin-left: 25% !important;
 }
 
@@ -2239,8 +2290,8 @@ div#owl-demo2.owl-carousel.text-left.owl-theme {
 
 #team-member3 {
   position: relative;
-  left: 200% !important;
-  top: -710px !important;
+  left: 240% !important;
+  top: -680px !important;
 
 }
 
@@ -2270,7 +2321,7 @@ div#owl-demo2.owl-carousel.text-left.owl-theme {
 #join {
    position: relative;
    left: -22% !important;
-   top: -800px !important;
+   top: -700px !important;
 }
 
 .info-video iframe {
@@ -2399,28 +2450,59 @@ div.mfp-bg.mfp-ready {
 }
 
 
+
+
 .service-popup img {
   height: 300px;
   width: 300px;
 }
 
-#evaluation {
+
+#services {
+  position: relative;
+  left: 0 !important;
+}
+
+#services .title {
+  position: relative;
+  left: 0 !important;
+}
+
+.service-popup {
+  position: relative;
+  margin-top: 100% !important;
+  left: 180% !important;
+}
+
+
+/* #evaluation {
   position: relative;
   left: 140% !important;
-}
+} */
 
 #evaluation .ghost-btn {
   position: relative;
-  left: 20% !important;
+  left: 30% !important;
 }
 
-#challenge {
+#evaluation img {
+  left: 50% !important;
+}
+
+/* #challenge {
   left: 140% !important;
   top: 100px !important;
 }
+ */
+
+ #challenge img {
+    left: 50% !important;
+
+ }
+
 
 #challenge .ghost-btn {
-  left: 27% !important;
+  left: 29% !important;
 }
 
 #shakes {
@@ -2428,45 +2510,50 @@ div.mfp-bg.mfp-ready {
 }
 
 #shakes img {
-  left: 10% !important;
+  left: 50% !important;
 }
 
 #shakes .ghost-btn {
-  left: 20% !important;
+  left: 35% !important;
 }
 
-#events {
+/* #events {
   left: 140% !important;
-}
+} */
 
 #events img {
   height: 300px;
   width: 500px;
   left: 0 !important;
 }
-
+/* 
 #trial-pack {
   left: 140% !important;
-}
+} */
 
 #trial-pack img {
-  left: 35% !important;
+  left: 50% !important;
 }
 
-#trial-pack-info {
-  left: 35% !important;
-}
+/* #trial-pack-info {
+  left: 0 !important;
+} */
 
 #trial-pack .ghost-btn {
-  left: 5% !important;
+  left: 20% !important;
 }
 
 #coach {
-  left: 140% !important;
+  top: -550px !important;
 }
 
 #coach img {
-  left: 30% !important;
+  left: 50% !important;
+}
+
+#coach iframe {
+  position: relative;
+  left: 5% !important;
 }
 
 .testimonial-img img {
@@ -2499,15 +2586,6 @@ footer {
   left: 150% !important;
 }
 
-#services {
-  position: relative;
-  left: 0 !important;
-}
-
-#services .title {
-  position: relative;
-  left: 0 !important;
-}
 
 #products {
   position: relative;
@@ -2539,8 +2617,8 @@ footer {
 
 #team-member3 {
   position: relative;
-  left: 200% !important;
-  top: -710px !important;
+  left: 240% !important;
+  top: -678px !important;
 
 }
 
@@ -2588,6 +2666,8 @@ footer {
  top: 8000px !important;
  width: 400% !important;
 }
+
+
 
 
 
@@ -2680,11 +2760,10 @@ div.mfp-bg.mfp-ready {
   left: -35% !important;
 }
 
-
 .service-popup {
-
-  margin-top: 100% !important;
-  left: -10% !important;
+  position: relative;
+  margin-top: 200% !important;
+  left: 150% !important;
 }
 
 .service-popup img {
@@ -2693,7 +2772,7 @@ div.mfp-bg.mfp-ready {
 }
 
 #evaluation img {
-  left: -7% !important;
+  left: -50% !important;
 }
 
 
@@ -2701,13 +2780,19 @@ div.mfp-bg.mfp-ready {
   left: 0 !important;
 }
 
+#evaluation-info {
+  position: relative;
+  left: -48% !important;
+}
+
+
 
 #challenge {
-  margin-left: -150% !important;
+  left: 180% !important;
 }
 
 #challenge img {
-  left: -110% !important;
+  left: -50% !important;
 }
 
 #challenge-info {
@@ -2715,17 +2800,29 @@ div.mfp-bg.mfp-ready {
 }
 
 #shakes img {
-  left: -5% !important;
+  left: -50% !important;
+}
+
+#shakes-info {
+  left: -47% !important;
 }
 
 #shakes .ghost-btn {
-  left: 15% !important;
+  left: 25% !important;
+}
+
+#events {
+  left: 180% !important;
 }
 
 #events img {
   height: 300px;
-  width: 300px;
-  left: -10% !important;
+  width: 500px;
+  left: -60% !important;
+}
+
+#events-info {
+  left: -60% !important;
 }
 
 #events .ghost-btn {
@@ -2733,29 +2830,37 @@ div.mfp-bg.mfp-ready {
 }
 
 #trial-pack img {
-  left: -5% !important;
+  left: -50% !important;
+}
+
+#trial-pack-info {
+  left: -50% !important;
 }
 
 #trial-pack .ghost-btn {
   left: 0 !important;
 }
 
+#trial-pack {
+  left: 180% !important;
+}
+
 #coach {
-  left: -100% !important;
+  left: 180% !important;
 }
 
 #coach img {
-  left: -100% !important;
+  left: -50% !important;
 }
 
 #coach-info {
-  left: -70% !important;
+  left: -80% !important;
 }
 
 #products {
   position: relative;
   top: 70px !important;
-  left: 110% !important;
+  left: 120% !important;
 }
 
 
@@ -2770,6 +2875,7 @@ div#owl-demo2.owl-carousel.text-left.owl-theme {
 #owl2-img2,
 #owl2-img3,
 #owl2-img5 {
+  position: relative;
   margin-left: 25% !important;
 }
 
@@ -2787,7 +2893,7 @@ div#owl-demo2.owl-carousel.text-left.owl-theme {
 
 #team {
   position: relative;
-  left: -30% !important; 
+  left: -25% !important; 
 }
 
 #team .title {
@@ -2797,8 +2903,8 @@ div#owl-demo2.owl-carousel.text-left.owl-theme {
 
 #team-member3 {
   position: relative;
-  left: 200% !important;
-  top: -710px !important;
+  left: 240% !important;
+  top: -675px !important;
 
 }
 
@@ -2828,7 +2934,7 @@ div#owl-demo2.owl-carousel.text-left.owl-theme {
 #join {
    position: relative;
    left: -22% !important;
-   top: -800px !important;
+   top: -700px !important;
 }
 
 .info-video iframe {
@@ -2898,6 +3004,7 @@ input {
   left: 120% !important;
   
 }
+
 
 
 
