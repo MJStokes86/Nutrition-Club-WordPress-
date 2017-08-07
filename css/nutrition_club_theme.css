@@ -17,6 +17,16 @@ body {
 	overflow-x: hidden;
 }
 
+.clearfix::after {
+  content: "." !important;
+  display: block !important;
+  clear: both !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  line-height: 0 !important;
+
+}
+
 
 
 .row {
@@ -24,6 +34,8 @@ body {
 	position: relative;
 	left: -6%;
 }
+
+
 
 /* Header */
 
@@ -211,6 +223,7 @@ p.owl-caption  {
     width: 100%;
     border-radius: 0;
 }
+
 
 .services-section .grid figure {
     position: relative;

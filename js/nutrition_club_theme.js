@@ -193,7 +193,7 @@
                items: [
      
       {
-        src: $('<div class="service-popup" id="coach"><div class="container"><div class="row"><div class="col-xs-12"><div class="col-md-6"><img src="http://i.imgur.com/TeJurJd.jpg" alt="Herbalife-Coach" id="coach-img"></div><div class="col-md-6" id="coach-info"><h1>Become a Coach Today!</h1><hr><p>We\'re always looking for new coaches to be part of our team. If you have a passion for wellness and are have a desire to learn more about a becoming a wellness coach, watch this video and contact us today!</p><br><iframe width="560" height="315" src="https://www.youtube.com/embed/pTuQV26Bt0M" frameborder="0" allowfullscreen></iframe><a href="#" class="ghost-btn">Join Now!</a></div></div></div></div>'), // Dynamically created element
+        src: $('<div class="service-popup" id="coach"><div class="container"><div class="row"><div class="col-xs-12"><div class="col-md-6"><img src="http://i.imgur.com/TeJurJd.jpg" alt="Herbalife-Coach" id="coach-img"></div><div class="col-md-6" id="coach-info"><h1>Become a Coach Today!</h1><hr><p>We\'re always looking for new coaches to be part of our team. If you have a passion for wellness and are have a desire to learn more about a becoming a wellness coach, watch this video and contact us today!</p><br><iframe id="coach-iframe" width="560" height="315" src="https://www.youtube.com/embed/pTuQV26Bt0M" frameborder="0" allowfullscreen></iframe><a href="#" class="ghost-btn">Join Now!</a></div></div></div></div>'), // Dynamically created element
         type: 'inline'
       }
      

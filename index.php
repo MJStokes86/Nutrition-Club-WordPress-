@@ -2,7 +2,7 @@
 
 
 <main class="main-content" id="home" role="main">
-      <div class="wrapper">
+      <div class="wrapper clearfix">
       
 <!-- Hero is full width, so close .wrapper -->
 
@@ -108,7 +108,7 @@
 	</div>
 	</div>
 	</main>
-
+   <div class="about-wrapper clearfix">
    <section id='about' class="about-section paragraph rich-content">
    <div class="container">
    	<div class="row">
@@ -117,7 +117,7 @@
    		<h1 class="title text-center">Our Club</h1>
 		
 
-			<p class="wow fadeInDown">We promote healthy active lifestyle through good nutrition, supplements, weight loss challenges, shake parties and many other healthy and fun activities.</p>
+			<p class="">We promote healthy active lifestyle through good nutrition, supplements, weight loss challenges, shake parties and many other healthy and fun activities.</p>
 
    		</div>
    	</div>
@@ -126,9 +126,10 @@
 			
         
 </section>
+</div>
 
 
-<div class="services-wrapper">
+<div class="services-wrapper clearfix">
 <section id="services" class="services-section paragraph rich-content">
 <div class="container grid">
 	<div class="row">
@@ -136,7 +137,7 @@
               <h1 class="title">Our Services</h1>
 
             <div class="services-inner">
-                <div class="wow fadeInUp row services-posts grid">
+                <div class=" row services-posts grid">
                     <!-- START SINGLE SERVICE DESIGN AREA -->
                     <div class="col-md-4 col-sm-6">
                         <div class="item">
@@ -253,7 +254,7 @@
 
 </section>
 
-
+<div class="products-wrapper clearfix">
 <section id="products" class="products-section paragraph rich-content">
 <div class="container">
 	<div class="row">
@@ -267,7 +268,7 @@
 				<div class="wow fadeInLeft col-md-6">
 					<img src="<?php bloginfo('template_directory');?>/img/formula1.png" class='img-responsive' id="owl2-img1">
 					</div>
-					<div class=" wow fadeInRight col-md-6">
+					<div class=" col-md-6">
 						<div class="product-info">
 							<h1>Formula 1 Nutritional Shake Mix</h1>
 							<br>
@@ -293,7 +294,7 @@
 				<div class="wow fadeInLeft col-md-6">
 					<img src="<?php bloginfo('template_directory');?>/img/protein.jpg" class='img-responsive' id="owl2-img2">
 					</div>
-					<div class="wow fadeInRight col-md-6">
+					<div class=" col-md-6">
 						<div class="product-info">
 						<h1>Protein Drink Mix</h1>
 						<br>
@@ -345,7 +346,7 @@
 				<div class="wow fadeInLeft col-md-6 product-img">
 					<img src="<?php bloginfo('template_directory');?>/img/aloe.png" class='img-responsive' id="owl2-img4">
 					</div>
-					<div class="wow fadeInRight col-md-6">
+					<div class=" col-md-6">
 						<div class="product-info">
 							<h1>Herbal Aloe Concentrate</h1>
 							<br>.
@@ -368,7 +369,7 @@
 				</div>
 
 				<div class="item">
-				<div class="wow fadeInLeft col-md-6">
+				<div class="col-md-6">
 					<img src="<?php bloginfo('template_directory');?>/img/21day.jpg" class='img-responsive' id="owl2-img5">
 					</div>
 					<div class="wow fadeInRight col-md-6">
@@ -399,6 +400,7 @@
 					<img src="images/image7.jpg" class='img-responsive'>
 				</div> -->
 
+				</div>
 				</div>
 
 
@@ -442,7 +444,7 @@
 </section>
 
 
-<div class="team-wrapper">
+<div class="team-wrapper clearfix">
 <section id="team" class="team-section paragraph rich-content">
 <div class="container">
 	<div class="row">
@@ -466,7 +468,7 @@
 
 		<div class="col-md-6 col-md-3 col-centered">
 			<div class="team-member" id="team-member2">
-				<div class="team-img wow bounceIn" data-wow-delay=".25s">
+				<div class="team-img" data-wow-delay=".25s">
 					<img src="<?php bloginfo('template_directory')?>/img/coaches/team-member2.jpg"  alt="">
 				</div>
 				<div class="team-info">
@@ -481,7 +483,7 @@
 
 		<div class="col-md-6 col-md-3 col-centered">
 			<div class="team-member" id="team-member3">
-				<div class="team-img wow bounceIn" data-wow-delay=".50s">
+				<div class="team-img" data-wow-delay=".50s">
 					<img src="<?php bloginfo('template_directory')?>/img/coaches/team-member3.jpg" " alt="">
 				</div>
 				<div class="team-info">
@@ -511,7 +513,7 @@
 
 
 
-<div class="testimonials-wrapper">
+<div class="testimonials-wrapper clearfix">
 <section id="testimonials" class="testimonial-section paragraph rich-content">
 <div class="container">
 	<div class="row">
@@ -523,7 +525,7 @@
 
 
 		<div class="item">
-		<div class="col-md-6 testimonial-img wow fadeInLeft">
+		<div class="col-md-6 testimonial-img">
 
 		
 		<img src="<?php bloginfo('template_directory') ?>/img/results/Before&After.jpg" alt=""> 
@@ -531,7 +533,7 @@
 		
 		</div>
 
-		<div class="col-md-6 testimonial-info wow fadeInRight">
+		<div class="col-md-6 testimonial-info">
 
 		<h3>Person's Name Goes Here</h3>
 		<hr>
@@ -540,11 +542,11 @@
 		</div>
 
 		<div class="item">
-		<div class="col-md-6 testimonial-img wow fadeInLeft">
+		<div class="col-md-6 testimonial-img">
 		<img src="<?php bloginfo('template_directory') ?>/img/results/results2.jpg" alt="">
 		</div>
 
-		<div class="col-md-6 testimonial-info wow fadeInRight">
+		<div class="col-md-6 testimonial-info">
 
 		<h3>Person's Name Goes Here</h3>
 		<hr>
@@ -576,7 +578,7 @@
 
 
 
-<div class="join-wrapper">
+<div class="join-wrapper clearfix">
 <section id="join" class="join-section paragraph rich-content">
 <div class="container">
 	<div class="row">
@@ -594,7 +596,7 @@
 		</div>
 		<br>
 		
-			<a href="#" class='join-button wow fadeInUp'>Join Now</a>
+			<a href="#" class='join-button'>Join Now</a>
 		
 			
 
@@ -622,7 +624,7 @@
 </section>
 </div>
 
-<div class="contact-wrapper">
+<div class="contact-wrapper clearfix">
 <section id="contact" class="contact-section paragraph rich-content">
 	<div class="container">
 		<div class="row">
@@ -703,7 +705,7 @@
 
 <!-- Mobile Contact  -->
 
-<div class="contact-wrapper">
+<div class="contact-wrapper clearfix">
 <section id="contact" class="mobile-contact-section paragraph rich-content">
 	<div class="container">
 		<div class="row">
