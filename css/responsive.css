@@ -444,6 +444,10 @@ and (max-width : 568px) {
 @media only screen 
 and (max-width : 320px) {
 
+nav {
+  height: 50px !important;
+}
+
 #owl-demo1 {
   position: relative;
   top: 10px !important;
@@ -551,6 +555,180 @@ and (max-width : 320px) {
   left: 25% !important;
 }
 
+.products-wrapper {
+  margin: auto !important;
+  width: 300px !important;
+  height: 300px !important;
+}
+
+
+#owl-demo2 h1 {
+  font-size: 1.5em !important;
+  text-align: center !important;
+  
+}
+
+#owl-demo2 h4 {
+  font-size: 1.3em !important;
+  text-align: center !important;
+}
+
+#owl-demo2 p,
+#owl-demo2 li {
+  font-size: 0.7em !important;
+  text-align: center !important;
+}
+
+#owl-demo2 .owl-controls {
+  position: relative;
+  top: 10px !important;
+}
+
+.team-wrapper {
+  margin: auto !important;
+  height: 2100px !important;
+}
+
+#team {
+  position: relative;
+  left: -45% !important;
+  top: 700px !important;
+}
+
+#team .title {
+  position: relative;
+  left: 52% !important;
+}
+
+.team-img img {
+  height: 100px !important;
+  width: 100px !important;
+}
+
+.team-info {
+  position: relative;
+  left: -5% !important;
+}
+
+.team-info h4 {
+  font-size: 1.5em !important;
+}
+
+.team-info p {
+  font-size: 1em !important;
+}
+
+.testimonial-img img {
+  height: 100px !important;
+  width: 200px !important;
+  position: relative;
+  left: 12% !important;
+}
+
+.testimonial-info h3 {
+  font-size: 1.5em !important;
+}
+
+.testimonial-info p {
+  font-size: 1em !important;
+}
+
+#owl-demo3 .owl-controls {
+  top: 0 !important;
+}
+
+.join-wrapper {
+  margin: auto !important;
+  width: 320px !important;
+  height: 500px !important;
+}
+
+
+.join-info p {
+  font-size: 0.9em !important;
+}
+
+.info-video iframe {
+  width: 160px !important;
+  height: 115px !important;
+}
+
+.join-button {
+  height: 50% !important;
+  width: 50% !important;
+  position: relative;
+  left: 23% !important;
+}
+
+.contact-section {
+  display: none !important;
+}
+
+.mobile-contact-section {
+  display: block !important;
+
+}
+
+ .input-wrap {
+  width: 80% !important;
+
+} 
+
+.location {
+  height: 200px !important;
+  position: relative;
+  top: -600px !important;
+
+} 
+
+.contact-form {
+  position: relative;
+  left: 10% !important;
+  
+}
+
+#submit-button {
+  width: 80% !important;
+}
+
+
+.footer-logo img {
+  height: 30px !important;
+  width: 160px !important;
+}
+
+footer .social-icons li a {
+    border-top-left-radius: 40px !important;
+    border-top-right-radius: 40px !important;
+    border-bottom-left-radius: 40px !important;
+    border-bottom-right-radius: 40px !important;
+    border-radius: 40px !important;
+    width: 30px !important;
+    height: 30px !important;
+}
+
+a.fa::before {
+  position: relative;
+  top: -12px !important;
+}
+
+.footer-links {
+  display: inline !important;
+  position: relative;
+  left: 20% !important;
+
+}
+
+.footer-links li a {
+  text-align: center !important;
+}
+
+
+
+.footer-info {
+  position: relative;
+  left: -10% !important;
+}
 
 }
 
