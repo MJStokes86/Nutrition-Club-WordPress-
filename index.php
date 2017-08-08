@@ -706,7 +706,7 @@
 <!-- Mobile Contact  -->
 
 <div class="mobile-contact-wrapper clearfix">
-<section id="contact" class="mobile-contact-section paragraph rich-content">
+<section id="mobile-contact" class="mobile-contact-section paragraph rich-content">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12" id="mobile-contact" >

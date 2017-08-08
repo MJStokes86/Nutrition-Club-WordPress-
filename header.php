@@ -3,7 +3,8 @@
 <head>
 	<meta charset="<?php  bloginfo('charset'); ?>">
 	<meta name="description" content="<?php bloginfo('description'); ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
 	<title><?php bloginfo('name'); ?> <?php wp_title(); ?></title>
 	<?php wp_head(); ?>
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">

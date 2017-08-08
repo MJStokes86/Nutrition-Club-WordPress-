@@ -15,17 +15,14 @@
      <div class="copyright text-center"><p>&copy;Copyright <script>document.write(new Date().getFullYear())</script> All rights reserved</p></div>
 	<ul class="footer-links">
         
-        <li 
-                    class=""><a href="<?php bloginfo('template_directory') ?>/privacy.php" target="_blank">Privacy Policy</a></li>  
+        <li><a href="<?php bloginfo('template_directory') ?>/privacy.php" target="_blank">Privacy Policy</a></li>  
 
-        <li 
-                    class=""><a href="<?php bloginfo('template_directory') ?>/disclaimer.php" target="_blank">Weight Loss Disclaimer</a></li> 
-        <li 
-                    class=""><a href="<?php bloginfo('template_directory') ?>/earnings.php" target="_blank">Earnings Disclaimer</a></li>
+        <li><a href="<?php bloginfo('template_directory') ?>/disclaimer.php" target="_blank">Weight Loss Disclaimer</a></li> 
+        <li><a href="<?php bloginfo('template_directory') ?>/earnings.php" target="_blank">Earnings Disclaimer</a></li>
 	</ul>
 	
 	<div class="developer-wrapper text-center">
-	  <br><p>Site By</p><a target="_blank" rel="nofollow" href="http://www.mjstokes.com/"><br><img class='developer-logo' src="<?php bloginfo('template_directory') ?>/img/Logo.png" alt="http://mjstokes.com" id="footer-logo"><br> Michael J. Stokes</a>
+	  <br><p>Site By</p><a target="_blank" rel="nofollow" href="http://www.mjstokes.com/"><br><img class='developer-logo' src="<?php bloginfo('template_directory') ?>/img/Logo.png" alt="http://mjstokes.com" id="footer-logo"><br><br> Michael J. Stokes</a>
 	  </div>
 
 	</div>
