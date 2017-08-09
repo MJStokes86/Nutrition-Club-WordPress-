@@ -12,7 +12,7 @@
 
 <!--Carousel Image Slider Begins-->
 
-<div class="page-snap">
+<div class="page-snap clearfix">
 <section class="carousel image-carousel fixed-carousel pagination "  data-hash="">
 	<div class="hide-on-swipe rich-content fixed " data-component="forwardevent">
 	
@@ -265,7 +265,7 @@
 
 		<div id="owl-demo2" class="owl-carousel text-left">
 				<div class="item">
-				<div class="wow fadeInLeft col-md-6">
+				<div class="col-md-6 product-img">
 					<img src="<?php bloginfo('template_directory');?>/img/formula1.png" class='img-responsive' id="owl2-img1">
 					</div>
 					<div class=" col-md-6">
@@ -291,10 +291,10 @@
 					</div>
 				</div>
 				<div class="item">
-				<div class="wow fadeInLeft col-md-6">
+				<div class="col-md-6 product-img">
 					<img src="<?php bloginfo('template_directory');?>/img/protein.jpg" class='img-responsive' id="owl2-img2">
 					</div>
-					<div class=" col-md-6">
+					<div class="owl2-img col-md-6">
 						<div class="product-info">
 						<h1>Protein Drink Mix</h1>
 						<br>
@@ -316,7 +316,7 @@
 				</div>
 
 				<div class="item">
-				<div class="wow fadeInLeft col-md-6">
+				<div class="col-md-6 product-img">
 					<img src="<?php bloginfo('template_directory');?>/img/tea.jpg" class='img-responsive' id="owl2-img3">
 					</div>
 					<div class="wow fadeInRight col-md-6">
@@ -343,7 +343,7 @@
 				</div>
 
 				<div class="item">
-				<div class="wow fadeInLeft col-md-6 product-img">
+				<div class="col-md-6 product-img">
 					<img src="<?php bloginfo('template_directory');?>/img/aloe.png" class='img-responsive' id="owl2-img4">
 					</div>
 					<div class=" col-md-6">

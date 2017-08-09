@@ -10,11 +10,12 @@ function nutrition_club_theme_script_enqueue() {
 
 	wp_enqueue_style('responsive-css', get_template_directory_uri() . '/css/responsive.css');
 
+	// wp_enqueue_style('responsive2-css', get_template_directory_uri() . '/css/responsive2.css');
+
 	wp_enqueue_style('medium-css', get_template_directory_uri() . '/css/medium.css');
 
 	wp_enqueue_style('large-css', get_template_directory_uri() . '/css/large.css');
 
-	wp_enqueue_style('mobile-menu-css', get_template_directory_uri() . '/css/mobile-menu.css');
 
 	wp_enqueue_style('xlarge-css', get_template_directory_uri() . '/css/responsive.css');
 

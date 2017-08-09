@@ -190,6 +190,10 @@ and (max-device-width : 568px) {
     display: block !important;
   }
 
+  .icon-menu {
+    display: none !important;
+  }
+
 
   #mobile-menu .main-links li,
   #profile-mobile-menu .main-links li {
@@ -330,7 +334,7 @@ figcaption::before {
 and (max-width : 568px) {
 
   nav {
-    height: 30px !important;
+    height: 33px !important;
   }
 
 
@@ -341,9 +345,86 @@ and (max-width : 568px) {
 .nav-toggle {
   position: relative;
   top: -20px !important;
+  left: 40% !important;
+  font-size: 1em !important;
+
+}
+
+/* 
+#mobile-menu {
+  position: relative;
+  top: -130px !important;
+  left: 32% !important;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  transform: translateY(-450%);
+  transition: transform 0.6s ease;
+  z-index: -99;
+  
+}
+ */
+#mobile-menu .main-links  {
+  z-index: -1 !important;
+}
+
+#owl-demo1 {
+  margin: auto !important;
+  width: 100% !important;
+  left: -30% !important;
+}
+
+.rich-content header img {
+  position: relative;
+  left: 17% !important;
+  height: 200px !important;
+  width: 500px !important;
+
 }
 
 
+
+.owl-title {
+  position: relative;
+  top: 50px !important;
+  margin-left: 10% !important;
+  font-size: 1.2em !important;
+}
+
+.owl-controls {
+  position: relative;
+  top: 200px !important;
+  left: 10% !important;
+}
+
+.main-content {
+  height: 250px !important;
+}
+
+.title {
+  font-size: 1.2em !important;
+}
+
+.about-wrapper {
+  width: 350px !important;
+}
+
+#about {
+  height: 200px !important;
+}
+
+#about p {
+  font-size: 0.7em !important;
+}
+
+.services-wrapper {
+  width: 400px !important;
+}
+
+#services .title {
+  position: relative;
+  left: -10% !important;
+}
 
 #services {
   height: 300px !important;
@@ -418,6 +499,172 @@ and (max-width : 568px) {
   left: 25% !important;
 }
 
+.products-wrapper {
+  width: 500px !important;
+}
+
+#owl-demo2 img {
+  height: 100px !important;
+  width: 100px !important;
+  position: relative;
+  margin-left: 100% !important;
+}
+
+
+#owl-demo2 h1 {
+  font-size: 1.5em !important;
+  text-align: center !important;
+  
+}
+
+#owl-demo2 h4 {
+  font-size: 1.3em !important;
+  text-align: center !important;
+}
+
+#owl-demo2 p,
+#owl-demo2 li {
+  font-size: 0.7em !important;
+  text-align: center !important;
+}
+
+#owl-demo2 .owl-controls {
+  position: relative;
+  top: 10px !important;
+  left: 0 !important;
+}
+
+#team .title {
+  position: relative;
+  left: -20% !important;
+}
+
+.team-member {
+  position: relative;
+  left: -10% !important;
+}
+
+.team-img img {
+  height: 100px !important;
+  width: 100px !important;
+  position: relative;
+  left: 0 !important
+}
+.team-info h4 {
+  font-size: 1.5em !important;
+}
+
+.team-info p {
+  font-size: 1em !important;
+}
+
+.testimonials-wrapper {
+  margin: auto !important;
+  width: 300px !important;
+}
+
+#testimonials {
+  position: relative;
+  left: -30% !important;
+  height: 1000px !important;
+}
+
+.testimonial-img img {
+  height: 100px !important;
+  width: 200px !important;
+}
+
+#owl-demo3 .owl-controls {
+  top: 15px !important;
+  left: -5% !important;
+}
+
+.join-wrapper {
+  margin: auto !important;
+  width: 400px !important;
+  position: relative;
+  left: -15% !important;
+}
+
+.info-video iframe {
+  height: 200px !important;
+  width: 380px !important;
+}
+
+.join-button {
+  left: 30% !important;
+}
+
+.contact-section {
+  display: none !important;
+}
+
+.mobile-contact-section {
+  display: block !important;
+
+}
+
+.input-wrap {
+  width: 80% !important;
+}
+
+#submit-button {
+  width: 80% !important;
+}
+
+.location {
+  height: 200px !important;
+  position: relative;
+  top: -600px !important;
+
+} 
+
+.footer-logo img {
+  height: 30px !important;
+  width: 160px !important;
+}
+
+footer {
+  height: 500px !important;
+}
+
+footer .social-icons li a {
+    border-top-left-radius: 40px !important;
+    border-top-right-radius: 40px !important;
+    border-bottom-left-radius: 40px !important;
+    border-bottom-right-radius: 40px !important;
+    border-radius: 40px !important;
+    width: 30px !important;
+    height: 30px !important;
+}
+
+a.fa::before {
+  position: relative;
+  top: -12px !important;
+}
+
+
+
+.footer-links {
+  position: relative;
+  left: -5% !important;
+}
+
+.footer-links li {
+  display: block !important;
+}
+
+.footer-links a {
+  text-align: center !important;
+}
+
+
+
+.footer-info {
+  position: relative;
+  left: -10% !important;
+}
+
 
 
 
@@ -436,9 +683,10 @@ nav {
   left: 40% !important;
   top: -17px !important;
   font-size: 1em !important;
+  z-index: 1 !important;
 }
 
-#mobile-menu {
+/* #mobile-menu {
   position: relative;
   top: -120px !important;
   left: 25% !important;
@@ -449,7 +697,7 @@ nav {
   transition: transform 0.6s ease;
   z-index: -1;
   
-}
+} */
 
 
 #owl-demo1 {
@@ -883,6 +1131,143 @@ and (min-device-width : 375px)
 and (max-device-width : 667px) {
 
 
+   .is-desktop {
+    display: none !important;
+  }
+
+
+  .is-mobile  {
+    display: block !important;
+  }
+
+  .icon-menu {
+    display: none !important;
+  }
+
+
+  #mobile-menu .main-links li,
+  #profile-mobile-menu .main-links li {
+    list-style: none;
+    padding: 10px;
+
+  }
+
+  #mobile-menu .main-links a {
+    text-decoration: none;
+    color: #7A7A7B !important;
+    font-size: 0.5em !important;
+  }
+
+  #profile-mobile-menu .main-links a {
+    text-decoration: none;
+    color: #7A7A7B !important;
+  }
+
+  #mobile-menu .main-links a:hover{
+    color: #fff !important;
+    text-decoration: none;
+  
+  }
+
+  #mobile-menu .main-links li a:visited {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+
+  
+
+#mobile-menu.open,
+#profile-mobile-menu.open {
+  transform: translateY(100%);
+}
+
+
+.main-links {
+  background-color: #0a0a0a;
+
+
+  
+}
+
+.main-links a {
+  -webkit-transition: color 0.5s linear;
+  -moz-transition: color 0.5s linear;
+  -ms-transition: color 0.5s linear;
+  -o-transition: color 0.5s linear;
+  transition: color 0.5s linear;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.main-links a:hover{
+  color: #0498CF;
+}
+
+
+
+
+.services-section .grid figure{
+    height: 100px !important;
+    width: 100px !important;
+    border-radius: 0;
+}
+
+.services-section .grid figure:hover{
+    height: 100px !important;
+    width: 50px !important;
+    border-radius: 0;
+}
+
+
+
+.services-section figcaption {
+  height: 200px !important;
+  width: 200px !important;
+}
+
+
+
+.services-section figure.effect-bubba img {
+    height: 100px !important;
+    width: 100px !important;
+    border-radius: 0;
+}
+
+.services-section .grid figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    min-width: 100px !important;
+    max-width: 300px !important;
+    max-height: 100px;
+    width: 100px;
+    height: auto;
+    text-align: center;
+    cursor: pointer;
+    padding: 0;
+   
+
+}
+
+.services-section .item:hover figure.effect-bubba h2 {
+    font-size: 1em !important;
+    position: relative;
+    top: -40px !important;
+    left: -30% !important;
+}
+
+figcaption::after,
+figcaption::before {
+   
+    border: none !important;
+}
+
+
+
+
+
+
 
 }
 
@@ -895,34 +1280,344 @@ and (max-device-width : 667px) {
   and (-webkit-min-device-pixel-ratio: 2)
 { 
 
-/* .logo {
-  left: 0 !important;
+ nav {
+    height: 33px !important;
+  }
 
+
+.logo {
+  top: -20px !important;
 }
+
+.logo img {
+  height: 50px !important;
+  width: 160px !important;
+}
+
 
 .nav-toggle {
-  top: -140px !important;
-  left: 4% !important;
+  position: relative;
+  top: -20px !important;
+  left: 40% !important;
+  font-size: 1em !important;
+
 }
-
-
-.nav-toggle2 {
-  top: -17px !important;
-  margin-left: 95% !important;
-}
-
 
 
 #mobile-menu {
-  top: 167px !important;
-  margin-left: 15% !important;
+  position: relative;
+  top: -130px !important;
+  left: 32% !important;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  transform: translateY(-450%);
+  transition: transform 0.6s ease;
+  z-index: -99;
+  
 }
 
-#profile-mobile-menu {
-  top: 10px !important;
-  margin-left: -2%;
+#mobile-menu .main-links  {
+  z-index: -1 !important;
+}
+
+#owl-demo1 {
+  margin: auto !important;
+  width: 100% !important;
+  left: -30% !important;
+}
+
+.rich-content header img {
+  position: relative;
+  left: 17% !important;
+  height: 200px !important;
+  width: 500px !important;
+
+}
+
+
+
+.owl-title {
+  position: relative;
+  top: 50px !important;
+  margin-left: 10% !important;
+  font-size: 1.2em !important;
+}
+
+.owl-controls {
+  position: relative;
+  top: 200px !important;
+  left: 10% !important;
+}
+
+.main-content {
+  height: 250px !important;
+}
+
+.title {
+  font-size: 1.2em !important;
+}
+
+.about-wrapper {
+  width: 350px !important;
+}
+
+#about {
+  height: 200px !important;
+}
+
+#about p {
+  font-size: 1em !important;
+}
+
+.services-wrapper {
+  width: 400px !important;
+}
+
+#services .title {
+  position: relative;
+  left: -10% !important;
+}
+
+#services {
+  height: 300px !important;
+}
+
+.service-popup img {
+  height: 100px !important;
+  width: 100px !important;
+  margin-left: 60% !important;
+
+}
+
+.service-popup p,
+.service-popup h1,
+.service-popup h2,
+.service-popup h3,
+.service-popup li {
+  font-size: 1em !important;
+  text-align: center !important;
+}
+
+.mfp-close {
+  position: relative;
+  left: 60% !important;
+}
+
+#evaluation-info h3.text-left {
+  position: relative;
+  left: 3% !important;
+}
+
+#evaluation  a, {
+  font-size: 0.6em !important;
+}
+
+#events a {
+  font-size: 0.5em !important;
+}
+
+#coach {
+  position: relative;
+  top: -20px !important;
+}
+
+#coach img {
+  position: relative;
+  left: -20% !important;
+}
+
+#coach-info {
+  position: relative;
+  top: 110px !important;
+  left: -10% !important;
+  width: 100% !important;
+}
+
+#coach .mfp-close {
+  position: relative;
+  left: 50% !important;
+  top: -400px !important;
+}
+
+#coach-iframe {
+  position: relative;
+  height: 100px !important;
+  width: 200px !important;
+  left: 10% !important;
+}
+
+#coach .ghost-btn {
+  position: relative;
+  left: 25% !important;
+}
+
+.products-wrapper {
+  width: 500px !important;
+}
+
+#owl-demo2 img {
+  height: 100px !important;
+  width: 100px !important;
+  position: relative;
+  margin-left: 100% !important;
+}
+
+
+#owl-demo2 h1 {
+  font-size: 1.5em !important;
+  text-align: center !important;
   
-} */
+}
+
+#owl-demo2 h4 {
+  font-size: 1.3em !important;
+  text-align: center !important;
+}
+
+#owl-demo2 p,
+#owl-demo2 li {
+  font-size: 0.7em !important;
+  text-align: center !important;
+}
+
+#owl-demo2 .owl-controls {
+  position: relative;
+  top: 10px !important;
+  left: 0 !important;
+}
+
+#team .title {
+  position: relative;
+  left: -20% !important;
+}
+
+.team-member {
+  position: relative;
+  left: -10% !important;
+}
+
+.team-img img {
+  height: 100px !important;
+  width: 100px !important;
+  position: relative;
+  left: 0 !important
+}
+.team-info h4 {
+  font-size: 1.5em !important;
+}
+
+.team-info p {
+  font-size: 1em !important;
+}
+
+.testimonials-wrapper {
+  margin: auto !important;
+  width: 300px !important;
+}
+
+#testimonials {
+  position: relative;
+  left: -30% !important;
+  height: 1000px !important;
+}
+
+.testimonial-img img {
+  height: 100px !important;
+  width: 200px !important;
+}
+
+#owl-demo3 .owl-controls {
+  top: 15px !important;
+  left: -5% !important;
+}
+
+.join-wrapper {
+  margin: auto !important;
+  width: 400px !important;
+  position: relative;
+  left: -15% !important;
+}
+
+.info-video iframe {
+  height: 200px !important;
+  width: 380px !important;
+}
+
+.join-button {
+  left: 30% !important;
+}
+
+.contact-section {
+  display: none !important;
+}
+
+.mobile-contact-section {
+  display: block !important;
+
+}
+
+.input-wrap {
+  width: 80% !important;
+}
+
+#submit-button {
+  width: 80% !important;
+}
+
+.location {
+  height: 200px !important;
+  position: relative;
+  top: -600px !important;
+
+} 
+
+.footer-logo img {
+  height: 30px !important;
+  width: 160px !important;
+}
+
+footer {
+  height: 500px !important;
+}
+
+footer .social-icons li a {
+    border-top-left-radius: 40px !important;
+    border-top-right-radius: 40px !important;
+    border-bottom-left-radius: 40px !important;
+    border-bottom-right-radius: 40px !important;
+    border-radius: 40px !important;
+    width: 30px !important;
+    height: 30px !important;
+}
+
+a.fa::before {
+  position: relative;
+  top: -12px !important;
+}
+
+
+
+.footer-links {
+  position: relative;
+  left: -5% !important;
+}
+
+.footer-links li {
+  display: block !important;
+}
+
+.footer-links a {
+  text-align: center !important;
+}
+
+
+
+.footer-info {
+  position: relative;
+  left: -10% !important;
+}
+
 
 
 
@@ -938,36 +1633,42 @@ and (max-device-width : 667px) {
   and (-webkit-min-device-pixel-ratio: 2)
 { 
 
-  
-
-
-body {
-  width: 100% !important;
-  overflow-x: hidden !important;
-}
-
-  
-
+  body,
+  html {
+    overflow-x: hidden !important;
+  }
 
 nav {
   height: 50px !important;
 }
 
+nav.main-transparent.is-mobile {
+  display: none !important;
+}
+
+
 .logo {
+  top: -23px !important;
   left: -15% !important;
 }
 
+.logo img {
+  height: 50px !important;
+  width: 200px !important;
+}
+
+
 .nav-toggle {
   position: relative;
-  left: 60% !important;
-  top: -17px !important;
-  font-size: 1em !important;
+  left: 97% !important;
+  top: -15px !important;
+  font-size: 2em !important; 
 }
 
 #mobile-menu {
   position: relative;
   top: -120px !important;
-  left: 35% !important;
+  left: 80% !important;
   width: 100px;
   height: 90px;
   text-align: center;
@@ -978,21 +1679,32 @@ nav {
 }
 
 
+
 #owl-demo1 {
   position: relative;
   top: 10px !important;
-  width: 250px !important;
+  left: -25% !important;
+  width: 500px !important;
+  
 }
+
+.rich-content header img {
+  position: relative;
+  left: 7% !important;
+}
+
 
 .owl-title {
   position: relative;
   top: 50px !important;
+  margin-left: 6% !important;
   font-size: 1.3em !important;
 }
 
 .owl-controls {
   position: relative;
-  top: 200px !important;
+  top: 250px !important;
+  left: 5% !important;
   
 }
 
@@ -1001,7 +1713,7 @@ nav {
 }
 
 .row {
-  left:  -15% !important;
+  left:  5% !important;
 }
 
 .title {
@@ -1010,7 +1722,7 @@ nav {
 
 #about {
   height: 300px !important;
-  left: -17% !important;
+  left: -70% !important;
 }
 .about-wrapper {
   margin: auto !important;
@@ -1018,8 +1730,13 @@ nav {
 }
 
 #about p {
-  font-size: 0.7em !important;
+  font-size: 1.2em !important;
+  width: 400px !important;
   
+}
+
+.services-wrapper {
+  height: 700px !important;
 }
 
 #services {
@@ -1113,6 +1830,13 @@ nav {
 
 }
 
+#owl-demo2 {
+  width: 200% !important;
+  position: relative;
+  left: -50% !important;
+  margin: 0 !important;
+}
+
 
 #owl-demo2 h1 {
   font-size: 1.5em !important;
@@ -1131,9 +1855,17 @@ nav {
   text-align: center !important;
 }
 
+.product-img {
+  left: 10% !important;
+}
+
 #owl-demo2 .owl-controls {
   position: relative;
   top: 10px !important;
+}
+
+.product-link {
+  color: #000 !important;
 }
 
 .team-wrapper {
@@ -1183,6 +1915,11 @@ nav {
   left: -5% !important;
 }
 
+.testimonial-img {
+  position: relative;
+  left: -15% !important;
+}
+
 .testimonial-img img {
   height: 100px !important;
   width: 200px !important;
@@ -1205,7 +1942,7 @@ nav {
 
 .join-wrapper {
   margin: auto !important;
-  width: 300px !important;
+  width: 500px !important;
   height: 500px !important;
   position: relative;
   top: 1000px !important;
@@ -1214,12 +1951,13 @@ nav {
 
 #join {
   position: relative;
-  left: 5%;
+  left: -10%;
 }
 
 
 .join-info p {
   font-size: 0.9em !important;
+  width: 80% !important;
 }
 
 .info-video iframe {
@@ -1230,7 +1968,7 @@ nav {
 .join-button {
  padding: 5px 35px;
   position: relative;
-  left: 30% !important;
+  left: 37% !important;
   font-size: 0.7em !important;
 }
 
@@ -1287,8 +2025,8 @@ textarea {
 
 
 .footer-logo img {
-  height: 30px !important;
-  width: 160px !important;
+  height: 50px !important;
+  width: 200px !important;
 }
 
 footer {
@@ -1331,7 +2069,7 @@ a.fa::before {
 
 .footer-info {
   position: relative;
-  left: -15% !important;
+  left: 0% !important;
 }
 
 

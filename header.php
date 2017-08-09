@@ -3,15 +3,15 @@
 <head>
 	<meta charset="<?php  bloginfo('charset'); ?>">
 	<meta name="description" content="<?php bloginfo('description'); ?>">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-
+   <meta name="viewport" content="width=device-width, 
+    minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<title><?php bloginfo('name'); ?> <?php wp_title(); ?></title>
 	<?php wp_head(); ?>
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link href="https://file.myfontastic.com/dKSBcWp6jndBota4ZsU45Q/icons.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
 	<script src="https://use.fontawesome.com/a46e157fb6.js"></script>
   
 

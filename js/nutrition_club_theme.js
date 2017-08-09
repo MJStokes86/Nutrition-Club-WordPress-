@@ -14,6 +14,7 @@
                singleItem : true,
                transitionStyle : "fade",
                responsive: true,
+               responsiveClass: true,
                nav: true,
                loop: true,
                smartSpeed: 900,
@@ -47,6 +48,20 @@
 
  
   });
+
+
+      jQuery("#owl-demo3").owlCarousel({
+ 
+      autoPlay: 5000, 
+ 
+      items : 1,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3],
+      responsive: true
+
+ 
+  });
+
 
 
 
