@@ -96,12 +96,110 @@
 	</div>
 </div>
 	</div>
+
+
+
+
+
+
+
+
+
+
+<!-- Mobile-Carousel
+ -->
+
+<div class="owl-carousel" id="mobile-carousel" data-component="owl-slider" data-component-options='{"arrows": true}'>
+
+
+	<div class="item" data-hash="">
+	<div class="rich-content">
+	    <header>
+	    <div class="owl-text-overlay">
+	    	<h2 class="owl-title">Welcome To The Nutrition Club!</h2>
+	    		<!-- <p class="owl-caption">
+	    			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent iaculis purus vel enim suscipit, vitae volutpat ante scelerisque. Pellentesque blandit malesuada dui, sed aliquet risus molestie non.
+	    		</p> -->
+	    </div>
+	            <img src="<?php bloginfo('template_directory'); ?>/img/img1.jpg" sizes="100vw" srcset="<?php bloginfo('template_directory'); ?>/img/img1.jpg" alt="">
+	    </header>
 	</div>
-	<span class="swipe-guide">
-		<span class="icon-swipe-left"></span>
-		Swipe
-		<span class="icon-swipe-right"></span>
-	</span>
+</div>
+
+
+<div class="item  " data-hash="">
+	<div class="rich-content">
+	    <header>
+	    <div class="owl-text-overlay">
+	    	<h2 class="owl-title" style="color: #0A4C70;"> Nuritional Facts Goes Here</h2>
+	    		<!-- <p class="owl-caption">
+	    			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent iaculis purus vel enim suscipit, vitae volutpat ante scelerisque. Pellentesque blandit malesuada dui, sed aliquet risus molestie non.
+	    		</p> -->
+	    </div>
+	    		 <img src="<?php bloginfo('template_directory'); ?>/img/img2.jpg" sizes="200vw" srcset="<?php bloginfo('template_directory'); ?>/img/img2.jpg" alt="" id="owl1-img2">   
+	    </header>
+	</div>
+</div>
+
+
+<div class="item  " data-hash="">
+	<div class="rich-content">
+	    <header>
+	    <div class="owl-text-overlay">
+	    	<h2 class="owl-title" style="color: #F21176;"> Motivational Quotes Goes Here</h2>
+	    		<!-- <p class="owl-caption">
+	    			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent iaculis purus vel enim suscipit, vitae volutpat ante scelerisque. Pellentesque blandit malesuada dui, sed aliquet risus molestie non.
+	    		</p> -->
+	    </div>
+	             <img src="<?php bloginfo('template_directory'); ?>/img/img3.jpg" sizes="100vw" srcset="<?php bloginfo('template_directory'); ?>/img/img3.jpg" alt="">
+	    </header>
+	</div>
+</div>
+
+
+<div class="item  " data-hash="">
+	<div class="rich-content">
+	    <header>
+	    <div class="owl-text-overlay">
+	    	<h2 class="owl-title"> Workout Tips Goes Here</h2>
+	    		<!-- <p class="owl-caption">
+	    			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent iaculis purus vel enim suscipit, vitae volutpat ante scelerisque. Pellentesque blandit malesuada dui, sed aliquet risus molestie non.
+	    		</p> -->
+	    </div>
+	             <img src="<?php bloginfo('template_directory'); ?>/img/img4.jpg" sizes="100vw" srcset="<?php bloginfo('template_directory'); ?>/img/img4.jpg" alt="">
+	    </header>
+	</div>
+</div>
+
+
+<div class="item  " data-hash="">
+	<div class="rich-content">
+	    <header>
+	    <div class="owl-text-overlay">
+	    	<h2 class="owl-title" style="color: #000;"> Club Pictures Goes Here</h2>
+	    		<!-- <p class="owl-caption">
+	    			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent iaculis purus vel enim suscipit, vitae volutpat ante scelerisque. Pellentesque blandit malesuada dui, sed aliquet risus molestie non.
+	    		</p> -->
+	    </div>
+	          <img src="<?php bloginfo('template_directory'); ?>/img/img5.jpg" sizes="100vw" srcset="<?php bloginfo('template_directory'); ?>/img/img5.jpg" alt="">  
+	    </header>
+	</div>
+</div>
+	</div>
+
+
+
+
+
+
+<!--  Mobile-Carousel Ends
+ -->
+
+
+
+
+	</div>
+	
 	</section>
 
 

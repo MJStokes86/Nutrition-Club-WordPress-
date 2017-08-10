@@ -10,7 +10,7 @@
 
 
          jQuery(document).ready(function($) {
-            jQuery("#owl-demo1").each(function(index, el) {
+            jQuery("#mobile-carousel").each(function(index, el) {
               var containerHeight = jQuery(el).height();
               jQuery(el).find("img").each(function(index, img) {
                 var w = jQuery(img).prop('naturalWidth');

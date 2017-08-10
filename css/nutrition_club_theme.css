@@ -108,6 +108,11 @@ a {
 	
 }
 
+#mobile-carousel {
+	display: none !important;
+}
+
+
 
 .rich-content-title {
 	color: #000 !important;

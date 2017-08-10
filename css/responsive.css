@@ -177,11 +177,8 @@ nav {
 and (min-device-width : 320px) 
 and (max-device-width : 568px) {
 
-  nav {
-    height: 70px !important;
-  }
-
-   .is-desktop {
+  
+.is-desktop {
     display: none !important;
   }
 
@@ -205,7 +202,7 @@ and (max-device-width : 568px) {
   #mobile-menu .main-links a {
     text-decoration: none;
     color: #7A7A7B !important;
-    font-size: 0.5em !important;
+    font-size: 1em !important;
   }
 
   #profile-mobile-menu .main-links a {
@@ -255,14 +252,13 @@ and (max-device-width : 568px) {
 }
 
 
-.logo {
-  left: -7% !important;
-  top: -10px !important;
+
+#mobile-carousel {
+  display: block !important;
 }
 
-.logo img {
-  height: 30px !important;
-  width: 160px !important;
+#owl-demo1 {
+  display: none !important;
 }
 
 
@@ -325,36 +321,47 @@ figcaption::before {
 
 
 
-
-
 }
 
 /* Smartphones (landscape) ----------- */
 @media only screen 
 and (max-width : 568px) {
-
+  
   nav {
-    height: 33px !important;
+    height: 50px !important;
   }
+
+  nav.main-transparent.is-mobile {
+  display: none !important;
+}
+
+
 
 
 .logo {
   top: -20px !important;
+  left: -10% !important;
 }
+
+.logo img {
+  height: 50px !important;
+  width: 200px !important;
+}
+
 
 .nav-toggle {
   position: relative;
-  top: -20px !important;
-  left: 40% !important;
-  font-size: 1em !important;
+  top: -13px !important;
+  left: 98% !important;
+  font-size: 1.5em !important;
 
 }
 
-/* 
+
 #mobile-menu {
   position: relative;
-  top: -130px !important;
-  left: 32% !important;
+  top: -125px !important;
+  left: 90% !important;
   width: 90px;
   height: 90px;
   text-align: center;
@@ -363,38 +370,29 @@ and (max-width : 568px) {
   z-index: -99;
   
 }
- */
+
 #mobile-menu .main-links  {
   z-index: -1 !important;
 }
 
-#owl-demo1 {
-  margin: auto !important;
-  width: 100% !important;
-  left: -30% !important;
+
+
+#owl1-img2 {
+  width: 100vw !important;
 }
-
-.rich-content header img {
-  position: relative;
-  left: 17% !important;
-  height: 200px !important;
-  width: 500px !important;
-
-}
-
 
 
 .owl-title {
   position: relative;
-  top: 50px !important;
-  margin-left: 10% !important;
-  font-size: 1.2em !important;
+  top: 100px !important;
+  margin-left: 0 !important;
+  font-size: 2.5em !important;
 }
 
 .owl-controls {
   position: relative;
-  top: 200px !important;
-  left: 10% !important;
+  top: 400px !important;
+  left: 0 !important;
 }
 
 .main-content {
@@ -410,15 +408,22 @@ and (max-width : 568px) {
 }
 
 #about {
-  height: 200px !important;
+  top: 300px !important;
+  height: 300px !important;
+  margin-left: -20% !important;
+
 }
 
 #about p {
-  font-size: 0.7em !important;
+  font-size: 1em !important;
 }
 
 .services-wrapper {
-  width: 400px !important;
+  width: 700px !important;
+  height: 500px !important;
+  position: relative;
+  top: 200px !important;
+  left: 0 !important;
 }
 
 #services .title {
@@ -427,7 +432,10 @@ and (max-width : 568px) {
 }
 
 #services {
+  position: relative;
   height: 300px !important;
+  margin-left: 5% !important;
+  width: 80% !important;
 }
 
 .service-popup img {
@@ -502,6 +510,14 @@ and (max-width : 568px) {
 .products-wrapper {
   width: 500px !important;
 }
+
+#products {
+  position: relative;
+  top: 300px !important;
+  left: 15% !important;
+}
+
+
 
 #owl-demo2 img {
   height: 100px !important;
@@ -534,14 +550,23 @@ and (max-width : 568px) {
   left: 0 !important;
 }
 
+.team-wrapper {
+  height: 1500px !important;
+}
+
+#team {
+  position: relative;
+  left: 20% !important;
+}
+
 #team .title {
   position: relative;
-  left: -20% !important;
+  margin-left: 10% !important;
 }
 
 .team-member {
   position: relative;
-  left: -10% !important;
+  left: -5% !important;
 }
 
 .team-img img {
@@ -565,13 +590,23 @@ and (max-width : 568px) {
 
 #testimonials {
   position: relative;
-  left: -30% !important;
+  margin-left: 5% !important;
+  top: 50px !important;
   height: 1000px !important;
+  
 }
 
 .testimonial-img img {
   height: 100px !important;
   width: 200px !important;
+}
+
+.testimonial-info h3 {
+  font-size: 1.3em !important;
+}
+
+.testimonial-info p {
+  font-size: 0.7em !important;
 }
 
 #owl-demo3 .owl-controls {
@@ -581,9 +616,19 @@ and (max-width : 568px) {
 
 .join-wrapper {
   margin: auto !important;
-  width: 400px !important;
+  width: 700px !important;
   position: relative;
-  left: -15% !important;
+  left: -5% !important;
+  top: -400px !important;
+}
+
+#join {
+  position: relative;
+  margin-left: -10% !important;
+}
+
+#join p {
+  width: 80% !important;
 }
 
 .info-video iframe {
@@ -592,7 +637,7 @@ and (max-width : 568px) {
 }
 
 .join-button {
-  left: 30% !important;
+  left: 35% !important;
 }
 
 .contact-section {
@@ -601,7 +646,19 @@ and (max-width : 568px) {
 
 .mobile-contact-section {
   display: block !important;
+  position: relative;
+  top: -300px !important;
 
+}
+
+.mobile-contact-section h1 {
+  position: relative;
+  left: 3% !important;
+}
+
+.contact-form {
+  position: relative;
+  left: 10% !important;
 }
 
 .input-wrap {
@@ -620,8 +677,8 @@ and (max-width : 568px) {
 } 
 
 .footer-logo img {
-  height: 30px !important;
-  width: 160px !important;
+  height: 50px !important;
+  width: 200px !important;
 }
 
 footer {
@@ -638,6 +695,11 @@ footer .social-icons li a {
     height: 30px !important;
 }
 
+.social-icons {
+  position: relative;
+  top: -15px !important;
+}
+
 a.fa::before {
   position: relative;
   top: -12px !important;
@@ -647,7 +709,7 @@ a.fa::before {
 
 .footer-links {
   position: relative;
-  left: -5% !important;
+  margin-left: -5% !important;
 }
 
 .footer-links li {
@@ -662,11 +724,11 @@ a.fa::before {
 
 .footer-info {
   position: relative;
-  left: -10% !important;
+  left: -5% !important;
 }
 
 
-
+ 
 
 }
 
@@ -674,56 +736,96 @@ a.fa::before {
 @media only screen 
 and (max-width : 320px) {
 
+
+ body,
+  html {
+    overflow-x: hidden !important;
+  }
+
 nav {
   height: 50px !important;
 }
 
-.nav-toggle {
-  position: relative;
-  left: 40% !important;
-  top: -17px !important;
-  font-size: 1em !important;
-  z-index: 1 !important;
+nav.main-transparent.is-mobile {
+  display: none !important;
 }
 
-/* #mobile-menu {
+
+.logo {
+  top: -23px !important;
+  left: -15% !important;
+}
+
+.logo img {
+  height: 50px !important;
+  width: 200px !important;
+}
+
+
+.nav-toggle {
+  position: relative;
+  left: 97% !important;
+  top: -15px !important;
+  font-size: 2em !important; 
+}
+
+#mobile-menu {
   position: relative;
   top: -120px !important;
-  left: 25% !important;
-  width: 100px;
+  left: 60% !important;
+  width: 120px;
   height: 90px;
   text-align: center;
   transform: translateY(-450%);
   transition: transform 0.6s ease;
   z-index: -1;
   
-} */
+}
+
 
 
 #owl-demo1 {
   position: relative;
-  top: 10px !important;
-  width: 250px !important;
+  top: 27px !important;
+  left: -25% !important;
+  width: 500px !important;
+  height: 300px !important;
+  margin: 0  !important;
+  
+  
 }
+
+
+
+.rich-content header img {
+  position: relative;
+  left: 0 !important;
+  width: 100% !important;
+  height: 330px !important;
+}
+
+
 
 .owl-title {
   position: relative;
-  top: 50px !important;
-  font-size: 1.5em !important;
+  top: 100px !important;
+  margin-left: 0 !important;
+  font-size: 1.3em !important;
 }
 
 .owl-controls {
   position: relative;
-  top: 200px !important;
+  top: 300px !important;
+  left: 0 !important;
   
 }
 
 .main-content {
-  height: 300px !important;
+  height: 40px !important;
 }
 
 .row {
-  left:  -15% !important;
+  left:  5% !important;
 }
 
 .title {
@@ -731,15 +833,35 @@ nav {
 }
 
 #about {
-  height: 300px !important;
+  top: 350px !important;
+  height: 400px !important;
+  left: -25% !important;
+}
+
+.about-wrapper {
+  margin: auto !important;
+  width: 200px !important;
 }
 
 #about p {
-  font-size: 1em !important;
+  font-size: 1.2em !important;
+  width: 300px !important;
+  
+}
+
+.services-wrapper {
+  height: 500px !important;
+  width: 500px !important;
 }
 
 #services {
   height: 300px !important;
+  left: -10% !important;
+}
+
+.services-posts {
+  position: relative;
+  left: -15% !important;
 }
 
 .service-popup img {
@@ -817,6 +939,25 @@ nav {
   height: 300px !important;
 }
 
+#products {
+  position: relative;
+  left: -5% !important;
+  top: 300px !important;
+
+}
+
+.product-info {
+  position: relative;
+  left: 10% !important;
+}
+
+#owl-demo2 {
+  width: 170% !important;
+  position: relative;
+  left: -50% !important;
+  margin: 0 !important;
+}
+
 
 #owl-demo2 h1 {
   font-size: 1.5em !important;
@@ -836,30 +977,49 @@ nav {
 }
 
 #owl-demo2 .owl-controls {
+  left: 12% !important;
+}
+
+.product-img {
+  left: 10% !important;
+}
+
+#owl-demo2 .owl-controls {
   position: relative;
   top: 10px !important;
 }
 
+.product-link {
+  color: #000 !important;
+}
+
 .team-wrapper {
   margin: auto !important;
-  height: 2100px !important;
+  height: 1500px !important;
+  position: relative;
+  top: 1000px !important;
 }
 
 #team {
   position: relative;
   left: -45% !important;
-  top: 700px !important;
+  top: 0 !important;
+}
+
+.team-member {
+  left: 30% !important;
 }
 
 #team .title {
   position: relative;
-  left: 52% !important;
+  left: 45% !important;
 }
 
 .team-img img {
   height: 100px !important;
   width: 100px !important;
 }
+
 
 .team-info {
   position: relative;
@@ -874,11 +1034,22 @@ nav {
   font-size: 1em !important;
 }
 
+#testimonials {
+  position: relative;
+  top: 1000px !important;
+  left: -5% !important;
+}
+
+.testimonial-img {
+  position: relative;
+  left: -15% !important;
+}
+
 .testimonial-img img {
   height: 100px !important;
   width: 200px !important;
   position: relative;
-  left: 12% !important;
+  left: 25% !important;
 }
 
 .testimonial-info h3 {
@@ -887,21 +1058,36 @@ nav {
 
 .testimonial-info p {
   font-size: 1em !important;
+  width: 100% !important;
+
 }
 
 #owl-demo3 .owl-controls {
   top: 0 !important;
 }
 
+#owl-demo3 {
+  left: -5% !important;
+}
+
 .join-wrapper {
   margin: auto !important;
-  width: 320px !important;
+  width: 400px !important;
   height: 500px !important;
+  position: relative;
+  top: 1000px !important;
+  left: -10% !important;
+}
+
+#join {
+  position: relative;
+  left: -3% !important;
 }
 
 
 .join-info p {
   font-size: 0.9em !important;
+  width: 60% !important;
 }
 
 .info-video iframe {
@@ -910,10 +1096,10 @@ nav {
 }
 
 .join-button {
-  height: 50% !important;
-  width: 50% !important;
+ padding: 5px 35px;
   position: relative;
-  left: 23% !important;
+  left: 37% !important;
+  font-size: 0.7em !important;
 }
 
 .contact-section {
@@ -922,11 +1108,27 @@ nav {
 
 .mobile-contact-section {
   display: block !important;
+  position: relative;
+  top: 1000px !important;
 
 }
 
- .input-wrap {
-  width: 80% !important;
+input, 
+textarea {
+
+    font-size: 1em !important;
+    text-align: center !important;
+}
+
+#select1 {
+  font-size: 0.7em !important;
+}
+
+
+
+.input-wrap {
+  width: 100% !important;
+  height: 10% !important;
 
 } 
 
@@ -934,27 +1136,35 @@ nav {
   height: 200px !important;
   position: relative;
   top: -600px !important;
-
+  left: 10% !important;
+  width: 200px !important;
 } 
 
 .contact-form {
   position: relative;
-  left: 10% !important;
+  left: -5% !important;
   
 }
 
+.mobile-contact-section .title {
+  position: relative;
+  left: 0 !important;
+}
+
 #submit-button {
-  width: 80% !important;
+  width: 100% !important;
 }
 
 
 .footer-logo img {
-  height: 30px !important;
-  width: 160px !important;
+  height: 50px !important;
+  width: 200px !important;
 }
 
 footer {
   height: 500px !important;
+  position: relative;
+  top: 500px !important;
 }
 
 footer .social-icons li a {
@@ -967,6 +1177,11 @@ footer .social-icons li a {
     height: 30px !important;
 }
 
+.social-icons {
+  position: relative;
+  top: -25px !important;
+}
+
 a.fa::before {
   position: relative;
   top: -12px !important;
@@ -976,7 +1191,7 @@ a.fa::before {
 
 .footer-links {
   position: relative;
-  left: -50% !important;
+  left: -45% !important;
 }
 
 .footer-links li {
@@ -991,8 +1206,12 @@ a.fa::before {
 
 .footer-info {
   position: relative;
-  left: -10% !important;
+  left: 0% !important;
 }
+
+
+
+
 
 }
 
@@ -1204,7 +1423,13 @@ and (max-device-width : 667px) {
   color: #0498CF;
 }
 
+#mobile-carousel {
+  display: block !important;
+}
 
+#owl-demo1 {
+  display: none !important;
+}
 
 
 .services-section .grid figure{
@@ -1648,7 +1873,10 @@ a.fa::before {
   top: -12px !important;
 }
 
-
+.social-icons {
+  position: relative;
+  top: -15px !important;
+}
 
 .footer-links {
   position: relative;
@@ -1734,35 +1962,44 @@ nav.main-transparent.is-mobile {
 
 #owl-demo1 {
   position: relative;
-  top: 10px !important;
+  top: 27px !important;
   left: -25% !important;
   width: 500px !important;
+  height: 300px !important;
+  margin: 0  !important;
+  
   
 }
 
+
+
 .rich-content header img {
   position: relative;
-  left: 7% !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 330px !important;
 }
+
 
 
 .owl-title {
   position: relative;
-  top: 50px !important;
-  margin-left: 6% !important;
+  top: 100px !important;
+  margin-left: 0 !important;
   font-size: 1.3em !important;
 }
 
 .owl-controls {
   position: relative;
-  top: 250px !important;
-  left: 5% !important;
+  top: 300px !important;
+  left: 0 !important;
   
 }
 
 .main-content {
-  height: 300px !important;
+  height: 40px !important;
 }
+
 
 .row {
   left:  5% !important;
@@ -1773,8 +2010,9 @@ nav.main-transparent.is-mobile {
 }
 
 #about {
-  height: 300px !important;
-  left: -70% !important;
+  height: 500px !important;
+  left: -50% !important;
+  top: 400px !important;
 }
 .about-wrapper {
   margin: auto !important;
@@ -1789,10 +2027,16 @@ nav.main-transparent.is-mobile {
 
 .services-wrapper {
   height: 700px !important;
+  width: 400px !important;
 }
 
 #services {
   height: 300px !important;
+  left: -5% !important;
+}
+
+#services .title {
+  left: 5% !important;
 }
 
 .services-posts {
@@ -1911,6 +2155,8 @@ nav.main-transparent.is-mobile {
   left: 10% !important;
 }
 
+
+
 #owl-demo2 .owl-controls {
   position: relative;
   top: 10px !important;
@@ -1929,7 +2175,7 @@ nav.main-transparent.is-mobile {
 
 #team {
   position: relative;
-  left: -45% !important;
+  left: -50% !important;
   top: 0 !important;
 }
 
@@ -1950,7 +2196,892 @@ nav.main-transparent.is-mobile {
 
 .team-info {
   position: relative;
+  left: 0 !important;
+}
+
+.team-info h4 {
+  font-size: 1.5em !important;
+}
+
+.team-info p {
+  font-size: 1em !important;
+}
+
+#testimonials {
+  position: relative;
+  top: 1000px !important;
   left: -5% !important;
+}
+
+.testimonial-img {
+  position: relative;
+  left: -15% !important;
+}
+
+.testimonial-img img {
+  height: 100px !important;
+  width: 200px !important;
+  position: relative;
+  left: 25% !important;
+}
+
+.testimonial-info h3 {
+  font-size: 1.5em !important;
+}
+
+.testimonial-info p {
+  font-size: 1em !important;
+  width: 100% !important;
+
+}
+
+#owl-demo3 .owl-controls {
+  top: 0 !important;
+}
+
+.join-wrapper {
+  margin: auto !important;
+  width: 400px !important;
+  height: 500px !important;
+  position: relative;
+  top: 1000px !important;
+  left: 0 !important;
+}
+
+#join {
+  position: relative;
+  left: -5%;
+}
+
+
+.join-info p {
+  font-size: 0.9em !important;
+  width: 80% !important;
+}
+
+.info-video iframe {
+  width: 160px !important;
+  height: 115px !important;
+}
+
+.join-button {
+ padding: 5px 35px;
+  position: relative;
+  left: 37% !important;
+  font-size: 0.7em !important;
+}
+
+.contact-section {
+  display: none !important;
+}
+
+.mobile-contact-section {
+  display: block !important;
+  position: relative;
+  top: 1000px !important;
+  left: -5% !important;
+
+}
+
+input, 
+textarea {
+
+    font-size: 1em !important;
+    text-align: center !important;
+}
+
+#select1 {
+  font-size: 0.7em !important;
+}
+
+
+
+ .input-wrap {
+  width: 100% !important;
+  height: 10% !important;
+
+
+} 
+
+.location {
+  height: 200px !important;
+  position: relative;
+  top: -600px !important;
+  left: 17% !important;
+  width: 200px !important;
+
+
+} 
+
+.contact-form {
+  position: relative;
+  left: 0 !important;
+  
+}
+
+#submit-button {
+  width: 100% !important;
+}
+
+
+.footer-logo img {
+  height: 50px !important;
+  width: 200px !important;
+}
+
+footer {
+  height: 500px !important;
+  position: relative;
+  top: 500px !important;
+}
+
+footer .social-icons li a {
+    border-top-left-radius: 40px !important;
+    border-top-right-radius: 40px !important;
+    border-bottom-left-radius: 40px !important;
+    border-bottom-right-radius: 40px !important;
+    border-radius: 40px !important;
+    width: 30px !important;
+    height: 30px !important;
+}
+
+a.fa::before {
+  position: relative;
+  top: -12px !important;
+}
+
+
+
+.footer-links {
+  position: relative;
+  left: -30% !important;
+}
+
+.footer-links li {
+  display: block !important;
+}
+
+.footer-links a {
+  text-align: center !important;
+}
+
+
+
+.footer-info {
+  position: relative;
+  left: 0% !important;
+}
+
+
+}
+
+
+/* iPhone 6 Plus landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 3)
+{
+
+
+  nav {
+    height: 50px !important;
+  }
+
+  nav.main-transparent.is-mobile {
+  display: none !important;
+}
+
+
+
+
+.logo {
+  top: -20px !important;
+}
+
+.logo img {
+  height: 50px !important;
+  width: 200px !important;
+}
+
+
+.nav-toggle {
+  position: relative;
+  top: -13px !important;
+  left: 98% !important;
+  font-size: 1.5em !important;
+
+}
+
+
+#mobile-menu {
+  position: relative;
+  top: -125px !important;
+  left: 90% !important;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  transform: translateY(-450%);
+  transition: transform 0.6s ease;
+  z-index: -99;
+  
+}
+
+#mobile-menu .main-links  {
+  z-index: -1 !important;
+}
+
+
+
+#owl1-img2 {
+  width: 100vw !important;
+}
+
+
+.owl-title {
+  position: relative;
+  top: 140px !important;
+  margin-left: 0 !important;
+  font-size: 2.5em !important;
+}
+
+.owl-controls {
+  position: relative;
+  top: 400px !important;
+  left: 0 !important;
+}
+
+.main-content {
+  height: 250px !important;
+}
+
+.title {
+  font-size: 1.2em !important;
+}
+
+.about-wrapper {
+  width: 350px !important;
+}
+
+#about {
+  top: 300px !important;
+  height: 300px !important;
+  left: 60% !important;
+
+}
+
+#about p {
+  font-size: 1em !important;
+}
+
+.services-wrapper {
+  width: 800px !important;
+  height: 500px !important;
+  position: relative;
+  top: 200px !important;
+  left: 0 !important;
+}
+
+#services .title {
+  position: relative;
+  left: -10% !important;
+}
+
+#services {
+  position: relative;
+  height: 300px !important;
+  left: 7% !important;
+  width: 70% !important;
+}
+
+.service-popup img {
+  height: 100px !important;
+  width: 100px !important;
+  margin-left: 60% !important;
+
+}
+
+.service-popup p,
+.service-popup h1,
+.service-popup h2,
+.service-popup h3,
+.service-popup li {
+  font-size: 1em !important;
+  text-align: center !important;
+}
+
+.mfp-close {
+  position: relative;
+  left: 60% !important;
+}
+
+#evaluation-info h3.text-left {
+  position: relative;
+  left: 3% !important;
+}
+
+#evaluation  a, {
+  font-size: 0.6em !important;
+}
+
+#events a {
+  font-size: 0.5em !important;
+}
+
+#coach {
+  position: relative;
+  top: -20px !important;
+}
+
+#coach img {
+  position: relative;
+  left: -20% !important;
+}
+
+#coach-info {
+  position: relative;
+  top: 110px !important;
+  left: -10% !important;
+  width: 100% !important;
+}
+
+#coach .mfp-close {
+  position: relative;
+  left: 50% !important;
+  top: -400px !important;
+}
+
+#coach-iframe {
+  position: relative;
+  height: 100px !important;
+  width: 200px !important;
+  left: 10% !important;
+}
+
+#coach .ghost-btn {
+  position: relative;
+  left: 25% !important;
+}
+
+.products-wrapper {
+  width: 500px !important;
+}
+
+#products {
+  position: relative;
+  top: 300px !important;
+  left: 30% !important;
+}
+
+
+
+#owl-demo2 img {
+  height: 100px !important;
+  width: 100px !important;
+  position: relative;
+  margin-left: 100% !important;
+}
+
+
+#owl-demo2 h1 {
+  font-size: 1.5em !important;
+  text-align: center !important;
+  
+}
+
+#owl-demo2 h4 {
+  font-size: 1.3em !important;
+  text-align: center !important;
+}
+
+#owl-demo2 p,
+#owl-demo2 li {
+  font-size: 0.7em !important;
+  text-align: center !important;
+}
+
+#owl-demo2 .owl-controls {
+  position: relative;
+  top: 10px !important;
+  left: 0 !important;
+}
+
+.team-wrapper {
+  height: 1500px !important;
+}
+
+#team {
+  position: relative;
+  left: 20% !important;
+  width: 80% !important;
+}
+
+#team .title {
+  position: relative;
+  left: -20% !important;
+}
+
+.team-member {
+  position: relative;
+  left: -10% !important;
+}
+
+.team-img img {
+  height: 100px !important;
+  width: 100px !important;
+  position: relative;
+  left: 0 !important
+}
+.team-info h4 {
+  font-size: 1.5em !important;
+}
+
+.team-info p {
+  font-size: 1em !important;
+}
+
+.testimonials-wrapper {
+  margin: auto !important;
+  width: 300px !important;
+}
+
+#testimonials {
+  position: relative;
+  left: 0 !important;
+  top: 50px !important;
+  height: 1000px !important;
+  
+}
+
+.testimonial-img img {
+  height: 100px !important;
+  width: 200px !important;
+}
+
+.testimonial-info h3 {
+  font-size: 1.3em !important;
+}
+
+.testimonial-info p {
+  font-size: 0.7em !important;
+}
+
+#owl-demo3 .owl-controls {
+  top: 15px !important;
+  left: -5% !important;
+}
+
+.join-wrapper {
+  margin: auto !important;
+  width: 800px !important;
+  position: relative;
+  left: -5% !important;
+  top: -400px !important;
+}
+
+#join {
+  position: relative;
+  left: 5% !important;
+}
+
+.info-video iframe {
+  height: 200px !important;
+  width: 380px !important;
+}
+
+.join-button {
+  left: 35% !important;
+}
+
+.contact-section {
+  display: none !important;
+}
+
+.mobile-contact-section {
+  display: block !important;
+  position: relative;
+  top: -300px !important;
+
+}
+
+.mobile-contact-section h1 {
+  position: relative;
+  left: 3% !important;
+}
+
+.contact-form {
+  position: relative;
+  left: 10% !important;
+}
+
+.input-wrap {
+  width: 80% !important;
+}
+
+#submit-button {
+  width: 80% !important;
+}
+
+.location {
+  height: 200px !important;
+  position: relative;
+  top: -600px !important;
+
+} 
+
+.location-info {
+  position: relative;
+  left: 3% !important;
+}
+
+.footer-logo img {
+  height: 50px !important;
+  width: 200px !important;
+}
+
+footer {
+  height: 500px !important;
+}
+
+footer .social-icons li a {
+    border-top-left-radius: 40px !important;
+    border-top-right-radius: 40px !important;
+    border-bottom-left-radius: 40px !important;
+    border-bottom-right-radius: 40px !important;
+    border-radius: 40px !important;
+    width: 30px !important;
+    height: 30px !important;
+}
+
+a.fa::before {
+  position: relative;
+  top: -12px !important;
+}
+
+
+
+.footer-links {
+  position: relative;
+  left: 0 !important;
+}
+
+.footer-links li {
+  display: block !important;
+}
+
+.footer-links a {
+  text-align: center !important;
+}
+
+
+
+.footer-info {
+  position: relative;
+  left: 0 !important;
+}
+
+
+
+
+
+
+ }
+
+/* iPhone 6 Plus portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 3)
+{ 
+
+   body,
+  html {
+    overflow-x: hidden !important;
+  }
+
+
+
+nav {
+  height: 50px !important;
+}
+
+nav.main-transparent.is-mobile {
+  display: none !important;
+}
+
+
+.logo {
+  top: -23px !important;
+  left: -15% !important;
+}
+
+.logo img {
+  height: 50px !important;
+  width: 200px !important;
+}
+
+
+.nav-toggle {
+  position: relative;
+  left: 97% !important;
+  top: -15px !important;
+  font-size: 2em !important; 
+}
+
+#mobile-menu {
+  position: relative;
+  top: -120px !important;
+  left: 80% !important;
+  width: 100px;
+  height: 90px;
+  text-align: center;
+  transform: translateY(-450%);
+  transition: transform 0.6s ease;
+  z-index: -1;
+  
+}
+
+
+
+#owl-demo1 {
+  position: relative;
+  top: 27px !important;
+  left: -25% !important;
+  width: 500px !important;
+  height: 300px !important;
+  margin: 0  !important;
+  
+  
+}
+
+
+
+.rich-content header img {
+  position: relative;
+  left: 0 !important;
+  width: 100% !important;
+  height: 330px !important;
+}
+
+
+
+.owl-title {
+  position: relative;
+  top: 100px !important;
+  margin-left: 0 !important;
+  font-size: 1.3em !important;
+}
+
+.owl-controls {
+  position: relative;
+  top: 300px !important;
+  left: 0 !important;
+  
+}
+
+.main-content {
+  height: 40px !important;
+}
+
+
+.row {
+  left:  5% !important;
+}
+
+.title {
+  font-size: 1.5em !important;
+}
+
+#about {
+  height: 500px !important;
+  left: -50% !important;
+  top: 400px !important;
+}
+.about-wrapper {
+  margin: auto !important;
+  width: 200px !important;
+}
+
+#about p {
+  font-size: 1.2em !important;
+  width: 400px !important;
+  
+}
+
+.services-wrapper {
+  height: 700px !important;
+  width: 500px !important;
+}
+
+#services {
+  height: 300px !important;
+  left: -5% !important;
+}
+
+#services .title {
+  left: -3% !important;
+}
+
+.services-posts {
+  position: relative;
+  left: -10% !important;
+}
+
+.service-popup img {
+  height: 100px !important;
+  width: 100px !important;
+  margin-left: 60% !important;
+
+}
+
+.service-popup p,
+.service-popup h1,
+.service-popup h2,
+.service-popup h3,
+.service-popup li {
+  font-size: 1em !important;
+  text-align: center !important;
+}
+
+.mfp-close {
+  position: relative;
+  left: 60% !important;
+}
+
+#evaluation-info h3.text-left {
+  position: relative;
+  left: 3% !important;
+}
+
+#evaluation  a, {
+  font-size: 0.6em !important;
+}
+
+#events a {
+  font-size: 0.5em !important;
+}
+
+#coach {
+  position: relative;
+  top: -20px !important;
+}
+
+#coach img {
+  position: relative;
+  left: -20% !important;
+}
+
+#coach-info {
+  position: relative;
+  top: 110px !important;
+  left: -10% !important;
+  width: 100% !important;
+}
+
+#coach .mfp-close {
+  position: relative;
+  left: 50% !important;
+  top: -400px !important;
+}
+
+#coach-iframe {
+  position: relative;
+  height: 100px !important;
+  width: 200px !important;
+  left: 10% !important;
+}
+
+#coach .ghost-btn {
+  position: relative;
+  left: 25% !important;
+}
+
+.products-wrapper {
+  margin: auto !important;
+  width: 300px !important;
+  height: 300px !important;
+}
+
+#products {
+  position: relative;
+  left: -5% !important;
+  top: 300px !important;
+
+}
+
+#owl-demo2 {
+  width: 200% !important;
+  position: relative;
+  left: -50% !important;
+  margin: 0 !important;
+}
+
+
+#owl-demo2 h1 {
+  font-size: 1.5em !important;
+  text-align: center !important;
+  
+}
+
+#owl-demo2 h4 {
+  font-size: 1.3em !important;
+  text-align: center !important;
+}
+
+#owl-demo2 p,
+#owl-demo2 li {
+  font-size: 0.7em !important;
+  text-align: center !important;
+}
+
+.product-img {
+  left: 10% !important;
+}
+
+
+
+#owl-demo2 .owl-controls {
+  position: relative;
+  top: 10px !important;
+}
+
+.product-link {
+  color: #000 !important;
+}
+
+.team-wrapper {
+  margin: auto !important;
+  height: 1500px !important;
+  position: relative;
+  top: 1000px !important;
+}
+
+#team {
+  position: relative;
+  left: -50% !important;
+  top: 0 !important;
+}
+
+.team-member {
+  left: 60% !important;
+}
+
+#team .title {
+  position: relative;
+  left: 52% !important;
+}
+
+.team-img img {
+  height: 100px !important;
+  width: 100px !important;
+}
+
+
+.team-info {
+  position: relative;
+  left: 0 !important;
 }
 
 .team-info h4 {
@@ -1999,18 +3130,17 @@ nav.main-transparent.is-mobile {
   height: 500px !important;
   position: relative;
   top: 1000px !important;
-  left: -10% !important;
+  left: 0 !important;
 }
 
 #join {
   position: relative;
-  left: -10%;
+  left: -7%;
 }
 
 
 .join-info p {
   font-size: 0.9em !important;
-  width: 80% !important;
 }
 
 .info-video iframe {
@@ -2033,6 +3163,7 @@ nav.main-transparent.is-mobile {
   display: block !important;
   position: relative;
   top: 1000px !important;
+  left: -5% !important;
 
 }
 
@@ -2050,7 +3181,7 @@ textarea {
 
 
  .input-wrap {
-  width: 60% !important;
+  width: 100% !important;
   height: 10% !important;
 
 
@@ -2060,7 +3191,7 @@ textarea {
   height: 200px !important;
   position: relative;
   top: -600px !important;
-  left: 17% !important;
+  left: 20% !important;
   width: 200px !important;
 
 
@@ -2068,12 +3199,12 @@ textarea {
 
 .contact-form {
   position: relative;
-  left: 15% !important;
+  left: 0 !important;
   
 }
 
 #submit-button {
-  width: 60% !important;
+  width: 100% !important;
 }
 
 
@@ -2107,7 +3238,7 @@ a.fa::before {
 
 .footer-links {
   position: relative;
-  left: -37% !important;
+  left: -22% !important;
 }
 
 .footer-links li {
@@ -2129,38 +3260,171 @@ a.fa::before {
 }
 
 
-/* iPhone 6 Plus landscape */
+/* iPhone 6 Plus (orientation: portrait and landscape) */
 @media only screen
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (orientation: landscape)
-  and (-webkit-min-device-pixel-ratio: 3)
-{
-
-
-
-
-
-
- }
-
-/* iPhone 6 Plus portrait */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (max-device-width: 414px),
+  only screen and (max-device-width: 736px)
+  
 { 
+
+.is-desktop {
+    display: none !important;
+  }
+
+
+  .is-mobile  {
+    display: block !important;
+  }
+
+  .icon-menu {
+    display: none !important;
+  }
+
+
+  #mobile-menu .main-links li,
+  #profile-mobile-menu .main-links li {
+    list-style: none;
+    padding: 10px;
+
+  }
+
+  #mobile-menu .main-links a {
+    text-decoration: none;
+    color: #7A7A7B !important;
+    font-size: 0.5em !important;
+  }
+
+  #profile-mobile-menu .main-links a {
+    text-decoration: none;
+    color: #7A7A7B !important;
+  }
+
+  #mobile-menu .main-links a:hover{
+    color: #fff !important;
+    text-decoration: none;
+  
+  }
+
+  #mobile-menu .main-links li a:visited {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+
+  
+
+#mobile-menu.open,
+#profile-mobile-menu.open {
+  transform: translateY(100%);
+}
+
+
+.main-links {
+  background-color: #0a0a0a;
+
+
+  
+}
+
+.main-links a {
+  -webkit-transition: color 0.5s linear;
+  -moz-transition: color 0.5s linear;
+  -ms-transition: color 0.5s linear;
+  -o-transition: color 0.5s linear;
+  transition: color 0.5s linear;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.main-links a:hover{
+  color: #0498CF;
+}
+
+
+#mobile-carousel {
+  display: block !important;
+}
+
+#owl-demo1 {
+  display: none !important;
+}
+
+.services-section .grid figure{
+    height: 100px !important;
+    width: 100px !important;
+    border-radius: 0;
+}
+
+.services-section .grid figure:hover{
+    height: 100px !important;
+    width: 50px !important;
+    border-radius: 0;
+}
+
+
+
+.services-section figcaption {
+  height: 200px !important;
+  width: 200px !important;
+}
+
+
+
+.services-section figure.effect-bubba img {
+    height: 100px !important;
+    width: 100px !important;
+    border-radius: 0;
+}
+
+.services-section .grid figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    min-width: 100px !important;
+    max-width: 300px !important;
+    max-height: 100px;
+    width: 100px;
+    height: auto;
+    text-align: center;
+    cursor: pointer;
+    padding: 0;
+   
+
+}
+
+.services-section .item:hover figure.effect-bubba h2 {
+    font-size: 1em !important;
+    position: relative;
+    top: -40px !important;
+    left: -30% !important;
+}
+
+figcaption::after,
+figcaption::before {
+   
+    border: none !important;
+}
+
 
 
 }
+
+
+
+
 
 /* iPhone 6 and 6 Plus */
 @media only screen
   and (max-device-width: 640px),
   only screen and (max-device-width: 667px),
   only screen and (max-width: 480px)
-{ }
+{ 
+
+  
+
+
+
+}
 
 /* Apple Watch */
 @media
