@@ -2384,6 +2384,10 @@ a.fa::before {
   and (-webkit-min-device-pixel-ratio: 3)
 {
 
+  body, html {
+    overflow-x: hidden !important;
+  }
+
 
   nav {
     height: 50px !important;
