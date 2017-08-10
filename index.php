@@ -470,7 +470,7 @@
 				</div>
 
 				<div class="item">
-				<div class="col-md-6">
+				<div class="col-md-6 product-img">
 					<img src="<?php bloginfo('template_directory');?>/img/21day.jpg" class='img-responsive' id="owl2-img5">
 					</div>
 					<div class="wow fadeInRight col-md-6">
