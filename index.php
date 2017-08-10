@@ -17,6 +17,8 @@
 	<div class="hide-on-swipe rich-content fixed " data-component="forwardevent">
 	
 	</div>
+
+	<div class="owl-wrapper clearfix">
 	<div class="owl-carousel" id="owl-demo1" data-component="owl-slider" data-component-options='{"arrows": true}'>
 
 
@@ -44,7 +46,7 @@
 	    			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent iaculis purus vel enim suscipit, vitae volutpat ante scelerisque. Pellentesque blandit malesuada dui, sed aliquet risus molestie non.
 	    		</p> -->
 	    </div>
-	    		 <img src="<?php bloginfo('template_directory'); ?>/img/img2.jpg" sizes="100vw" srcset="<?php bloginfo('template_directory'); ?>/img/img2.jpg" alt="">   
+	    		 <img src="<?php bloginfo('template_directory'); ?>/img/img2.jpg" sizes="200vw" srcset="<?php bloginfo('template_directory'); ?>/img/img2.jpg" alt="" id="owl1-img2">   
 	    </header>
 	</div>
 </div>
@@ -93,6 +95,7 @@
 	    </header>
 	</div>
 </div>
+	</div>
 	</div>
 	<span class="swipe-guide">
 		<span class="icon-swipe-left"></span>

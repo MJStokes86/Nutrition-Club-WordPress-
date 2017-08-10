@@ -7,12 +7,31 @@
          *  OWL CAROUSEL
          * ----------------------------------------------------------------------------------------
          */
+
+
+         jQuery(document).ready(function($) {
+            jQuery("#owl-demo1").each(function(index, el) {
+              var containerHeight = jQuery(el).height();
+              jQuery(el).find("img").each(function(index, img) {
+                var w = jQuery(img).prop('naturalWidth');
+                var h = jQuery(img).prop('naturalHeight');
+                jQuery(img).css({
+                  'width': Math.round(containerHeight * w / h) + 'px',
+                  'height': containerHeight + 'px'
+                });
+              }),
+              jQuery(el).owlCarousel({
+                autoWidth: true
+              });
+            });
+          });
 			
 			jQuery(".owl-carousel").owlCarousel({ 
 
                autoPlay: 5000,
                singleItem : true,
                transitionStyle : "fade",
+               autoWidth:true,
                responsive: true,
                responsiveClass: true,
                nav: true,
