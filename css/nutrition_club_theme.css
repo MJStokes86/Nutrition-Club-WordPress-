@@ -393,6 +393,11 @@ a.ghost-btn:hover {
 
 }
 
+.product-img #owl2-img1 {
+	position: relative;
+	top: 10px !important;
+}
+
 #owl2-img5 {
 	border-radius: 0;
 	position: relative;
@@ -453,7 +458,7 @@ a.ghost-btn:hover {
 
 #owl-demo2 .owl-controls {
 	position: relative;
-	top: -150px;
+	top: 100px;
 
 }
 
@@ -485,7 +490,7 @@ div.col-md-6.col-md-3.col-centered {
 .team-member {
 	position: relative;
 	left: 35% !important;
-	padding: 30px;
+	width: 100% !important;
 }
 
 .team-img img {
@@ -493,7 +498,7 @@ div.col-md-6.col-md-3.col-centered {
 	height: 250px !important;
 	width: 250px !important;
 	position: relative;
-	left: -10% !important;
+	left: -5% !important;
 }
 
 .team-info h4 {
@@ -505,13 +510,26 @@ div.col-md-6.col-md-3.col-centered {
 	width: 250px !important;
 }
 
+/* #team-member1 {
+  position: relative;
+  left: -30% !important;
+  width: 150% !important;
+}
+
+#team-member2 {
+  position: relative;
+  width: 150% !important;
+  left: 15% !important;
+}
+
+#team-member3 {
+  position: relative;
+  left: 60% !important;
+  width: 150% !important;
+} */
+
 /* Testimonials */
 
-/* .testimonials-wrapper {
-	background-color: #7A7A7B;
-	width: 100% !important;
-
-} */
 
 .testimonial-section {
 	height: 600px;
@@ -686,6 +704,11 @@ footer {
 .footer-logo img {
 
 	width: 300px;
+}
+
+.social-icons {
+	position: relative;
+	top: -20px !important;
 }
 
 .copyright {

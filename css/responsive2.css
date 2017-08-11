@@ -1,39 +1,66 @@
+/* Medium Layout: 1280px. */
 
+@media only screen 
+and (max-width: 48em) {
 
-
-
-/*.......................... Mobile Layout ................................*/
-
-@media only screen and (min-width:320px) and (max-width: 767px) {
-
-
-body, html {
-  overflow-x: hidden !important;
-
-}
-  
-
-
+    
 nav {
-  height: 50px !important;
+  top: -40px;
 }
 
-.logo {
-  left: -15% !important;
+
+.is-desktop {
+  display: none !important;
 }
 
-.nav-toggle {
+.is-mobile {
+  display: block !important;
   position: relative;
-  left: 60% !important;
-  top: -17px !important;
-  font-size: 1em !important;
 }
+
+#mobile-menu .main-links li,
+#profile-mobile-menu .main-links li {
+  list-style: none;
+  padding: 10px;
+
+}
+
+#mobile-menu .main-links a {
+  text-decoration: none;
+  color: #7A7A7B !important;
+}
+
+#profile-mobile-menu .main-links a {
+  text-decoration: none;
+  color: #7A7A7B !important;
+}
+
+#mobile-menu .main-links a:hover{
+  color: #fff !important;
+  text-decoration: none;
+  
+}
+
+#mobile-menu .main-links li a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.nav-toggle,
+.nav-toggle2 {
+  position: relative;
+  color: #fff;
+  margin-left: 94% !important;
+  margin-top: 7% !important;
+}
+
 
 #mobile-menu {
   position: relative;
-  top: -120px !important;
-  left: 35% !important;
-  width: 100px;
+  margin-top: -15%;
+  left: 80% !important;
+  width: 150px;
   height: 90px;
   text-align: center;
   transform: translateY(-450%);
@@ -42,444 +69,102 @@ nav {
   
 }
 
+#profile-mobile-menu {
 
-
-#owl-demo1 {
   position: relative;
-  top: 10px !important;
-  width: 375px !important;
-  height: 351px !important;
+  margin-top: -15%;
+  left: 80% !important;
+  width: 150px;
+  height: 90px;
+  text-align: center;
+  transform: translateY(-450%);
+  transition: transform 0.6s ease;
+  z-index: -1;
+
+}
+
+#mobile-menu.open,
+#profile-mobile-menu.open {
+  transform: translateY(100%);
+}
+
+
+
+.main-links {
+  background-color: #0a0a0a;
+
+
+  
+}
+
+.main-links a {
+  -webkit-transition: color 0.5s linear;
+  -moz-transition: color 0.5s linear;
+  -ms-transition: color 0.5s linear;
+  -o-transition: color 0.5s linear;
+  transition: color 0.5s linear;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.main-links a:hover{
+  color: #0498CF;
+}
+
+
+
+
+.logo {
+  position: relative;
+  top: 30px;
+  left: -10%;
+}
+
+
+.rich-content header {
+  position: relative;
+  top: 50px;
 }
 
 .owl-title {
   position: relative;
-  top: 50px !important;
-  font-size: 1.3em !important;
+  top: 120px !important;
+  font-size: 2.5em !important;
 }
 
-.owl-controls {
-  position: relative;
-  top: 200px !important;
-  
+#owl-demo1 .owl-controls {
+  top: 400px;
 }
 
-.main-content {
-  height: 300px !important;
+
+.carousel {
+  height: 500px;
 }
 
 .row {
-  left:  -15% !important;
-}
-
-.title {
-  font-size: 1.5em !important;
-}
-
-#about {
-  height: 300px !important;
-  left: -17% !important;
-}
-.about-wrapper {
-  margin: auto !important;
-  width: 200px !important;
-}
-
-#about p {
-  font-size: 0.7em !important;
-  
-}
-
-#services {
-  height: 300px !important;
-}
-
-.services-posts {
-  position: relative;
-  left: -10% !important;
-}
-
-.service-popup img {
-  height: 100px !important;
-  width: 100px !important;
-  margin-left: 60% !important;
-
+  left: 0 !important;
 }
 
 .service-popup p,
 .service-popup h1,
-.service-popup h2,
 .service-popup h3,
 .service-popup li {
-  font-size: 1em !important;
   text-align: center !important;
 }
 
-.mfp-close {
-  position: relative;
-  left: 60% !important;
-}
-
-#evaluation-info h3.text-left {
-  position: relative;
-  left: 3% !important;
-}
-
-#evaluation  a, {
-  font-size: 0.6em !important;
-}
-
-#events a {
-  font-size: 0.5em !important;
-}
-
-#coach {
-  position: relative;
-  top: -20px !important;
-}
-
-#coach img {
-  position: relative;
-  left: -20% !important;
-}
-
-#coach-info {
-  position: relative;
-  top: 110px !important;
-  left: -10% !important;
-  width: 100% !important;
-}
-
-#coach .mfp-close {
-  position: relative;
-  left: 50% !important;
-  top: -400px !important;
-}
-
-#coach-iframe {
-  position: relative;
-  height: 100px !important;
-  width: 200px !important;
-  left: 10% !important;
-}
-
-#coach .ghost-btn {
-  position: relative;
-  left: 25% !important;
-}
-
-.products-wrapper {
-  margin: auto !important;
-  width: 300px !important;
-  height: 300px !important;
-}
-
-#products {
-  position: relative;
-  left: -5% !important;
-  top: 300px !important;
-
+#evaluation .ghost-btn {
+  left: 20% !important;
 }
 
 
-#owl-demo2 h1 {
-  font-size: 1.5em !important;
-  text-align: center !important;
-  
-}
-
-#owl-demo2 h4 {
-  font-size: 1.3em !important;
+.product-info {
   text-align: center !important;
 }
 
-#owl-demo2 p,
-#owl-demo2 li {
-  font-size: 0.7em !important;
-  text-align: center !important;
-}
-
-#owl-demo2 .owl-controls {
-  position: relative;
-  top: 10px !important;
-}
-
-.team-wrapper {
-  margin: auto !important;
-  height: 1500px !important;
-  position: relative;
-  top: 1000px !important;
-}
-
-#team {
-  position: relative;
-  left: -45% !important;
-  top: 0 !important;
-}
-
-.team-member {
-  left: 47% !important;
-}
-
-#team .title {
-  position: relative;
-  left: 52% !important;
-}
-
-.team-img img {
-  height: 100px !important;
-  width: 100px !important;
-}
-
-
-.team-info {
-  position: relative;
-  left: -5% !important;
-}
-
-.team-info h4 {
-  font-size: 1.5em !important;
-}
-
-.team-info p {
-  font-size: 1em !important;
-}
-
-#testimonials {
-  position: relative;
-  top: 1000px !important;
-  left: -5% !important;
-}
-
-.testimonial-img img {
-  height: 100px !important;
-  width: 200px !important;
-  position: relative;
-  left: 25% !important;
-}
-
-.testimonial-info h3 {
-  font-size: 1.5em !important;
-}
-
-.testimonial-info p {
-  font-size: 1em !important;
-  width: 50% !important;
-}
-
-#owl-demo3 .owl-controls {
-  top: 0 !important;
-}
-
-.join-wrapper {
-  margin: auto !important;
-  width: 300px !important;
-  height: 500px !important;
-  position: relative;
-  top: 1000px !important;
-  left: -10% !important;
-}
-
-#join {
-  position: relative;
-  left: 5%;
-}
-
-
-.join-info p {
-  font-size: 0.9em !important;
-}
-
-.info-video iframe {
-  width: 160px !important;
-  height: 115px !important;
-}
-
-.join-button {
- padding: 5px 35px;
-  position: relative;
-  left: 30% !important;
-  font-size: 0.7em !important;
-}
-
-.contact-section {
-  display: none !important;
-}
-
-.mobile-contact-section {
-  display: block !important;
-  position: relative;
-  top: 1000px !important;
-
-}
-
-input, 
-textarea {
-
-    font-size: 1em !important;
-    text-align: center !important;
-}
-
-#select1 {
-  font-size: 0.7em !important;
-}
-
-
-
- .input-wrap {
-  width: 60% !important;
-  height: 10% !important;
-
-
-} 
-
-.location {
-  height: 200px !important;
-  position: relative;
-  top: -600px !important;
-  left: 17% !important;
-  width: 200px !important;
-
-
-} 
-
-.contact-form {
-  position: relative;
-  left: 15% !important;
-  
-}
-
-#submit-button {
-  width: 60% !important;
-}
-
-
-.footer-logo img {
-  height: 30px !important;
-  width: 160px !important;
-}
-
-footer {
-  height: 500px !important;
-  position: relative;
-  top: 500px !important;
-}
-
-footer .social-icons li a {
-    border-top-left-radius: 40px !important;
-    border-top-right-radius: 40px !important;
-    border-bottom-left-radius: 40px !important;
-    border-bottom-right-radius: 40px !important;
-    border-radius: 40px !important;
-    width: 30px !important;
-    height: 30px !important;
-}
-
-a.fa::before {
-  position: relative;
-  top: -12px !important;
-}
-
-
-
-.footer-links {
-  position: relative;
-  left: -37% !important;
-}
-
-.footer-links li {
-  display: block !important;
-}
-
-.footer-links a {
+.product-info .text-left {
   text-align: center !important;
 }
 
 
 
-.footer-info {
-  position: relative;
-  left: -15% !important;
 }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/*...............................Wide Mobile Layout.......................*/
-
-@media only screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
-
-	
-
-
-}
-
-
-/*...............................Wide Mobile Layout Ends.......................*/
-
-
-
-
-
-
- 
-
-
-
-/* Tablet Layout: 768px. */
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-
-
-  
-}
-
-
-
-
-
-/* Tablet Landscape Layout: 768px. */
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-
-
-  
-}
-
-
-
-
-
-
-/* Medium Layout: 1280px. */
-
-@media only screen and (min-width: 992px) and (max-width: 1280px) {
-
-
-
-}
-
-
-
-
-@media only screen and (min-width: 1024px) and (max-width: 1366px) {
-
-
-
-
-
-
-
-
-}
-

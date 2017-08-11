@@ -367,7 +367,7 @@
 		<div id="owl-demo2" class="owl-carousel text-left">
 				<div class="item">
 				<div class="col-md-6 product-img">
-					<img src="<?php bloginfo('template_directory');?>/img/formula1.png" class='img-responsive' id="owl2-img1">
+					<img src="<?php bloginfo('template_directory');?>/img/formula1.jpg" class='img-responsive' id="owl2-img1">
 					</div>
 					<div class=" col-md-6">
 						<div class="product-info">

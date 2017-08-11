@@ -124,55 +124,55 @@
             <div class="form-group">
 
             <div class="input-wrap">
-                <input type="text" class="form-control" name='name' id='name' placeholder="Your Name">
+                <input type="text" class="form-control" name='name' id='name' placeholder="Your Name" required>
             </div> 
 
             <div class="input-wrap">
-                <input type="email" class="form-control" name='email' id='email' placeholder="Your Email">
+                <input type="email" class="form-control" name='email' id='email' placeholder="Your Email" required>
             </div>
 
              <div class="input-wrap">
-                <input type="text" class="form-control" name='phone' id='phone' placeholder="Your Phone Number">
+                <input type="text" class="form-control" name='phone' id='phone' placeholder="Your Phone Number" required>
             </div>
 
              <div class="input-wrap">
-                <input type="text" class="form-control" name='field1'  placeholder="Your Age">
+                <input type="text" class="form-control" name='field1'  placeholder="Your Age" required>
             </div>
 
              <div class="input-wrap">
-                <input type="text" class="form-control" name='field2'  placeholder="Your Height">
+                <input type="text" class="form-control" name='field2'  placeholder="Your Height" required>
             </div>
 
              <div class="input-wrap">
-                <input type="text" class="form-control" name='field3'  placeholder="Current Weight">
+                <input type="text" class="form-control" name='field3'  placeholder="Current Weight" required>
             </div>
 
              <div class="input-wrap">
-                <input type="text" class="form-control" name='field4' id='goals' placeholder="What Are Your Health Goals (ex: Lose Weight)">
+                <input type="text" class="form-control" name='field4' id='goals' placeholder="What Are Your Health Goals (ex: Lose Weight)" required>
             </div>
 
              <div class="input-wrap">
-                <input type="text" class="form-control" name='field5' id='tried' placeholder="What Have You Tried Before? Why it didn't work?">
+                <input type="text" class="form-control" name='field5' id='tried' placeholder="What Have You Tried Before? Why it didn't work?" required>
             </div>
 
              <div class="input-wrap">
-                <input type="text" class="form-control" name='field6' id='meals' placeholder="How Many Meals You Eat Per Day?">
+                <input type="text" class="form-control" name='field6' id='meals' placeholder="How Many Meals You Eat Per Day?" required>
             </div>
 
              <div class="input-wrap">
-                <input type="text" class="form-control" name='field7' id='snack' placeholder="Do You Snack? What Kinds of Food?">
+                <input type="text" class="form-control" name='field7' id='snack' placeholder="Do You Snack? What Kinds of Food?" required>
             </div>
 
               <div class="input-wrap">
-                <input type="text" class="form-control" name='field8' id='eat-out' placeholder="Do You Eat Out? How Many Times Per Week?">
+                <input type="text" class="form-control" name='field8' id='eat-out' placeholder="Do You Eat Out? How Many Times Per Week?" required>
             </div>
 
              <div class="input-wrap">
-                <input type="text" class="form-control" name='field9' id='water' placeholder="How Much Water You Drink A Day?">
+                <input type="text" class="form-control" name='field9' id='water' placeholder="How Much Water You Drink A Day?" required>
             </div>
 
               <div class="input-wrap">
-                <input type="text" class="form-control" name='field10' id='tired' placeholder="What Time of Day You Are Most Tired?">
+                <input type="text" class="form-control" name='field10' id='tired' placeholder="What Time of Day You Are Most Tired?" required>
             </div>
 
             <input type="submit" class="btn" id="submit-survey" value="Submit Survey">

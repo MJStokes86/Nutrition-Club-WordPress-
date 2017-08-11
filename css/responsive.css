@@ -229,6 +229,22 @@ and (max-device-width : 568px) {
   transform: translateY(100%);
 }
 
+#profile-mobile-menu {
+
+  position: relative;
+  margin-top: -15%;
+  left: 80% !important;
+  width: 150px;
+  height: 90px;
+  text-align: center;
+  transform: translateY(-450%);
+  transition: transform 0.6s ease;
+  z-index: -1;
+
+}
+
+
+
 
 .main-links {
   background-color: #0a0a0a;
@@ -357,6 +373,15 @@ and (max-width : 568px) {
 
 }
 
+.nav-toggle2 {
+  position: relative;
+  top: -13px !important;
+  left: 98% !important;
+  font-size: 1.5em !important;
+
+}
+
+
 
 #mobile-menu {
   position: relative;
@@ -370,6 +395,9 @@ and (max-width : 568px) {
   z-index: -99;
   
 }
+
+
+
 
 #mobile-menu .main-links  {
   z-index: -1 !important;
@@ -441,7 +469,8 @@ and (max-width : 568px) {
 .service-popup img {
   height: 100px !important;
   width: 100px !important;
-  margin-left: 60% !important;
+  position: relative;
+  left: 100% !important;
 
 }
 
@@ -459,17 +488,42 @@ and (max-width : 568px) {
   left: 60% !important;
 }
 
+#evaluation .ghost-btn {
+  position: relative;
+  left: 20% !important;
+}
+
 #evaluation-info h3.text-left {
   position: relative;
   left: 3% !important;
 }
 
-#evaluation  a, {
+#evaluation  a {
   font-size: 0.6em !important;
+}
+
+#challenge .ghost-btn {
+  position: relative;
+  left: 23% !important;
+}
+
+#shakes .ghost-btn {
+  position: relative;
+  left: 30% !important;
 }
 
 #events a {
   font-size: 0.5em !important;
+}
+
+#events .ghost-btn {
+  position: relative;
+  left: 27% !important;
+}
+
+#trial-pack .ghost-btn {
+  position: relative;
+  left: 10% !important;
 }
 
 #coach {
@@ -864,6 +918,10 @@ nav.main-transparent.is-mobile {
   left: -15% !important;
 }
 
+ .mfp-close {
+  margin-left: 27% !important;
+ }
+
 .service-popup img {
   height: 100px !important;
   width: 100px !important;
@@ -885,6 +943,8 @@ nav.main-transparent.is-mobile {
   left: 60% !important;
 }
 
+
+
 #evaluation-info h3.text-left {
   position: relative;
   left: 3% !important;
@@ -898,7 +958,7 @@ nav.main-transparent.is-mobile {
   font-size: 0.5em !important;
 }
 
-#coach {
+/* #coach {
   position: relative;
   top: -20px !important;
 }
@@ -931,7 +991,7 @@ nav.main-transparent.is-mobile {
 #coach .ghost-btn {
   position: relative;
   left: 25% !important;
-}
+} */
 
 .products-wrapper {
   margin: auto !important;
@@ -1231,6 +1291,81 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) 
 and (orientation : landscape) {
 
+nav {
+  height: 90px !important;
+}
+
+.logo {
+  left: -5% !important;
+}
+
+.main-links {
+  left: 30% !important;
+  top: -20px !important;
+}
+
+.main-links a {
+  font-size: 1em !important;
+}
+
+#header-facebook {
+  position: relative;
+  left: 100% !important;
+}
+
+.row {
+  left: 0 !important;
+}
+
+.services-posts {
+  position: relative;
+  left: -20% !important;
+}
+
+.service-popup {
+  position: relative;
+  left: 0 !important;
+  margin-top: 30% !important;
+}
+
+
+.services-section .grid figure {
+   
+    padding: 30px !important;
+}
+
+.team-img img {
+  height: 200px !important;
+  width: 200px !important;
+}
+
+#team-member1 {
+  position: relative;
+  left: -30% !important;
+  width: 150% !important;
+}
+
+#team-member2 {
+  position: relative;
+  width: 150% !important;
+  left: 15% !important;
+}
+
+#team-member3 {
+  position: relative;
+  left: 60% !important;
+  width: 150% !important;
+}
+
+.testimonial-img img {
+  height: 400px !important;
+  width: 400px !important;
+}
+
+.social-icons {
+  position: relative;
+  top: -20px !important;
+}
 
 
 }
@@ -1378,6 +1513,62 @@ nav.main-transparent.is-mobile {
   left: -17% !important;
 }
 
+.service-popup {
+  position: relative;
+  left: 0 !important;
+  margin-top: 50% !important;
+}
+
+
+.service-popup img {
+  height: 300px !important;
+  width: 300px !important;
+  margin-left: 60% !important;
+
+}
+
+.service-popup p,
+.service-popup h1,
+.service-popup h2,
+.service-popup h3,
+.service-popup li {
+  font-size: 1em !important;
+  text-align: center !important;
+}
+
+#evaluation .ghost-btn {
+  position: relative;
+  left: 30% !important;
+}
+#challenge .ghost-btn {
+  position: relative;
+  left: 33% !important;
+}
+
+#shakes .ghost-btn {
+  position: relative;
+  left: 35% !important;
+}
+
+#events .ghost-btn {
+  position: relative;
+  left: 20% !important;
+}
+
+#events-info {
+  left: 10% !important;
+}
+
+#trial-pack .ghost-btn {
+  position: relative;
+  left: 20% !important;
+}
+#coach .ghost-btn {
+  position: relative;
+  left: 25% !important;
+}
+
+
 #owl-demo2 {
   
   position: relative;
@@ -1485,6 +1676,11 @@ nav.main-transparent.is-mobile {
   left: -10% !important;
 }
 
+.join-button {
+  position: relative;
+  left: 38% !important;
+}
+
 .contact-section {
   display: none !important;
 }
@@ -1492,7 +1688,7 @@ nav.main-transparent.is-mobile {
 .mobile-contact-section {
   display: block !important;
   position: relative;
-  left: 5% !important;
+  left: 2% !important;
 
 }
 
@@ -1510,7 +1706,11 @@ footer {
 
 .social-icons {
   position: relative;
-  top: 20px !important;
+  top: -20px !important;
+}
+
+.footer-info {
+  left: -7% !important;
 }
 
 
@@ -1534,7 +1734,7 @@ and (min-device-width : 1024px)
 and (max-device-width : 1366px)
 {
 
-
+  
 
 
 }
@@ -1886,7 +2086,8 @@ figcaption::before {
 .service-popup img {
   height: 100px !important;
   width: 100px !important;
-  margin-left: 60% !important;
+  position: relative;
+  left: 200% !important;
 
 }
 
@@ -1904,6 +2105,12 @@ figcaption::before {
   left: 60% !important;
 }
 
+
+#evaluation .ghost-btn {
+  position: relative;
+  left: 20% !important;
+}
+
 #evaluation-info h3.text-left {
   position: relative;
   left: 3% !important;
@@ -1913,11 +2120,31 @@ figcaption::before {
   font-size: 0.6em !important;
 }
 
+#challenge .ghost-btn {
+  position: relative;
+  left: 23% !important;
+}
+
+#shakes .ghost-btn {
+  position: relative;
+  left: 30% !important;
+}
+
 #events a {
   font-size: 0.5em !important;
 }
 
-#coach {
+#events .ghost-btn {
+  position: relative;
+  left: 27% !important;
+}
+
+#trial-pack .ghost-btn {
+  position: relative;
+  left: 10% !important;
+}
+
+/* #coach {
   position: relative;
   top: -20px !important;
 }
@@ -1950,7 +2177,7 @@ figcaption::before {
 #coach .ghost-btn {
   position: relative;
   left: 25% !important;
-}
+} */
 
 .products-wrapper {
   width: 500px !important;
@@ -2346,7 +2573,7 @@ nav.main-transparent.is-mobile {
   font-size: 0.5em !important;
 }
 
-#coach {
+/* #coach {
   position: relative;
   top: -20px !important;
 }
@@ -2380,7 +2607,7 @@ nav.main-transparent.is-mobile {
   position: relative;
   left: 25% !important;
 }
-
+ */
 .products-wrapper {
   margin: auto !important;
   width: 300px !important;
@@ -2767,10 +2994,12 @@ a.fa::before {
   width: 70% !important;
 }
 
+
 .service-popup img {
   height: 100px !important;
   width: 100px !important;
-  margin-left: 60% !important;
+  position: relative;
+  left: 250% !important;
 
 }
 
@@ -2788,20 +3017,51 @@ a.fa::before {
   left: 60% !important;
 }
 
+
+#evaluation .ghost-btn {
+  position: relative;
+  left: 30% !important;
+}
+
 #evaluation-info h3.text-left {
   position: relative;
   left: 3% !important;
 }
 
-#evaluation  a, {
+#evaluation  a {
   font-size: 0.6em !important;
+}
+
+#challenge .ghost-btn {
+  position: relative;
+  left: 33% !important;
+}
+
+#shakes .ghost-btn {
+  position: relative;
+  left: 35% !important;
 }
 
 #events a {
   font-size: 0.5em !important;
 }
 
-#coach {
+#events img {
+  
+  margin-left: -50% !important;
+}
+
+#events .ghost-btn {
+  position: relative;
+  left: 27% !important;
+}
+
+#trial-pack .ghost-btn {
+  position: relative;
+  left: 20% !important;
+}
+
+/* #coach {
   position: relative;
   top: -20px !important;
 }
@@ -2834,7 +3094,7 @@ a.fa::before {
 #coach .ghost-btn {
   position: relative;
   left: 25% !important;
-}
+} */
 
 .products-wrapper {
   width: 500px !important;
@@ -3171,6 +3431,8 @@ nav.main-transparent.is-mobile {
   left: -50% !important;
   top: 400px !important;
 }
+
+
 .about-wrapper {
   margin: auto !important;
   width: 200px !important;
@@ -3204,7 +3466,8 @@ nav.main-transparent.is-mobile {
 .service-popup img {
   height: 100px !important;
   width: 100px !important;
-  margin-left: 60% !important;
+  position: relative;
+  left: 30% !important;
 
 }
 
@@ -3219,7 +3482,12 @@ nav.main-transparent.is-mobile {
 
 .mfp-close {
   position: relative;
-  left: 60% !important;
+  left: 70% !important;
+}
+
+#evaluation .ghost-btn {
+  position: relative;
+  left: 20% !important;
 }
 
 #evaluation-info h3.text-left {
@@ -3231,11 +3499,31 @@ nav.main-transparent.is-mobile {
   font-size: 0.6em !important;
 }
 
+#challenge .ghost-btn {
+  position: relative;
+  left: 10% !important;
+}
+
+#shakes .ghost-btn {
+  position: relative;
+  left: 20% !important;
+}
+
 #events a {
   font-size: 0.5em !important;
 }
 
-#coach {
+#events .ghost-btn {
+  position: relative;
+  left: 20% !important;
+}
+
+#trial-pack .ghost-btn {
+  position: relative;
+  left: -7% !important;
+}
+
+/* #coach {
   position: relative;
   top: -20px !important;
 }
@@ -3269,7 +3557,7 @@ nav.main-transparent.is-mobile {
   position: relative;
   left: 25% !important;
 }
-
+ */
 .products-wrapper {
   margin: auto !important;
   width: 300px !important;
@@ -3703,3 +3991,5 @@ figcaption::before {
   (max-device-width: 42mm)
   and (min-device-width: 38mm)
 { }
+
+
