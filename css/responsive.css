@@ -470,7 +470,7 @@ and (max-width : 568px) {
   height: 100px !important;
   width: 100px !important;
   position: relative;
-  left: 100% !important;
+  margin-left: -30% !important;
 
 }
 
@@ -490,7 +490,7 @@ and (max-width : 568px) {
 
 #evaluation .ghost-btn {
   position: relative;
-  left: 20% !important;
+  margin-left: 10% !important;
 }
 
 #evaluation-info h3.text-left {
@@ -533,7 +533,7 @@ and (max-width : 568px) {
 
 #coach img {
   position: relative;
-  left: -20% !important;
+  margin-left: -50% !important;
 }
 
 #coach-info {
@@ -546,19 +546,20 @@ and (max-width : 568px) {
 #coach .mfp-close {
   position: relative;
   left: 50% !important;
-  top: -400px !important;
+  top: -300px !important;
 }
 
 #coach-iframe {
   position: relative;
   height: 100px !important;
   width: 200px !important;
-  left: 10% !important;
+  left: 30% !important;
 }
 
 #coach .ghost-btn {
   position: relative;
-  left: 25% !important;
+  left: -3% !important;
+  top: 80px !important;
 }
 
 .products-wrapper {
@@ -918,14 +919,16 @@ nav.main-transparent.is-mobile {
   left: -15% !important;
 }
 
- .mfp-close {
-  margin-left: 27% !important;
- }
+.service-popup {
+  position: relative;
+  left: -10% !important;
+  margin-top: 100% !important;
+}
+
 
 .service-popup img {
-  height: 100px !important;
-  width: 100px !important;
-  margin-left: 60% !important;
+  height: 200px !important;
+  width: 200px !important;
 
 }
 
@@ -943,7 +946,10 @@ nav.main-transparent.is-mobile {
   left: 60% !important;
 }
 
-
+#evaluation img {
+  position: relative;
+  margin-left: -90% !important;
+}
 
 #evaluation-info h3.text-left {
   position: relative;
@@ -954,44 +960,76 @@ nav.main-transparent.is-mobile {
   font-size: 0.6em !important;
 }
 
+#evaluation .ghost-btn {
+  position: relative;
+  left: 10% !important;
+}
+
+
+
+#challenge img {
+  position: relative;
+  margin-left: -90% !important;
+}
+
+#challenge .ghost-btn {
+  position: relative;
+  left: 10% !important;
+}
+
+#shakes img {
+  position: relative;
+  margin-left: -90% !important;
+}
+
+#shakes .ghost-btn {
+  position: relative;
+  left: 10% !important;
+}
+
+#events img {
+  position: relative;
+  margin-left: -90% !important;
+}
+
+#events .ghost-btn {
+  position: relative;
+  left: 10% !important;
+}
+
 #events a {
   font-size: 0.5em !important;
 }
 
-/* #coach {
+#trial-pack img {
   position: relative;
-  top: -20px !important;
+  margin-left: -90% !important;
 }
+
+#trial-pack .ghost-btn {
+  position: relative;
+  left: 0 !important;
+}
+
+#coach {
+  position: relative;
+  left: 5% !important;
+  margin-top: 10% !important;
+}
+
+
 
 #coach img {
   position: relative;
-  left: -20% !important;
+  margin-left: 15% !important;
+
 }
 
-#coach-info {
-  position: relative;
-  top: 110px !important;
-  left: -10% !important;
-  width: 100% !important;
-}
 
 #coach .mfp-close {
   position: relative;
-  left: 50% !important;
-  top: -400px !important;
+  top: -500px !important;
 }
-
-#coach-iframe {
-  position: relative;
-  height: 100px !important;
-  width: 200px !important;
-  left: 10% !important;
-}
-
-#coach .ghost-btn {
-  position: relative;
-  left: 25% !important;
-} */
 
 .products-wrapper {
   margin: auto !important;
@@ -2105,10 +2143,9 @@ figcaption::before {
   left: 60% !important;
 }
 
-
 #evaluation .ghost-btn {
   position: relative;
-  left: 20% !important;
+  margin-left: 10% !important;
 }
 
 #evaluation-info h3.text-left {
@@ -2116,7 +2153,7 @@ figcaption::before {
   left: 3% !important;
 }
 
-#evaluation  a, {
+#evaluation  a {
   font-size: 0.6em !important;
 }
 
@@ -2144,14 +2181,14 @@ figcaption::before {
   left: 10% !important;
 }
 
-/* #coach {
+#coach {
   position: relative;
   top: -20px !important;
 }
 
 #coach img {
   position: relative;
-  left: -20% !important;
+  margin-left: -50% !important;
 }
 
 #coach-info {
@@ -2164,20 +2201,22 @@ figcaption::before {
 #coach .mfp-close {
   position: relative;
   left: 50% !important;
-  top: -400px !important;
+  top: -300px !important;
 }
 
 #coach-iframe {
   position: relative;
   height: 100px !important;
   width: 200px !important;
-  left: 10% !important;
+  left: 30% !important;
 }
 
 #coach .ghost-btn {
   position: relative;
-  left: 25% !important;
-} */
+  left: -3% !important;
+  top: 80px !important;
+}
+
 
 .products-wrapper {
   width: 500px !important;
@@ -2560,6 +2599,11 @@ nav.main-transparent.is-mobile {
   left: 60% !important;
 }
 
+#evaluation img {
+  position: relative;
+  margin-left: -90% !important;
+}
+
 #evaluation-info h3.text-left {
   position: relative;
   left: 3% !important;
@@ -2569,45 +2613,77 @@ nav.main-transparent.is-mobile {
   font-size: 0.6em !important;
 }
 
+#evaluation .ghost-btn {
+  position: relative;
+  left: 10% !important;
+}
+
+
+
+#challenge img {
+  position: relative;
+  margin-left: -90% !important;
+}
+
+#challenge .ghost-btn {
+  position: relative;
+  left: 10% !important;
+}
+
+#shakes img {
+  position: relative;
+  margin-left: -90% !important;
+}
+
+#shakes .ghost-btn {
+  position: relative;
+  left: 10% !important;
+}
+
+#events img {
+  position: relative;
+  margin-left: -90% !important;
+}
+
+#events .ghost-btn {
+  position: relative;
+  left: 10% !important;
+}
+
 #events a {
   font-size: 0.5em !important;
 }
 
-/* #coach {
+#trial-pack img {
   position: relative;
-  top: -20px !important;
+  margin-left: -90% !important;
 }
+
+#trial-pack .ghost-btn {
+  position: relative;
+  left: 0 !important;
+}
+
+#coach {
+  position: relative;
+  left: 5% !important;
+  margin-top: 10% !important;
+}
+
+
 
 #coach img {
   position: relative;
-  left: -20% !important;
+  margin-left: 15% !important;
+
 }
 
-#coach-info {
-  position: relative;
-  top: 110px !important;
-  left: -10% !important;
-  width: 100% !important;
-}
 
 #coach .mfp-close {
   position: relative;
-  left: 50% !important;
-  top: -400px !important;
+  top: -500px !important;
 }
 
-#coach-iframe {
-  position: relative;
-  height: 100px !important;
-  width: 200px !important;
-  left: 10% !important;
-}
-
-#coach .ghost-btn {
-  position: relative;
-  left: 25% !important;
-}
- */
 .products-wrapper {
   margin: auto !important;
   width: 300px !important;
