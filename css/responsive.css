@@ -757,7 +757,7 @@ footer .social-icons li a {
 
 a.fa::before {
   position: relative;
-  top: -12px !important;
+  top: -15px !important;
 }
 
 
@@ -1282,7 +1282,7 @@ footer .social-icons li a {
 
 a.fa::before {
   position: relative;
-  top: -12px !important;
+  top: -15px !important;
 }
 
 
@@ -2145,7 +2145,7 @@ figcaption::before {
 
 #evaluation .ghost-btn {
   position: relative;
-  margin-left: 10% !important;
+  margin-left: 30% !important;
 }
 
 #evaluation-info h3.text-left {
@@ -2159,7 +2159,7 @@ figcaption::before {
 
 #challenge .ghost-btn {
   position: relative;
-  left: 23% !important;
+  left: 27% !important;
 }
 
 #shakes .ghost-btn {
@@ -2188,7 +2188,7 @@ figcaption::before {
 
 #coach img {
   position: relative;
-  margin-left: -50% !important;
+  margin-left: -30% !important;
 }
 
 #coach-info {
@@ -2201,7 +2201,7 @@ figcaption::before {
 #coach .mfp-close {
   position: relative;
   left: 50% !important;
-  top: -300px !important;
+  top: -270px !important;
 }
 
 #coach-iframe {
@@ -2213,7 +2213,7 @@ figcaption::before {
 
 #coach .ghost-btn {
   position: relative;
-  left: -3% !important;
+  left: 3% !important;
   top: 80px !important;
 }
 
@@ -2404,7 +2404,7 @@ footer .social-icons li a {
 
 a.fa::before {
   position: relative;
-  top: -12px !important;
+  top: -15px !important;
 }
 
 .social-icons {
@@ -2578,10 +2578,17 @@ nav.main-transparent.is-mobile {
   left: -10% !important;
 }
 
+.service-popup {
+  position: relative;
+  left: -7% !important;
+  margin-top: 70% !important;
+}
+
 .service-popup img {
-  height: 100px !important;
-  width: 100px !important;
-  margin-left: 60% !important;
+  position: relative;
+  height: 150px !important;
+  width: 150px !important;
+  left: 130% !important;
 
 }
 
@@ -2596,7 +2603,12 @@ nav.main-transparent.is-mobile {
 
 .mfp-close {
   position: relative;
-  left: 60% !important;
+  left: 80% !important;
+}
+
+#evaluation,
+#shakes {
+  margin-top: 60% !important;
 }
 
 #evaluation img {
@@ -2637,7 +2649,7 @@ nav.main-transparent.is-mobile {
 
 #shakes .ghost-btn {
   position: relative;
-  left: 10% !important;
+  left: 15% !important;
 }
 
 #events img {
@@ -2652,7 +2664,14 @@ nav.main-transparent.is-mobile {
 
 #events a {
   font-size: 0.5em !important;
+ 
 }
+
+#trial-pack a {
+  font-size: 0.5em !important;
+  text-align: center !important;
+}
+
 
 #trial-pack img {
   position: relative;
@@ -2661,27 +2680,38 @@ nav.main-transparent.is-mobile {
 
 #trial-pack .ghost-btn {
   position: relative;
-  left: 0 !important;
+  left: 10% !important;
 }
 
 #coach {
   position: relative;
   left: 5% !important;
-  margin-top: 10% !important;
+  margin-top: -20% !important;
 }
 
 
 
 #coach img {
   position: relative;
-  margin-left: 15% !important;
+  left: 80% !important;
 
 }
 
 
 #coach .mfp-close {
   position: relative;
-  top: -500px !important;
+  top: -400px !important;
+  left: 80% !important;
+}
+
+#coach-iframe {
+  position: relative;
+  left: 15% !important;
+}
+
+#coach .ghost-btn {
+  left: 30% !important;
+  top: 0 !important;
 }
 
 .products-wrapper {
@@ -2751,7 +2781,7 @@ nav.main-transparent.is-mobile {
 }
 
 .team-member {
-  left: 47% !important;
+  left: 70% !important;
 }
 
 #team .title {
@@ -2918,7 +2948,7 @@ footer .social-icons li a {
 
 a.fa::before {
   position: relative;
-  top: -12px !important;
+  top: -15px !important;
 }
 
 
@@ -3075,7 +3105,7 @@ a.fa::before {
   height: 100px !important;
   width: 100px !important;
   position: relative;
-  left: 250% !important;
+  left: 240% !important;
 
 }
 
@@ -3093,10 +3123,9 @@ a.fa::before {
   left: 60% !important;
 }
 
-
 #evaluation .ghost-btn {
   position: relative;
-  left: 30% !important;
+  margin-left: 30% !important;
 }
 
 #evaluation-info h3.text-left {
@@ -3118,13 +3147,13 @@ a.fa::before {
   left: 35% !important;
 }
 
-#events a {
-  font-size: 0.5em !important;
+#events img {
+  position: relative;
+  left: 200% !important;
 }
 
-#events img {
-  
-  margin-left: -50% !important;
+#events a {
+  font-size: 0.5em !important;
 }
 
 #events .ghost-btn {
@@ -3134,17 +3163,17 @@ a.fa::before {
 
 #trial-pack .ghost-btn {
   position: relative;
-  left: 20% !important;
+  left: 15% !important;
 }
 
-/* #coach {
+#coach {
   position: relative;
   top: -20px !important;
 }
 
 #coach img {
   position: relative;
-  left: -20% !important;
+  margin-left: -30% !important;
 }
 
 #coach-info {
@@ -3157,20 +3186,22 @@ a.fa::before {
 #coach .mfp-close {
   position: relative;
   left: 50% !important;
-  top: -400px !important;
+  top: -270px !important;
 }
 
 #coach-iframe {
   position: relative;
   height: 100px !important;
   width: 200px !important;
-  left: 10% !important;
+  left: 35% !important;
 }
 
 #coach .ghost-btn {
   position: relative;
-  left: 25% !important;
-} */
+  left: 10% !important;
+  top: 80px !important;
+}
+
 
 .products-wrapper {
   width: 500px !important;
@@ -3364,7 +3395,7 @@ footer .social-icons li a {
 
 a.fa::before {
   position: relative;
-  top: -12px !important;
+  top: -15px !important;
 }
 
 
@@ -3539,11 +3570,17 @@ nav.main-transparent.is-mobile {
   left: -10% !important;
 }
 
-.service-popup img {
-  height: 100px !important;
-  width: 100px !important;
+.service-popup {
   position: relative;
-  left: 30% !important;
+  left: -7% !important;
+  margin-top: 70% !important;
+}
+
+.service-popup img {
+  position: relative;
+  height: 150px !important;
+  width: 150px !important;
+  left: 150% !important;
 
 }
 
@@ -3558,12 +3595,12 @@ nav.main-transparent.is-mobile {
 
 .mfp-close {
   position: relative;
-  left: 70% !important;
+  left: 80% !important;
 }
 
-#evaluation .ghost-btn {
+#evaluation img {
   position: relative;
-  left: 20% !important;
+  margin-left: -90% !important;
 }
 
 #evaluation-info h3.text-left {
@@ -3575,12 +3612,39 @@ nav.main-transparent.is-mobile {
   font-size: 0.6em !important;
 }
 
-#challenge .ghost-btn {
+#evaluation .ghost-btn {
   position: relative;
   left: 10% !important;
 }
 
+
+
+#challenge img {
+  position: relative;
+  margin-left: -90% !important;
+}
+
+#challenge .ghost-btn {
+  position: relative;
+  left: 15% !important;
+}
+
+#shakes img {
+  position: relative;
+  margin-left: -90% !important;
+}
+
 #shakes .ghost-btn {
+  position: relative;
+  left: 20% !important;
+}
+
+#events img {
+  position: relative;
+  margin-left: -90% !important;
+}
+
+#events .ghost-btn {
   position: relative;
   left: 20% !important;
 }
@@ -3589,51 +3653,47 @@ nav.main-transparent.is-mobile {
   font-size: 0.5em !important;
 }
 
-#events .ghost-btn {
+#trial-pack img {
   position: relative;
-  left: 20% !important;
+  margin-left: -90% !important;
 }
 
 #trial-pack .ghost-btn {
   position: relative;
-  left: -7% !important;
+  left: 0 !important;
 }
 
-/* #coach {
+#coach {
   position: relative;
-  top: -20px !important;
+  left: 5% !important;
+  margin-top: -50% !important;
 }
+
+
 
 #coach img {
   position: relative;
-  left: -20% !important;
+  left: 80% !important;
+
 }
 
-#coach-info {
-  position: relative;
-  top: 110px !important;
-  left: -10% !important;
-  width: 100% !important;
-}
 
 #coach .mfp-close {
   position: relative;
-  left: 50% !important;
-  top: -400px !important;
+  top: -350px !important;
+  left: 80% !important;
 }
 
 #coach-iframe {
   position: relative;
-  height: 100px !important;
-  width: 200px !important;
-  left: 10% !important;
+  left: 15% !important;
 }
 
 #coach .ghost-btn {
-  position: relative;
-  left: 25% !important;
+  margin-left: -60% !important;
+  top: 50px !important;
 }
- */
+
 .products-wrapper {
   margin: auto !important;
   width: 300px !important;
@@ -3867,7 +3927,7 @@ footer .social-icons li a {
 
 a.fa::before {
   position: relative;
-  top: -12px !important;
+  top: -15px !important;
 }
 
 
