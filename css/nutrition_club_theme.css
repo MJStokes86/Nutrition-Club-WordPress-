@@ -687,6 +687,8 @@ form {
 /* Footer */
 
 footer {
+	position: relative;
+	bottom: -150px !important;	
 	height: 450px !important;
 	margin-bottom: 0% !important;
 
@@ -736,29 +738,30 @@ footer {
 
 
 .profile-logo {
-  top: 5px !important;
+  position: relative;
+  top: 10px !important;
   margin-left: -2% !important;
 }
 
 .profile-logo  img,
 .profile-footer .footer-logo img {
-  height: 75px !important;
+  height: 50px !important;
   width: 300px !important;
 }
 
 #desktop-profile .main-links {
   position: relative;
-  top: -70px !important;
+  top: -47px !important;
   left: 22% !important;
 }
 
 #profile-header-facebook {
   position: relative;
-  top: -70px !important;
+  top: -50px !important;
 }
 
 #profile-header-facebook a {
-  font-size: 0.8em !important;
+  font-size: 2em !important;
 }
 
 #profile {

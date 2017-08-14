@@ -718,7 +718,7 @@ and (max-width : 568px) {
 .location {
   height: 200px !important;
   position: relative;
-  top: -600px !important;
+  top: -100px !important;
 
 } 
 
@@ -728,6 +728,8 @@ and (max-width : 568px) {
 }
 
 footer {
+  position: relative;
+  top: -200px !important;
   height: 500px !important;
 }
 
@@ -920,7 +922,7 @@ nav.main-transparent.is-mobile {
 #mobile-menu {
   position: relative;
   top: -120px !important;
-  left: 60% !important;
+  left: 70% !important;
   width: 120px;
   height: 90px;
   text-align: center;
@@ -1326,7 +1328,7 @@ textarea {
 .location {
   height: 200px !important;
   position: relative;
-  top: -600px !important;
+  top: -100px !important;
   left: 10% !important;
   width: 200px !important;
 } 
@@ -1355,7 +1357,7 @@ textarea {
 footer {
   height: 500px !important;
   position: relative;
-  top: 500px !important;
+  top: 1000px !important;
 }
 
 footer .social-icons li a {
@@ -1637,6 +1639,11 @@ nav {
 .social-icons {
   position: relative;
   top: -20px !important;
+}
+
+footer {
+  position: relative; 
+  top: -100px !important;
 }
 
 
@@ -2075,13 +2082,13 @@ nav.main-transparent.is-mobile {
 
 .location {
   position: relative;
-  top: -500px !important;
+  top: -100px !important;
   height: 100px !important;
 }
 
 footer {
   position: relative;
-  top: 30px !important;
+  top: 50px !important;
   width: 120% !important;
 }
 
@@ -2547,7 +2554,7 @@ nav.main-transparent.is-mobile {
 
 .location {
   position: relative;
-  top: -500px !important;
+  top: -100px !important;
   height: 100px !important;
 }
 
@@ -3242,7 +3249,7 @@ figcaption::before {
 .location {
   height: 200px !important;
   position: relative;
-  top: -600px !important;
+  top: -100px !important;
 
 } 
 
@@ -3252,6 +3259,8 @@ figcaption::before {
 }
 
 footer {
+  position: relative;
+  top: -200px !important; 
   height: 500px !important;
 }
 
@@ -3879,7 +3888,7 @@ textarea {
 .location {
   height: 200px !important;
   position: relative;
-  top: -600px !important;
+  top: -100px !important;
   left: 17% !important;
   width: 200px !important;
 
@@ -3905,7 +3914,7 @@ textarea {
 footer {
   height: 500px !important;
   position: relative;
-  top: 500px !important;
+  top: 1100px !important;
 }
 
 footer .social-icons li a {
@@ -4432,7 +4441,7 @@ a.fa::before {
 .location {
   height: 200px !important;
   position: relative;
-  top: -600px !important;
+  top: -100px !important;
 
 } 
 
@@ -4447,6 +4456,8 @@ a.fa::before {
 }
 
 footer {
+  position: relative;
+  top: -200px !important;
   height: 500px !important;
 }
 
@@ -4937,7 +4948,7 @@ nav.main-transparent.is-mobile {
 }
 
 .team-member {
-  left: 60% !important;
+  left: 90% !important;
 }
 
 #team .title {
@@ -5062,7 +5073,7 @@ textarea {
 .location {
   height: 200px !important;
   position: relative;
-  top: -600px !important;
+  top: -100px !important;
   left: 20% !important;
   width: 200px !important;
 
@@ -5088,7 +5099,7 @@ textarea {
 footer {
   height: 500px !important;
   position: relative;
-  top: 500px !important;
+  top: 1100px !important;
 }
 
 footer .social-icons li a {
