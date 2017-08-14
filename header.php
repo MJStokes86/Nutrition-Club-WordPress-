@@ -7,6 +7,7 @@
     minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<title><?php bloginfo('name'); ?> <?php wp_title(); ?></title>
 	<?php wp_head(); ?>
+    <link rel="icon" href="<?php bloginfo('template_directory'); ?>/img/herbalife_logo.ico" type="image/x-icon" />
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link href="https://file.myfontastic.com/dKSBcWp6jndBota4ZsU45Q/icons.css" rel="stylesheet">
@@ -89,9 +90,7 @@ else{
                             <li class=""><a class="" href="#team" target="_self">Our Team</a></li>
                             <li class=""><a class="" href="#testimonials" target="_self">Testimonials</a></li>
                             <li class=""><a class="" href="#join">Join</a></li>
-                            <li class=""><a class="" href="#contact" target="_self">Contact</a></li>
-<!--                             <li class=""><a class="menu-join" href="#" target="_self">JOIN</a></li>
- -->            </ul>
+           </ul>
 
             <ul class="secondary-links">
                        

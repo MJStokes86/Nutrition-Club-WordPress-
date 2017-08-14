@@ -3,7 +3,7 @@
 <head>
      <meta name="viewport" content="width=device-width, 
     minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<title></title>
+	<title>Wellness Profile</title>
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link href="https://file.myfontastic.com/dKSBcWp6jndBota4ZsU45Q/icons.css" rel="stylesheet">
@@ -18,7 +18,6 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://use.fontawesome.com/a46e157fb6.js"></script>
   
 
@@ -41,7 +40,7 @@
     <div class="full-wrapper">
        <div class="profile-logo"> 
                
-            <a href="index.php">
+            <a href="/wordpress/nutrition-club">
     <img src="img/StokesNutrition-Logo.png" alt="StokesNutrition">
 
             </a>
@@ -90,7 +89,7 @@
 
             <ul class="secondary-links">
                        
-                        <li id="header-facebook"><a class="fa fa-facebook fa-3x" href="#"></a></li>
+                        <li id="profile-header-facebook"><a class="fa fa-facebook fa-3x" href="#"></a></li>
                        
                             </ul>
 
@@ -225,6 +224,12 @@
         <li 
                     class=""><a href="earnings.php" target="_blank">Earnings Disclaimer</a></li>
     </ul>
+    </div>
+
+    <div class="developer-wrapper text-center">
+      <br><p>Site By</p><a target="_blank" rel="nofollow" href="http://www.mjstokes.com/"><br><img class='developer-logo' src="img/Logo.png" alt="http://mjstokes.com" id="footer-logo"><br><br> Michael J. Stokes</a>
+      </div>
+
     </div>
 
 </footer>

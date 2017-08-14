@@ -238,7 +238,7 @@
               <h1 class="title">Our Services</h1>
 
             <div class="services-inner">
-                <div class=" row services-posts grid">
+                <div class=" row services-posts grid wow fadeInUp">
                     <!-- START SINGLE SERVICE DESIGN AREA -->
                     <div class="col-md-4 col-sm-6">
                         <div class="item">
@@ -420,7 +420,7 @@
 				<div class="col-md-6 product-img">
 					<img src="<?php bloginfo('template_directory');?>/img/tea.jpg" class='img-responsive' id="owl2-img3">
 					</div>
-					<div class="wow fadeInRight col-md-6">
+					<div class="col-md-6">
 						<div class="product-info">
 							<h1>Herbal Tea Concentrate</h1>
 							<br>
@@ -473,7 +473,7 @@
 				<div class="col-md-6 product-img">
 					<img src="<?php bloginfo('template_directory');?>/img/21day.jpg" class='img-responsive' id="owl2-img5">
 					</div>
-					<div class="wow fadeInRight col-md-6">
+					<div class="col-md-6">
 						<div class="product-info">
 							<h1>21-Day Herbal Cleansing Program</h1>
 							<br>
@@ -569,7 +569,7 @@
 
 		<div class="col-md-6 col-md-3 col-centered">
 			<div class="team-member" id="team-member2">
-				<div class="team-img" data-wow-delay=".25s">
+				<div class="team-img wow bounceIn" data-wow-delay=".25s">
 					<img src="<?php bloginfo('template_directory')?>/img/coaches/team-member2.jpg"  alt="">
 				</div>
 				<div class="team-info">
@@ -584,7 +584,7 @@
 
 		<div class="col-md-6 col-md-3 col-centered">
 			<div class="team-member" id="team-member3">
-				<div class="team-img" data-wow-delay=".50s">
+				<div class="team-img wow bounceIn" data-wow-delay=".50s">
 					<img src="<?php bloginfo('template_directory')?>/img/coaches/team-member3.jpg" " alt="">
 				</div>
 				<div class="team-info">
@@ -693,7 +693,7 @@
 
 		<div class="info-video text-center">
 		<br>
-		<iframe class="wow fadeInUp" width="560" height="315" src="https://www.youtube.com/embed/pTuQV26Bt0M" frameborder="0" allowfullscreen></iframe>
+		<iframe class="" width="560" height="315" src="https://www.youtube.com/embed/pTuQV26Bt0M" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<br>
 		

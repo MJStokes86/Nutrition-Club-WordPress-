@@ -232,10 +232,10 @@ and (max-device-width : 568px) {
 
   
 
-#mobile-menu.open,
-#profile-mobile-menu.open {
-  transform: translateY(100%);
-}
+  #mobile-menu.open,
+  #profile-mobile-menu.open {
+    transform: translateY(100%);
+  }
 
 
 
@@ -1452,13 +1452,13 @@ a.fa::before {
   height: 50px !important;
 }
 
-form {
+.wellness-form form {
   height: 1050px !important;
 
 }
 
 
-.input-wrap {
+.wellness-form  .input-wrap {
   margin-bottom: -12% !important;
 }
 
@@ -1505,6 +1505,52 @@ form {
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
+
+   /* #mobile-profile {
+    display: block !important;
+  }
+
+  #desktop-profile {
+    display: none !important;
+  }
+
+
+  #mobile-menu .main-links li,
+  #profile-mobile-menu .main-links li {
+    list-style: none;
+    padding: 10px;
+
+  }
+
+  #mobile-menu .main-links a,
+  #profile-mobile-menu .main-links a {
+    text-decoration: none;
+    color: #7A7A7B !important;
+    font-size: 0.5em !important;
+  }
+
+
+  #mobile-menu .main-links a:hover,
+  #profile-mobile-menu .main-links a:hover{
+    color: #fff !important;
+    text-decoration: none;
+  
+  }
+
+  #mobile-menu .main-links li a:visited,
+  #profile-mobile-menu .main-links a:visited {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+
+  
+
+#mobile-menu.open,
+#profile-mobile-menu.open {
+  transform: translateY(100%);
+}
+ */
 
 
 
@@ -1592,6 +1638,105 @@ nav {
   position: relative;
   top: -20px !important;
 }
+
+
+/* Wellness Profile Page
+ */
+
+.is-profile {
+  height: 70px !important;
+}
+
+
+.profile-logo {
+  top: 5px !important;
+  margin-left: -5% !important;
+}
+
+.profile-logo  img,
+.profile-footer .footer-logo img {
+  height: 75px !important;
+  width: 280px !important;
+}
+
+#desktop-profile .main-links {
+  position: relative;
+  top: -70px !important;
+}
+
+#header-facebook {
+  position: relative;
+  top: -5px !important;
+}
+
+
+ #profile-mobile-menu .main-links a {
+    font-size: 1em !important;
+  }
+
+
+#profile {
+  position: relative;
+  left: 5% !important;
+  top: 200px !important;
+
+}
+
+#profile h1 {
+    font-size: 2em !important;
+}
+
+#profile h2 {
+  font-size: 1.7em !important;
+}
+
+#profile p {
+  font-size: 1.3em !important;
+}
+
+.wellness-form {
+  position: relative;
+  left: 0 !important;
+}
+
+#submit-survey {
+  width: 100% !important;
+}
+
+.profile-footer {
+  position: relative;
+  top: 500px !important;
+  width: 105vw !important;
+}
+
+.profile-footer footer {
+  height: 400px !important;
+}
+
+.profile-footer .footer-info {
+  position: relative;
+  left: -110% !important;
+}
+
+.profile-footer .footer-links {
+  position: relative;
+  left: 0 !important;
+}
+
+
+ #goals,
+ #tried,
+ #meals,
+ #snack,
+ #eat-out,
+ #water,
+ #tired {
+  font-size: 0.7em !important;
+ }
+
+
+
+
 
 
 }
@@ -1689,8 +1834,8 @@ nav.main-transparent.is-mobile {
 #mobile-menu {
   position: relative;
   top: -50px !important;
-  left: 88% !important;
-  width: 120px;
+  left: 85% !important;
+  width: 130px;
   height: 90px;
   text-align: center;
   transform: translateY(-450%);
@@ -1703,6 +1848,7 @@ nav.main-transparent.is-mobile {
   float: right !important;
   position: relative;
   top: -20px !important;
+  right: 3% !important
 
 }
 
@@ -1720,6 +1866,10 @@ nav.main-transparent.is-mobile {
   top: 50px !important;
 }
 
+.owl-title {
+  position: relative;
+  top: 160px !important;
+}
 
 
 .rich-content header img {
@@ -1731,6 +1881,10 @@ nav.main-transparent.is-mobile {
 
 .row {
   left: 0 !important;
+}
+
+#services {
+  height: 1200px !important;
 }
 
 
@@ -1828,7 +1982,7 @@ nav.main-transparent.is-mobile {
 
 .product-img {
    position: relative;
-  left: 40% !important;
+  left: 35% !important;
 }
 
 
@@ -1845,7 +1999,7 @@ nav.main-transparent.is-mobile {
 .team-wrapper {
   margin: 0 auto !important;
   width: 1000px !important;
-  clear: right !important;
+  height: 1200px !important;
 }
 
 #team {
@@ -1856,7 +2010,8 @@ nav.main-transparent.is-mobile {
 
 .team-member {
   position: relative;
-  left: -5% !important;
+  left: 10% !important;
+  width: 500px !important;
 }
 
 .team-img img {
@@ -1875,17 +2030,17 @@ nav.main-transparent.is-mobile {
 }
 
 
-
+/* 
 #team-member3 {
   position: relative;
-  left: 50% !important;
+  left: 70% !important;
 
 }
-
+ */
 #testimonials {
   position: relative;
-  left: 5% !important;
-  height: 500px !important;
+  left: 0% !important;
+  height: 800px !important;
 }
 
 .testimonial-img img {
@@ -1939,6 +2094,66 @@ footer {
   left: -7% !important;
 }
 
+/* Wellness Profile Page
+ */
+
+.is-profile {
+  height: 100px !important;
+}
+
+#desktop-profile {
+  display: none !important;
+}
+
+#mobile-profile {
+  display: block !important;
+}
+
+#profile {
+  top: 130px !important;
+  left: 10% !important;
+}
+
+
+.profile-logo {
+  top: -20px !important;
+  left: -10% !important;
+}
+
+.profile-logo  img {
+  height: 100px !important;
+  width: 400px !important;
+}
+
+
+
+.nav-toggle2 {
+  position: relative;
+  top: -70px !important;
+  left: 95% !important;
+  font-size: 3em !important;
+
+}
+
+
+#profile-mobile-menu {
+  position: relative;
+  top: -150px !important;
+  left: 85% !important;
+  width: 150px;
+  height: 90px;
+  text-align: center;
+  transform: translateY(-450%);
+  transition: transform 0.6s ease;
+  z-index: -99;
+  
+}
+
+.profile-footer footer {
+  top: 1700px !important;
+}
+
+
 
 }
 
@@ -1982,38 +2197,432 @@ and (min-device-width : 1024px)
 and (max-device-width : 1366px)
 and (orientation: portrait) {
 
+.is-desktop {
+  display: none !important;
+}
+
+.is-mobile {
+  display: block !important;
+}
+
 nav {
-  height: 200px !important;
+  height: 100px !important;
 }
 
-.is-desktop .main-links {
-  top: 60px !important;
-  left: 40% !important;
+
+nav.main-transparent.is-mobile {
+  display: none !important;
 }
 
+
+.icon-menu {
+    display: none !important;
+  }
+
+
+  #mobile-menu .main-links li,
+  #profile-mobile-menu .main-links li {
+    list-style: none;
+    padding: 10px;
+
+  }
+
+  #mobile-menu .main-links a {
+    text-decoration: none;
+    color: #7A7A7B !important;
+    font-size: 1em !important;
+  }
+
+  #profile-mobile-menu .main-links a {
+    text-decoration: none;
+    color: #7A7A7B !important;
+  }
+
+  #mobile-menu .main-links a:hover{
+    color: #fff !important;
+    text-decoration: none;
+  
+  }
+
+  #mobile-menu .main-links li a:visited {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+
+  
+
+#mobile-menu.open,
+#profile-mobile-menu.open {
+  transform: translateY(100%);
+}
+
+
+.main-links {
+  background-color: #0a0a0a;
+
+
+  
+}
+
+.main-links a {
+  -webkit-transition: color 0.5s linear;
+  -moz-transition: color 0.5s linear;
+  -ms-transition: color 0.5s linear;
+  -o-transition: color 0.5s linear;
+  transition: color 0.5s linear;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.main-links a:hover{
+  color: #0498CF;
+}
 
 
 #mobile-menu {
+  position: relative;
+  top: -50px !important;
+  left: 85% !important;
+  width: 160px;
+  height: 90px;
+  text-align: center;
+  transform: translateY(-450%);
+  transition: transform 0.6s ease;
+  z-index: -1;
+  
+}
+
+.nav-toggle {
+  float: right !important;
+  position: relative;
+  top: -20px !important;
+  font-size: 3em !important;
+
+}
+
+.logo {
+  top: -20px !important;
+  left: -5% !important;
+}
+
+.logo img {
+  height: 100px !important;
+  width: 500px !important;
+}
+
+#owl-demo1 {
+  display: none !important;
+}
+
+#mobile-carousel {
+  display: block !important;
+  position: relative;
+  top: 50px !important;
+}
+
+
+
+.rich-content header img {
+  position: relative;
+  left: 0 !important;
+  width: 100% !important;
+  
+}
+
+.row {
+  left: 0 !important;
+}
+
+
+
+.services-inner .grid figure {
+  padding: 40px !important;
+}
+
+
+
+.services-posts {
+  position: relative;
+  left: -17% !important;
+}
+
+.service-popup {
+  position: relative;
+  left: -10% !important;
+  margin-top: 30% !important;
+
+}
+
+
+.service-popup img {
+  height: 300px !important;
+  width: 300px !important;
+  margin-left: 20% !important;
+
+}
+
+.service-popup p,
+.service-popup h1,
+.service-popup h2,
+.service-popup h3,
+.service-popup li {
+  font-size: 1em !important;
+  text-align: center !important;
+}
+
+#evaluation .ghost-btn {
+  position: relative;
+  left: 20% !important;
+}
+
+#challenge .ghost-btn {
+  position: relative;
+  left: 23% !important;
+}
+
+#shakes .ghost-btn {
+  position: relative;
+  left: 30% !important;
+}
+
+#events .ghost-btn {
+  position: relative;
+  left: 15% !important;
+}
+
+#events-info {
+  left: 10% !important;
+}
+
+#trial-pack .ghost-btn {
+  position: relative;
+  left: 10% !important;
+}
+
+#coach .ghost-btn {
+  position: relative;
+  left: 50% !important;
+}
+
+
+#owl-demo2 {
+  
+  position: relative;
+  left: -40% !important;
+  margin: 0 !important;
+  width: 150% !important;
+}
+
+
+#owl-demo2 h1 {
+  font-size: 1.5em !important;
+  text-align: center !important;
+  
+}
+
+#owl-demo2 h4 {
+  font-size: 1.3em !important;
+  text-align: center !important;
+}
+
+#owl-demo2 p,
+#owl-demo2 li {
+  font-size: 0.7em !important;
+  text-align: center !important;
+}
+
+.product-img img {
+  height: 200px !important;
+  width: 200px !important;
  
-  top: 275px !important;
-  left: 96% !important;
+}
+
+.product-img {
+   position: relative;
+  left: 20% !important;
+}
+
+
+
+#owl-demo2 .owl-controls {
+  position: relative;
+  top: 100px !important;
+  left: 10% !important;
+}
+
+.product-link {
+  color: #000 !important;
+}
+
+.team-wrapper {
+  margin: 0 auto !important;
+  width: 1200px !important;
+  clear: right !important;
+}
+
+#team {
+  width: 100% !important;
+  position: relative;
+  left: -5% !important;
+}
+
+#team .title {
+  position: relative;
+  left: -5% !important;
+
+}
+
+.team-member {
+  position: relative;
+  left: 10% !important;
+  top: 100px !important;
+  width: 200px !important;
+
+}
+
+.team-img img {
+  height: 200px !important;
+  width: 200px !important;
+  position: relative;
+  left: 0 !important
+}
+
+.team-info h4 {
+  font-size: 2em !important;
+}
+
+.team-info p {
+  font-size: 1.5em !important;
+}
+
+
+
+/* #team-member3 {
+  position: relative;
+  left: 5% !important;
+
+}
+ */
+#testimonials {
+  position: relative;
+  left: -3% !important;
+  height: 500px !important;
+}
+
+.testimonial-img img {
+  position: relative;
+  left: 0 !important;
+}
+
+.testimonial-info {
+  position: relative;
+  left: 5% !important;
+}
+
+.join-wrapper {
+  width: 1200px !important;
+}
+
+#join {
+  position: relative;
+  left: -5% !important;
+}
+
+.join-button {
+  position: relative;
+  left: 38% !important;
+}
+
+.contact-section {
+  display: none !important;
+}
+
+.mobile-contact-section {
+  display: block !important;
+  position: relative;
+  left: 2% !important;
+
+}
+
+.location {
+  position: relative;
+  top: -500px !important;
+  height: 100px !important;
+}
+
+footer {
+  position: relative;
+  top: 30px !important;
+  width: 120% !important;
+}
+
+.social-icons {
+  position: relative;
+  top: -20px !important;
+}
+
+.footer-info {
+  left: -7% !important;
+}
+
+/* Wellness Profile Page
+ */
+
+.is-profile {
+  height: 100px !important;
+}
+
+#desktop-profile {
+  display: none !important;
+}
+
+#mobile-profile {
+  display: block !important;
+}
+
+#profile {
+  top: 130px !important;
+  left: 10% !important;
+}
+
+
+.profile-logo {
+  top: -20px !important;
+  left: -10% !important;
+}
+
+.profile-logo  img {
+  height: 100px !important;
+  width: 400px !important;
+}
+
+
+
+.nav-toggle2 {
+  position: relative;
+  top: -70px !important;
+  left: 95% !important;
+  font-size: 3em !important;
+
 }
 
 
 #profile-mobile-menu {
- 
-  top: 15px !important;
-  left: 87% !important;
+  position: relative;
+  top: -150px !important;
+  left: 85% !important;
+  width: 150px;
+  height: 90px;
+  text-align: center;
+  transform: translateY(-450%);
+  transition: transform 0.6s ease;
+  z-index: -99;
+  
 }
 
-.logo {
-  left: 0% !important;
-  top: 70px !important;
-}
-
-#header-facebook {
-  margin-top: 220% !important;
-  right: 10% !important;
+.profile-footer footer {
+  top: 1700px !important;
 }
 
 
@@ -2029,7 +2638,58 @@ nav {
 /* Large screens ----------- */
 @media only screen 
 and (min-width : 1824px) {
-/* Styles */
+
+  .service-popup {
+    position: relative;
+    margin-top: 20% !important;
+    left: 5% !important;
+  }
+
+  .mfp-close {
+    position: relative;
+    left: 80% !important;
+  }
+
+  .is-profile {
+  height: 70px !important;
+}
+
+
+.profile-logo {
+  top: 5px !important;
+  margin-left: 2% !important;
+}
+
+.profile-logo  img,
+.profile-footer .footer-logo img {
+  height: 75px !important;
+  width: 280px !important;
+}
+
+.main-links {
+  left: 25% !important;
+}
+
+#desktop-profile .main-links {
+  position: relative;
+  top: -70px !important;
+  left: 30% !important;
+}
+
+#profile-header-facebook {
+  position: relative;
+  top: -70px !important;
+}
+
+#profile-header-facebook a {
+  font-size: 0.8em !important;
+}
+
+
+#profile {
+  top: 100px !important;
+}
+
 }
 
 
@@ -2060,6 +2720,14 @@ and (max-device-width : 667px) {
     display: none !important;
   }
 
+  #mobile-profile {
+    display: block !important;
+  }
+
+  #desktop-profile {
+    display: none !important;
+  }
+
 
   #mobile-menu .main-links li,
   #profile-mobile-menu .main-links li {
@@ -2068,24 +2736,23 @@ and (max-device-width : 667px) {
 
   }
 
-  #mobile-menu .main-links a {
+  #mobile-menu .main-links a,
+  #profile-mobile-menu .main-links a {
     text-decoration: none;
     color: #7A7A7B !important;
     font-size: 0.5em !important;
   }
 
-  #profile-mobile-menu .main-links a {
-    text-decoration: none;
-    color: #7A7A7B !important;
-  }
 
-  #mobile-menu .main-links a:hover{
+  #mobile-menu .main-links a:hover,
+  #profile-mobile-menu .main-links a:hover{
     color: #fff !important;
     text-decoration: none;
   
   }
 
-  #mobile-menu .main-links li a:visited {
+  #mobile-menu .main-links li a:visited,
+  #profile-mobile-menu .main-links a:visited {
     color: #fff;
     text-decoration: none;
   }
@@ -2413,7 +3080,7 @@ figcaption::before {
 #products {
   position: relative;
   top: 300px !important;
-  left: 15% !important;
+  left: 20% !important;
 }
 
 
@@ -2451,11 +3118,15 @@ figcaption::before {
 
 .team-wrapper {
   height: 1500px !important;
+  width: 1000px !important;
+  position: relative; 
+  left: 0% !important;
 }
 
 #team {
   position: relative;
-  left: 20% !important;
+  left: -5% !important;
+  width: 500px !important;
 }
 
 #team .title {
@@ -2465,15 +3136,19 @@ figcaption::before {
 
 .team-member {
   position: relative;
-  left: -5% !important;
+  left: -15% !important;
+  padding: 0 !important;
+
 }
 
 .team-img img {
-  height: 100px !important;
-  width: 100px !important;
+  height: 75px !important;
+  width: 75px !important;
   position: relative;
   left: 0 !important
 }
+
+
 .team-info h4 {
   font-size: 1.5em !important;
 }
@@ -2619,6 +3294,115 @@ a.fa::before {
   position: relative;
   left: -5% !important;
 }
+
+
+/* Wellness Profile Page
+ */
+
+.is-profile {
+  height: 100px !important;
+}
+
+
+.profile-logo {
+  top: -20px !important;
+  left: -10% !important;
+}
+
+.profile-logo  img,
+.profile-footer .footer-logo img {
+  height: 100px !important;
+  width: 400px !important;
+}
+
+
+
+.nav-toggle2 {
+  position: relative;
+  top: -70px !important;
+  left: 97% !important;
+  font-size: 3em !important;
+
+}
+
+
+
+#profile-mobile-menu {
+  position: relative;
+  top: -150px !important;
+  left: 92% !important;
+  width: 125px;
+  height: 90px;
+  text-align: center;
+  transform: translateY(-450%);
+  transition: transform 0.6s ease;
+  z-index: -99;
+  
+}
+
+ #profile-mobile-menu .main-links a {
+    font-size: 1em !important;
+  }
+
+
+#profile {
+  position: relative;
+  left: 55% !important;
+  top: 200px !important;
+
+}
+
+#profile h1 {
+    font-size: 2em !important;
+}
+
+#profile h2 {
+  font-size: 1.7em !important;
+}
+
+#profile p {
+  font-size: 1.3em !important;
+}
+
+.wellness-form {
+  position: relative;
+  left: 10% !important;
+}
+
+#submit-survey {
+  width: 80% !important;
+}
+
+.profile-footer {
+  position: relative;
+  top: 500px !important;
+  width: 200vw !important;
+}
+
+.profile-footer footer {
+  height: 400px !important;
+}
+
+.profile-footer .footer-info {
+  position: relative;
+  left: 15% !important;
+}
+
+.profile-footer .footer-links {
+  position: relative;
+  left: 0 !important;
+}
+
+
+ #goals,
+ #tried,
+ #meals,
+ #snack,
+ #eat-out,
+ #water,
+ #tired {
+  font-size: 0.7em !important;
+ }
 
 
 
@@ -3161,6 +3945,101 @@ a.fa::before {
   left: 0% !important;
 }
 
+/* Wellness Profile Page
+ */
+
+.is-profile {
+  height: 55px !important;
+}
+
+
+.profile-logo {
+  top: -20px !important;
+  margin-left: -17% !important;
+}
+
+.profile-logo  img {
+  height: 50px !important;
+  width: 200px !important;
+}
+
+
+
+.nav-toggle2 {
+  position: relative;
+  top: -38px !important;
+  left: 92% !important;
+  font-size: 2.3em !important;
+
+}
+
+
+#profile-mobile-menu {
+  position: relative;
+  top: -140px !important;
+  left: 75% !important;
+   width: 100px;
+  height: 90px;
+  text-align: center;
+  transform: translateY(-450%);
+  transition: transform 0.6s ease;
+  z-index: -99;
+  
+}
+
+#profile {
+  top: 100px !important;
+  left: -5% !important;
+}
+
+.wellness-form {
+  left: 0 !important;
+  height: 50px !important;
+}
+
+.wellness-form form {
+  height: 1050px !important;
+
+}
+
+
+.wellness-form .input-wrap {
+  margin-bottom: -10% !important;
+}
+
+.profile-footer {
+  position: relative;
+  width: 100vw !important;
+  top: -400px !important;
+  
+
+}
+
+.profile-footer .footer-links {
+  position: relative;
+  left: -30% !important;
+}
+
+#submit-survey {
+  width: 100% !important;
+}
+
+
+ #goals,
+ #tried,
+ #meals,
+ #snack,
+ #eat-out,
+ #water,
+ #tired {
+  font-size: 0.5em !important;
+  text-align: center !important;
+ }
+
+
+
+
+
 
 }
 
@@ -3607,6 +4486,115 @@ a.fa::before {
   position: relative;
   left: 0 !important;
 }
+
+/* Wellness Profile Page
+ */
+
+.is-profile {
+  height: 70px !important;
+}
+
+
+.profile-logo {
+  top: 5px !important;
+  margin-left: -7% !important;
+}
+
+.profile-logo  img,
+.profile-footer .footer-logo img {
+  height: 75px !important;
+  width: 275px !important;
+}
+
+
+
+.nav-toggle2 {
+  position: relative;
+  top: -60px !important;
+  left: 97% !important;
+  font-size: 3em !important;
+
+}
+
+
+
+#profile-mobile-menu {
+  position: relative;
+  top: -150px !important;
+  left: 88% !important;
+  width: 120px;
+  height: 90px;
+  text-align: center;
+  transform: translateY(-450%);
+  transition: transform 0.6s ease;
+  z-index: -99;
+  
+}
+
+ #profile-mobile-menu .main-links a {
+    font-size: 1em !important;
+  }
+
+
+#profile {
+  position: relative;
+  left: 5% !important;
+  top: 200px !important;
+
+}
+
+#profile h1 {
+    font-size: 2em !important;
+}
+
+#profile h2 {
+  font-size: 1.7em !important;
+}
+
+#profile p {
+  font-size: 1.3em !important;
+}
+
+.wellness-form {
+  position: relative;
+  left: 10% !important;
+}
+
+#submit-survey {
+  width: 80% !important;
+}
+
+.profile-footer {
+  position: relative;
+  top: 500px !important;
+  width: 105vw !important;
+}
+
+.profile-footer footer {
+  height: 400px !important;
+}
+
+.profile-footer .footer-info {
+  position: relative;
+  left: -100% !important;
+}
+
+.profile-footer .footer-links {
+  position: relative;
+  left: 0 !important;
+}
+
+
+ #goals,
+ #tried,
+ #meals,
+ #snack,
+ #eat-out,
+ #water,
+ #tired {
+  font-size: 0.7em !important;
+ }
+
 
 
 
@@ -4140,6 +5128,101 @@ a.fa::before {
   left: 0% !important;
 }
 
+/* Wellness Profile Page
+ */
+
+.is-profile {
+  height: 55px !important;
+}
+
+
+.profile-logo {
+  top: -20px !important;
+  margin-left: -15% !important;
+}
+
+.profile-logo  img {
+  height: 50px !important;
+  width: 250px !important;
+}
+
+
+
+.nav-toggle2 {
+  position: relative;
+  top: -38px !important;
+  left: 95% !important;
+  font-size: 2.3em !important;
+
+}
+
+
+#profile-mobile-menu {
+  position: relative;
+  top: -140px !important;
+  left: 80% !important;
+   width: 100px;
+  height: 90px;
+  text-align: center;
+  transform: translateY(-450%);
+  transition: transform 0.6s ease;
+  z-index: -99;
+  
+}
+
+#profile {
+  top: 100px !important;
+  left: -5% !important;
+}
+
+.wellness-form {
+  left: 0 !important;
+  height: 50px !important;
+}
+
+.wellness-form form {
+  height: 1050px !important;
+
+}
+
+
+.wellness-form .input-wrap {
+  margin-bottom: -10% !important;
+}
+
+.profile-footer {
+  position: relative;
+  width: 100vw !important;
+  top: -400px !important;
+  
+
+}
+
+.profile-footer .footer-links {
+  position: relative;
+  left: -22% !important;
+}
+
+#submit-survey {
+  width: 100% !important;
+}
+
+
+ #goals,
+ #tried,
+ #meals,
+ #snack,
+ #eat-out,
+ #water,
+ #tired {
+  font-size: 0.5em !important;
+  text-align: center !important;
+ }
+
+
+
+
+
 
 }
 
@@ -4165,6 +5248,15 @@ a.fa::before {
   }
 
 
+  #mobile-profile {
+    display: block !important;
+  }
+
+  #desktop-profile {
+    display: none !important;
+  }
+
+
   #mobile-menu .main-links li,
   #profile-mobile-menu .main-links li {
     list-style: none;
@@ -4172,24 +5264,23 @@ a.fa::before {
 
   }
 
-  #mobile-menu .main-links a {
+  #mobile-menu .main-links a,
+  #profile-mobile-menu .main-links a {
     text-decoration: none;
     color: #7A7A7B !important;
     font-size: 0.5em !important;
   }
 
-  #profile-mobile-menu .main-links a {
-    text-decoration: none;
-    color: #7A7A7B !important;
-  }
 
-  #mobile-menu .main-links a:hover{
+  #mobile-menu .main-links a:hover,
+  #profile-mobile-menu .main-links a:hover{
     color: #fff !important;
     text-decoration: none;
   
   }
 
-  #mobile-menu .main-links li a:visited {
+  #mobile-menu .main-links li a:visited,
+  #profile-mobile-menu .main-links a:visited {
     color: #fff;
     text-decoration: none;
   }
