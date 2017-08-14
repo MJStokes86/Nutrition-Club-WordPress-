@@ -191,6 +191,14 @@ and (max-device-width : 568px) {
     display: none !important;
   }
 
+ #mobile-profile {
+    display: block !important;
+  }
+
+  #desktop-profile {
+    display: none !important;
+  }
+
 
   #mobile-menu .main-links li,
   #profile-mobile-menu .main-links li {
@@ -229,19 +237,7 @@ and (max-device-width : 568px) {
   transform: translateY(100%);
 }
 
-#profile-mobile-menu {
 
-  position: relative;
-  margin-top: -15%;
-  left: 80% !important;
-  width: 150px;
-  height: 90px;
-  text-align: center;
-  transform: translateY(-450%);
-  transition: transform 0.6s ease;
-  z-index: -1;
-
-}
 
 
 
@@ -373,13 +369,6 @@ and (max-width : 568px) {
 
 }
 
-.nav-toggle2 {
-  position: relative;
-  top: -13px !important;
-  left: 98% !important;
-  font-size: 1.5em !important;
-
-}
 
 
 
@@ -395,6 +384,8 @@ and (max-width : 568px) {
   z-index: -99;
   
 }
+
+
 
 
 
@@ -781,6 +772,108 @@ a.fa::before {
   position: relative;
   left: -5% !important;
 }
+
+/* Wellness Profile Page
+ */
+
+.is-profile {
+  height: 100px !important;
+}
+
+
+.profile-logo {
+  top: -20px !important;
+  left: -10% !important;
+}
+
+.profile-logo  img {
+  height: 100px !important;
+  width: 350px !important;
+}
+
+
+
+.nav-toggle2 {
+  position: relative;
+  top: -70px !important;
+  left: 95% !important;
+  font-size: 3em !important;
+
+}
+
+
+#profile-mobile-menu {
+  position: relative;
+  top: -150px !important;
+  left: 88% !important;
+  width: 150px;
+  height: 90px;
+  text-align: center;
+  transform: translateY(-450%);
+  transition: transform 0.6s ease;
+  z-index: -99;
+  
+}
+
+#profile {
+  position: relative;
+  left: 50% !important;
+  top: 200px !important;
+
+}
+
+#profile h1 {
+    font-size: 2em !important;
+}
+
+#profile h2 {
+  font-size: 1.7em !important;
+}
+
+#profile p {
+  font-size: 1.3em !important;
+}
+
+.wellness-form {
+  position: relative;
+  left: 10% !important;
+}
+
+#submit-survey {
+  width: 80% !important;
+}
+
+.profile-footer {
+  position: relative;
+  top: 500px !important;
+  width: 200vw !important;
+}
+
+.profile-footer footer {
+  height: 300px !important;
+}
+
+.profile-footer .footer-info {
+  position: relative;
+  left: 15% !important;
+}
+
+.profile-footer .footer-links {
+  position: relative;
+  left: 27% !important;
+}
+
+
+ #goals,
+ #tried,
+ #meals,
+ #snack,
+ #eat-out,
+ #water,
+ #tired {
+  font-size: 0.7em !important;
+ }
+
 
 
  
@@ -1306,6 +1399,101 @@ a.fa::before {
   position: relative;
   left: 0% !important;
 }
+
+/* Wellness Profile Page
+ */
+
+.is-profile {
+  height: 55px !important;
+}
+
+
+.profile-logo {
+  top: -20px !important;
+  margin-left: -20% !important;
+}
+
+.profile-logo  img {
+  height: 50px !important;
+  width: 200px !important;
+}
+
+
+
+.nav-toggle2 {
+  position: relative;
+  top: -38px !important;
+  left: 95% !important;
+  font-size: 2.3em !important;
+
+}
+
+
+#profile-mobile-menu {
+  position: relative;
+  top: -140px !important;
+  left: 50% !important;
+  width: 150px;
+  height: 90px;
+  text-align: center;
+  transform: translateY(-450%);
+  transition: transform 0.6s ease;
+  z-index: -99;
+  
+}
+
+#profile {
+  top: 100px !important;
+  left: -5% !important;
+}
+
+.wellness-form {
+  left: 0 !important;
+  height: 50px !important;
+}
+
+form {
+  height: 1050px !important;
+
+}
+
+
+.input-wrap {
+  margin-bottom: -12% !important;
+}
+
+.profile-footer {
+  position: relative;
+  width: 100vw !important;
+  top: -400px !important;
+  
+
+}
+
+.profile-footer .footer-links {
+  position: relative;
+  left: -45% !important;
+}
+
+#submit-survey {
+  width: 100% !important;
+}
+
+
+ #goals,
+ #tried,
+ #meals,
+ #snack,
+ #eat-out,
+ #water,
+ #tired {
+  font-size: 0.5em !important;
+  text-align: center !important;
+ }
+
+
+
+
 
 
 

@@ -1,8 +1,8 @@
 <!DOCTYPE>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, 
-    minimum-scale=1.0, maximum-scale=1.0">
+     <meta name="viewport" content="width=device-width, 
+    minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<title></title>
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
@@ -29,17 +29,17 @@
  <body>
 
 
- <nav class="main-transparent is-mobile" data-component="navigation">
-    <a href="#" class="menu icon-menu is-mobile"></a>
-    <a href="#" class="icon-close is-hidden"></a>
+ <nav class="main-transparent is-mobile is-profile" data-component="navigation">
+    <!-- <a href="#" class="menu icon-menu is-mobile"></a>
+    <a href="#" class="icon-close is-hidden"></a> -->
 </nav>
-<nav class="main" data-component="navigation">
+<nav class="main is-profile" data-component="navigation">
     
 
    
     <!-- Full Navigation -->
     <div class="full-wrapper">
-       <div class="logo"> 
+       <div class="profile-logo"> 
                
             <a href="index.php">
     <img src="img/StokesNutrition-Logo.png" alt="StokesNutrition">
